@@ -1,0 +1,25 @@
+.newMessage{
+    margin: 40px 0;
+    width: 100%;
+    text-align: center;
+    
+}
+.newMessage h1{
+    color: white;
+}
+
+
+
+
+
+@media screen and ( max-width: 500px){
+    .newMessage{
+        margin: 40px 0;
+        width: 100%;
+        text-align: center;
+    }
+    .newMessage h1{
+        color: red;
+        font-size: 1.5rem;
+    }
+}

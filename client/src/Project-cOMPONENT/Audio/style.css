@@ -1,0 +1,25 @@
+.newAudio{
+    margin: 40px 0;
+    width: 100%;
+    text-align: center;
+    
+}
+.newAudio h1{
+    color: red;
+}
+
+
+
+
+
+@media screen and ( max-width: 500px){
+    .newAudio{
+        margin: 40px 0;
+        width: 100%;
+        text-align: center;
+    }
+    .newAudio h1{
+        color: red;
+        font-size: 1.5rem;
+    }
+}

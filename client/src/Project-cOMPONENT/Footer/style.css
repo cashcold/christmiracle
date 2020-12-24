@@ -1,0 +1,22 @@
+.footerMian{
+    width: 100%;
+    height: 15vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 3rem 0;
+    margin-bottom: 0;
+    
+}
+@media(max-width: 700px){
+    .footerMian{
+        width: 100%;
+        height: 10vh;
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 1.5rem 0;
+        margin-bottom: 0;
+        
+    }
+}

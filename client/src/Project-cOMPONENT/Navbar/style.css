@@ -1,0 +1,206 @@
+:root{
+    --primary: #ddd;
+    --dark: #333;
+    --light: #fff;
+    --shadow: 0 1px 5px rgba(104,104,104,0.8)
+}
+.mainNavbar{
+    margin-top: 1.5rem;
+    color: white;
+}
+.logo img{
+    width: 100px;
+    border-radius: 10px;
+}
+
+.main-nav ul{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 10px;
+    padding: 0;
+    list-style: none;
+}
+.main-nav a{
+    text-decoration: none;
+    display: block;
+    padding: 0.8rem;
+    text-align: center;
+    box-shadow: var(--shadow);
+    color: white;
+    
+}
+.main-nav a:hover{
+    color: white;
+    font-size: bold;
+    border-bottom: 2px solid white;
+}
+.header{
+    padding: 20px;
+    margin-top: -1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+   
+}
+.main-nav{
+    width: 100%;
+    height: auto;
+     background-color: rgb(6, 6, 255)
+}
+.header h1{
+    color: green;
+}
+.socailIcons i{
+    padding: 0 1rem;
+    color: white;
+}
+
+.loginInfo{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 20px;
+    grid-gap: 10px;
+    display: none;
+}
+.loginInfoWeb{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 20px;
+    grid-gap: 10px;
+}
+.toggleIcon{
+    display: none;
+}
+.marqueeText p{
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: rgb(56, 56, 223);
+    color: white;
+}
+.logo span{
+    color: red;
+}
+.logo h1{
+    color: white;
+    font-family: sans-serif;
+}
+.mobileLogo img{
+    display: none;
+}
+.logo{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.logo span{
+    color:   red;
+    font-size: bold;
+}
+.logo h1{
+    letter-spacing: 5px;
+    animation: type 40s;
+    overflow: hidden;
+    white-space: nowrap;
+    position: absolute;
+    padding: 2rem 9rem;
+}
+@keyframes type{
+    0% {
+        width: 0ch;
+    }
+    100% {
+        width: 37ch;
+    }
+}
+
+
+@media(max-width: 700px){
+    .main-nav ul{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .toogleBtn{
+        display: block;
+        margin-left: 25rem;
+    }
+    .header{
+        padding: 0.8rem 0;
+    }
+    .header h1{
+        color: green;
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+    .socailIcons i{
+        font-size: 3rem;
+        margin: 1rem 0;
+    }
+    .toggleIcon{
+        display: block;
+    }
+    .nav-links{
+        display: none;;
+    }
+    .logo img{
+        padding: 1rem;
+        width: 80px;
+        border-radius: 10px;
+        display: none;
+    }
+    .toggleIcon .navIcon {
+        margin-left: -80px;
+        margin-top: 20px;
+        color: red;
+
+    }
+    .main-nav{
+        width: 100%;
+        height: auto;
+        color: white;
+        font-size: large;
+        background-color: rgba(0, 0, 255, 0.884);
+    }
+   
+    .loginInfoWeb{
+        display: none;
+    }
+    .loginInfo{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .welcomeText{
+        font-size: 2rem;
+        font-family: monospace;
+        font-size: bold;
+    }
+    .logo h1{
+        color: white;
+        font-size: 1.4rem;
+    }
+    .logo img{
+        width: 30%;
+    }
+    .mobileLogo img{
+        display: block;
+        width: 100%;
+        
+    }
+    .mainNavbar{
+        margin-top: -15px;
+    }
+    .socailIcons{
+        margin-left: -40%;
+    }
+    .logo{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .logo h1{
+        letter-spacing: 1px;
+        animation: type 30s;
+        overflow: hidden;
+        white-space: nowrap;
+        position: absolute;
+        margin-top: 20px;
+    }
+    
+}

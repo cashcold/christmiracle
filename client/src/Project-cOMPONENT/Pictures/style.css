@@ -1,0 +1,30 @@
+.mainPictures .picture {
+    overflow: hidden;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px, auto));
+    justify-content: center;
+    grid-gap: 20px;
+    
+}
+.picture img{
+    width: 100%;
+    overflow: hidden;
+}
+.outReach1{
+    width: 100%;
+    text-align: center;
+    color: red;
+    padding: 2rem;
+}
+
+
+
+@media screen and (max-width: 500px){
+    .picture img{
+        width: 100%;
+    }
+    .outReach1{
+        font-size: 1.5rem;
+    }
+}
