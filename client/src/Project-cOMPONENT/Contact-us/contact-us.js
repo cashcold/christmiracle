@@ -31,7 +31,7 @@ class ContactMain extends Component {
                                 <div className='supportInfo'>
                                     <img src={require('../../pic/location.png')}/>
                                     <h4>ADDRESS LINE</h4>
-                                    <p>GHANA TEMA COMM.9 </p>
+                                    <p>GHANA TEMA COMM.9 NEAR SUPPER PAPER </p>
                                 </div>
                             </div>  
                         </div>

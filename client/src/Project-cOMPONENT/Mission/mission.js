@@ -30,7 +30,7 @@ class MissionMain extends Component {
                            <div className='videosFor'>
                                 <div className='videoMsg mtd'>
                                     <h1>SOME OF OUR VIDEOS</h1>
-                                    <p>Coming Soon.................</p>
+                                    <p>Coming Soon.................!</p>
                                 </div>
                                 <hr/>
                            </div>
