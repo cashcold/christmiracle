@@ -55,7 +55,7 @@ class NavbarMain extends Component {
                            <h1><span>T</span>HE <span>C</span>HRIST <span>M</span>IRACLE <br/>  <span>C</span>HURCH <span>I</span>NTERNATION</h1>
                        </div>
                         <div className='toggleIcon'>
-                        <i class="fas fa-bars fa-2x navIcon"></i>
+                        <i class="fas fa-bars fa-3x navIcon"></i>
                         </div>
                    </header>
                     <nav className='nav-links animate__animated animate__bounceInLeft animate__slower'>

@@ -18,6 +18,23 @@ p{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+@media(max-width: 700px){
+    body{
+        font-size: 0.7rem;
+    }
+    h2{
+        font-size: 0.8rem;
+    }
+    h1{
+        font-size: 1rem;
+    }
+    h3{
+        font-size: 0.9rem;
+    }
+    h4{
+        font-size: 0.9rem;
+    }
+}
 
 
 
