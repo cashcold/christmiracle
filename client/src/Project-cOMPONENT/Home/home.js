@@ -46,10 +46,54 @@ class HomeMain extends Component {
             }
             slideDiv[SlideIndex-1].style.display= "block";
 
-            setTimeout(SlideDiv,8000)
+            setTimeout(SlideDiv,2000)
 
         }
         SlideDiv()
+        const Typing = ()=>{
+            const typedTextSpan = document.querySelector(".typed-text");
+            const cursorSpan = document.querySelector(".cursor");
+    
+            const textArray = [" JESUS IS GOD...", "JESUS IS THE SON OF GOD...", "JESUS BECAME HUMAN THROUGH THE VIRGIN BIRTH...","JESUS CHRIST IS THE SAVIOR OF THE WORLD..."," JESUS PERFORMS MIRACLES...","JESUS CHANGES LIVES...","JESUS LIVES IN HEAVEN AT FATHER GOD’S RIGHT HAND...","JESUS WILL RETURN TO JUDGE ALL HUMANITY...","JESUS CHRIST WILL RECEIVE YOU IF YOU COME TO HIM..."];
+            const typingDelay = 200;
+            const erasingDelay = 100;
+            const newTextDelay = 2000; // Delay between current and next text
+            let textArrayIndex = 0;
+            let charIndex = 0;
+    
+            function type() {
+            if (charIndex < textArray[textArrayIndex].length) {
+                if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+                typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+                charIndex++;
+                setTimeout(type, typingDelay);
+            } 
+            else {
+                cursorSpan.classList.remove("typing");
+                setTimeout(erase, newTextDelay);
+            }
+            }
+    
+            function erase() {
+            if (charIndex > 0) {
+            if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+            typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex-1);
+            charIndex--;
+            setTimeout(erase, erasingDelay);
+            } 
+            else {
+            cursorSpan.classList.remove("typing");
+            textArrayIndex++;
+            if(textArrayIndex>=textArray.length) textArrayIndex=0;
+            setTimeout(type, typingDelay + 1100);
+            }
+            }
+    
+            document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
+            if(textArray.length) setTimeout(type, newTextDelay + 250);
+            });
+        }
+    Typing()
     }
     render() { 
         return ( 
@@ -87,19 +131,18 @@ class HomeMain extends Component {
                              <div className='mainCard'>
                              </div>
                          </div>
-                         <div className='boxCard boxCard-7'>
-                             <div className='mainCard'>
-                             </div>
-                         </div>
                 </section>
                 <section className='aboutJesus'>
                         <div className='letTalk'>
                             <div className='h1Title'>
                                 <h1>WHO IS JESUS</h1>
+                                <div className='subHead'>
+                                    <h1> <span class="typed-text"></span><span class="cursor">&nbsp;</span></h1>
+                                </div>
                             </div>
-                            <div className='welcomevIDEO'>
+                            {/* <div className='welcomevIDEO'>
                                 <video autoPlay  loop controls src={require('../../pic/Hosanna.mp4')}/> 
-                            </div>
+                            </div> */}
                         </div>
                 </section>
                 <section className='moreJesus'>

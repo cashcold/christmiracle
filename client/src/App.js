@@ -9,7 +9,7 @@ import Pictures from './Project-cOMPONENT/Pictures/pictures';
 import ContactMain from './Project-cOMPONENT/Contact-us/contact-us';
 import MessageMain from './Project-cOMPONENT/Message/message';
 import AudioMain from './Project-cOMPONENT/Audio/audio';
-import Footer from './Project-cOMPONENT/Footer/footer';
+import FooterMain from './Project-cOMPONENT/Footer/footer';
 class MainApp extends Component {
     constructor(props) {
         super(props);
@@ -32,10 +32,9 @@ class MainApp extends Component {
                               <Route path='/pictures' component={Pictures}/>
                               <Route path='/message' component={MessageMain}/>
                               <Route path='/audio' component={AudioMain}/>
-                              <Route path='/footer' component={Footer}/>
                            </Switch>
                         </div>
-                        <Footer/>
+                        <FooterMain/>
                     </div>
                 </div>
             </Router>

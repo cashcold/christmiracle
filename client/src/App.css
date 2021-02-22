@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&family=Sarabun:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@600&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -5,17 +9,29 @@
     
 }
 body{
+   
     background: rgb(106,127,235);
     background: linear-gradient(90deg, rgb(138, 155, 243) 17%, rgba(215,128,128,1) 46%, rgba(142,156,230,1) 79%);
     line-height: 1.5;
     font-size: 100%;
+    text-align: center;
 }
 .mainApp{
     font-size: 1rem;
 }
-p{
+p,a,li,span{
     line-height: 2;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Spectral', serif;
+}
+h1{
+    font-family: 'Rubik', sans-serif;
+}
+h2,h3,h4,h5{
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Sarabun', sans-serif;
+}
+ul li{
+    list-style: none;
 }
 
 @media(max-width: 700px){
