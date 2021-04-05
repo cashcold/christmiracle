@@ -111,12 +111,21 @@ class HomeMain extends Component {
                              <div className='mainCard'>
                              </div>
                          </div>
+                         <div className='boxCard boxCard-00'>
+                             <div className='mainCard'>
+                             </div>
+                         </div>
                          <div className='boxCard boxCard-3'>
                              <div className='mainCard'>
                              </div>
                          </div>
                          <div className='boxCard boxCard-2'>
                              <div className='mainCard'>
+                             </div>
+                         </div>
+                         <div className='boxCard boxCard-22'>
+                             <div className='mainCard'>
+                                 <img src={require('../../pic/Restored/IMG_20210328_115919581.jpg')}/>
                              </div>
                          </div>
                          <div className='boxCard boxCard-4'>
@@ -139,7 +148,7 @@ class HomeMain extends Component {
                                 <div className='subHead'>
                                     <h1> <span class="typed-text"></span><span class="cursor">&nbsp;</span></h1>
                                 </div>
-                            </div>
+                            </div>.
                             <div className='welcomevIDEO'>
                                 <video autoPlay  loop controls src={require('../../pic/Hosanna.mp4')}/> 
                             </div>

@@ -18,7 +18,9 @@
     padding: 2rem;
 }
 
-
+.pictureNow{
+    padding-bottom: 8em;
+}
 
 @media screen and (max-width: 500px){
     .picture img{

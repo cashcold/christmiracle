@@ -97,9 +97,9 @@
     color:   red;
     font-size: bold;
 }
-.logo h1{
+.logo h2{
     letter-spacing: 5px;
-    animation: type 40s;
+    animation: type 60s;
     overflow: hidden;
     white-space: nowrap;
     position: absolute;
@@ -153,7 +153,7 @@
         display: none;
     }
     .toggleIcon .navIcon {
-        margin-left: -50px;
+        margin-left: 30px;
         margin-top: 10px;
         margin-bottom: 50px;
         color: red;
@@ -219,5 +219,18 @@
    .header{
        margin-top: 1.2em;
    }
+   .logo h2{
+    letter-spacing: 5px;
+    animation: type 60s;
+    overflow: hidden;
+    white-space: nowrap;
+    position: absolute;
+    padding: 0rem 9rem;
+    display: none;
+}
+.toggleIcon .navIcon{
+    margin-left: -7em;
+    padding-top: 1em 0;
+}
     
 }
