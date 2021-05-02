@@ -208,6 +208,9 @@ section{
 .aboutMaster h1{
     color: white;
 }
+.mobileView{
+    display: none;
+}
 
 @media screen and ( max-width: 768px){
     .boxCard{
@@ -287,5 +290,13 @@ section{
     .beliveMe h1{
         font-size: 1.5rem;
     }
+    .webView{
+        display: none;
+    }
+    .mobileView{
+        display: block;
+    }
+   
+
 }
 

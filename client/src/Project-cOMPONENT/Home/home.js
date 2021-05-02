@@ -284,6 +284,15 @@ class HomeMain extends Component {
                         </div>
                     </div>
                 </section>
+                <section className='where_jesus_walk'>
+                    <h1>Where Jesus Walked | Full Movie</h1>
+                   <div className='webView'>
+                   <iframe width="640" height="480" src="https://www.youtube.com/embed/efZXSQ2L6Ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   </div>
+                   <div className='mobileView'>
+                    <iframe height="380" src="https://www.youtube.com/embed/efZXSQ2L6Ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   </div>
+                </section>
                 <section className='lastBeat'>
                 <div className='finalMsg'>
                         <div className='lastMsg'>
