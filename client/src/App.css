@@ -10,8 +10,10 @@
 }
 body{
    
-    background: rgb(106,127,235);
-    background: linear-gradient(90deg, rgb(138, 155, 243) 17%, rgba(215,128,128,1) 46%, rgba(142,156,230,1) 79%);
+    /* background: rgb(106,127,235);
+    background: linear-gradient(90deg, rgb(138, 155, 243) 17%, rgba(215,128,128,1) 46%, rgba(142,156,230,1) 79%); */
+    background-color: #edeaed;
+    color: black;
     line-height: 1.5;
     font-size: 100%;
     text-align: center;
