@@ -10,6 +10,7 @@ import ContactMain from './Project-cOMPONENT/Contact-us/contact-us';
 import MessageMain from './Project-cOMPONENT/Message/message';
 import AudioMain from './Project-cOMPONENT/Audio/audio';
 import FooterMain from './Project-cOMPONENT/Footer/footer';
+import SlibebarMain from './Project-cOMPONENT/Slibebar/slibebar';
 class MainApp extends Component {
     constructor(props) {
         super(props);
@@ -32,6 +33,7 @@ class MainApp extends Component {
                               <Route path='/pictures' component={Pictures}/>
                               <Route path='/message' component={MessageMain}/>
                               <Route path='/audio' component={AudioMain}/>
+                              <Route path='/slibe' component={SlibebarMain}/>
                            </Switch>
                         </div>
                         <FooterMain/>

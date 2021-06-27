@@ -6,7 +6,9 @@ import 'animate.css'
 import 'react-toastify/dist/ReactToastify.css';
 import { toast } from 'react-toastify';
 import { ToastContainer } from 'react-toastify';
+import Carousel from 'react-bootstrap-carousel' 
 import './style.css'
+import SlibebarMain from '../Slibebar/slibebar';
 class HomeMain extends Component {
     constructor(props) {
         super(props);
@@ -21,35 +23,7 @@ class HomeMain extends Component {
         }
         NotSure()
         
-        let SlideIndex = 0;
-        const SlideDiv = ()=>{
-            var i ;
-            var slideDiv = document.querySelectorAll('.boxCard')
-            const HomeAnitionh1 = document.querySelectorAll('.box-1-items h1')
-            const HomeAnitionh4 = document.querySelectorAll('.box-1-items h4')
-            const HomeAnitionA = document.querySelectorAll('.box-1-items a')
-            
-            const SlideDivTl = new TimelineLite()
-            SlideDivTl.from(slideDiv,{duration: 1, x: '-500'})
-            SlideDivTl.from(HomeAnitionh1,{opacity:0, duration: 2,x:'-400'})
-            SlideDivTl.from(HomeAnitionh4,{opacity:0, duration: 2,x:'400'})
-            SlideDivTl.from(HomeAnitionA,{opacity:0, duration: 2,x:'-400'})
-
-            var dot = document.querySelectorAll('.dot')
-            for(i = 0; i < slideDiv.length; i++){
-                slideDiv[i].style.display='none'
-            }
-            SlideIndex++;
-            if(SlideIndex > slideDiv.length){SlideIndex = 1}
-            for(i = 0; i < dot.length; i++){
-               
-            }
-            slideDiv[SlideIndex-1].style.display= "block";
-
-            setTimeout(SlideDiv,2000)
-
-        }
-        SlideDiv()
+      
         const Typing = ()=>{
             const typedTextSpan = document.querySelector(".typed-text");
             const cursorSpan = document.querySelector(".cursor");
@@ -98,48 +72,22 @@ class HomeMain extends Component {
     render() { 
         return ( 
             <div className='mainHome'>
+                <h1 className='welcomeTitle'>MISSION AND EVANLISM</h1>
+                <SlibebarMain/>
                 <section  className='box-slide '>
-                        <h1 className='welcomeTitle'>MISSION AND EVANLISM</h1>
+               
+                        {/* <h1 className='welcomeTitle'>MISSION AND EVANLISM</h1>
                          <div className='boxCard boxCard-1'>
                              <div className='mainCard'>
                                 <h1 className='boxCardH1'>Behold, I stand at the door, and knock:</h1>
                                 <h2 className='boxCardH2'>if any man hear my voice, and open the door</h2>
                                 <a href='/' className='btn btn-success'>WORHSIP WITH US</a>
                              </div>
-                         </div>
-                         <div className='boxCard boxCard-0'>
-                             <div className='mainCard'>
-                             </div>
-                         </div>
-                         <div className='boxCard boxCard-00'>
-                             <div className='mainCard'>
-                             </div>
-                         </div>
-                         <div className='boxCard boxCard-3'>
-                             <div className='mainCard'>
-                             </div>
-                         </div>
-                         <div className='boxCard boxCard-2'>
-                             <div className='mainCard'>
-                             </div>
-                         </div>
-                         <div className='boxCard boxCard-22'>
-                             <div className='mainCard'>
-                                 <img src={require('../../pic/Restored/IMG_20210328_115919581.jpg')}/>
-                             </div>
-                         </div>
-                         <div className='boxCard boxCard-4'>
-                             <div className='mainCard'>
-                             </div>
-                         </div>
-                         <div className='boxCard boxCard-5'>
-                             <div className='mainCard'>
-                             </div>
-                         </div>
-                         <div className='boxCard boxCard-6'>
-                             <div className='mainCard'>
-                             </div>
-                         </div>
+                         </div> */}
+                        
+                </section>
+                <section className='slibeMe'>
+                   
                 </section>
                 <section className='aboutJesus'>
                         <div className='letTalk'>
@@ -149,9 +97,9 @@ class HomeMain extends Component {
                                     <h1> <span class="typed-text"></span><span class="cursor">&nbsp;</span></h1>
                                 </div>
                             </div>.
-                            <div className='welcomevIDEO'>
+                            {/* <div className='welcomevIDEO'>
                                 <video autoPlay  loop controls src={require('../../pic/Hosanna.mp4')}/> 
-                            </div>
+                            </div> */}
                         </div>
                 </section>
                 <section className='moreJesus'>
