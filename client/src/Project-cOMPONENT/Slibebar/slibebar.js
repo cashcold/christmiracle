@@ -39,8 +39,12 @@ class SlibebarMain extends Component {
                     <Carousel.Item>
                         <img className="d-block w-100" src={require('../../pic/Restored/IMG_20210328_085248569.jpg')} />
                     </Carousel.Item>
+                    
                     <Carousel.Item>
                         <img className="d-block w-100" src={require('../../pic/IMG_20200926_083105.jpg')} />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img className="d-block w-100" src={require('../../pic/Restored/IMG_20210328_115927765.jpg')} />
                     </Carousel.Item>
                 </Carousel>
             </section>
