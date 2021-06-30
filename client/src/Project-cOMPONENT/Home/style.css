@@ -215,6 +215,9 @@ section{
 .mobileView{
     display: none;
 }
+.infoWay h3{
+    color: blue;
+}
 
 @media screen and ( max-width: 768px){
     .boxCard{

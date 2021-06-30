@@ -19,7 +19,16 @@ class SlibebarMain extends Component {
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
+                        <img className="d-block w-100" src={require('../../pic/IMG-20200120-WA0006.jpg')} />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img className="d-block w-100" src={require('../../pic/Restored/IMG_4870.jpg')} />
+                    </Carousel.Item>
+                    <Carousel.Item>
                         <img className="d-block w-100" src={require('../../pic/Restored/IMG_20210404_125719443.jpg')} />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img className="d-block w-100" src={require('../../pic/Restored/IMG_4698.jpg')} />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src={require('../../pic/IMG_20200926_124853.jpg')} />
@@ -38,6 +47,9 @@ class SlibebarMain extends Component {
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src={require('../../pic/Restored/IMG_20210328_085248569.jpg')} />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img className="d-block w-100" src={require('../../pic/Restored/IMG_4665.jpg')} />
                     </Carousel.Item>
                     
                     <Carousel.Item>
