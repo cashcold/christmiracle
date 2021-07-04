@@ -40,6 +40,14 @@ class NavbarMain extends Component {
         })
     }
     ToggleBtn()
+
+
+    const LogoRedirect = ()=>{
+        document.querySelector('.mobileLogo').addEventListener('click',()=>{
+            window.location = '/'
+        })
+    }
+    LogoRedirect()
    }
     render() { 
         return ( 
@@ -75,9 +83,8 @@ class NavbarMain extends Component {
                        <marquee className='marqueeText'>
                            <p>AD 2021 Have Been Declare as  Great Abundance</p>
                            <p>January 21 Fasting and Thanks Given with Testimony</p>
-                           <p>Up Coming Next Mission  Evanglisim on March</p>
+                           <p>Up Coming Next Mission  Evanglisim </p>
                            <p>The purpose of THE CHRIST MIRACLE CHURCH INT is to enrich and multiply life and hope through disciple-making in the name of Our Lord and Savior Jesus Christ.</p>
-                           <p>We wish to invite you and your friends or relatives to join us and worhsip the lord </p>
                            <p>Worhsip with us</p>
                            <p>TUEDAY: BIBLE STUDY, TIME 5:00 PM TO 8:30 PM</p>
                            <p>FRIDAY: PRAYER REVIVAL MEETING, TIME 5:00 PM TO 8:30 PM </p>

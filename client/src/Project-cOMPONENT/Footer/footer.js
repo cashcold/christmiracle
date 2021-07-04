@@ -17,7 +17,7 @@ class FooterMain extends React.Component{
                 <section className='advShop__main'>
                     <div className='advShopNow'>
                         <div className='textMe'>
-                            <p><h1 >TENETS OF FAITH </h1>
+                            <p>
                                 <ul>
                                     <li>The internal god head The father the son the holy spirit.</li>
                                     <li>the fall of man.</li>
@@ -33,7 +33,7 @@ class FooterMain extends React.Component{
                             </p>
                             </div>
                             <div className='textMe'>
-                            <h1>THIS WE BELIVE</h1>
+                            {/* <h1>THIS WE BELIVE</h1> */}
                                 <ul>
                                 <li><p>the spirit - filled life.</p></li>
                                         <li>the gifts and the fruit of the spirit.</li>

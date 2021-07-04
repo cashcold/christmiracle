@@ -188,13 +188,13 @@ class HomeMain extends Component {
                         </div>
                     </div>
                 </section>
-                <section className='weBliveMain'>
+                {/* <section className='weBliveMain'>
                 <div className='weBelive'>
                         <div className='belive'>
                             <div className='beliveMe'>
                                 <h1>TENETS OF FAITH (THIS WE BELIVE)</h1>
                             </div>
-                            <hr/>
+                            <hr/>ss
                             
                             <div className='verticalLine'></div>
                             <div className='both'>
@@ -231,7 +231,7 @@ class HomeMain extends Component {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
                 <section className='where_jesus_walk'>
                     <h1>Where Jesus Walked | Full Movie</h1>
                    <div className='webView'>
