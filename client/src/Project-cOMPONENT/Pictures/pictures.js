@@ -8,8 +8,37 @@ class Pictures extends Component {
     render() { 
         return ( 
             <div className='mainPictures'>
+               
+                <section className='pictureNow'>
+                 <h1 className='outReach1'>EVANGELISM AND MISSION AT VOLTA REGION  AKATSI ANYIHEME GHANA</h1>
+                 <h1>FIRST 3Q/2021</h1>
+
+                    <div className='picture'>
+                        <img  src={require('../../pic/New folder (2)/IMG_20210730_091050.jpg')} alt='pic'/>
+                        <img  src={require('../../pic/New folder (2)/IMG_20210730_091145.jpg')} alt='pic'/>
+                        <img  src={require('../../pic/New folder (2)/IMG_20210730_091153.jpg')} alt='pic'/>
+                        <img  src={require('../../pic/New folder (3)/IMG_20210731_113347875.jpg')} alt='pic'/>
+                        <img  src={require('../../pic/New folder (3)/IMG_20210731_113341841.jpg')} alt='pic'/>
+                        <img  src={require('../../pic/New folder (3)/IMG_20210731_110108860.jpg')} alt='pic'/>
+                        <img  src={require('../../pic/New folder (3)/IMG_20210731_113231984.jpg')} alt='pic'/>
+                        <img  src={require('../../pic/New folder (2)/IMG_20210801_091725.jpg')} alt='pic'/>
+                        <img  src={require('../../pic/New folder (2)/IMG_20210801_092127.jpg')} alt='pic'/>
+                        <img  src={require('../../pic/New folder (2)/IMG_20210801_092136.jpg')} alt='pic'/>
+                        <img  src={require('../../pic/New folder (2)/IMG_20210801_092143.jpg')} alt='pic'/>
+                        <img  src={require('../../pic/New folder (2)/IMG_20210801_092159.jpg')} alt='pic'/>
+                        <img  src={require('../../pic/New folder (2)/IMG_20210801_092325.jpg')} alt='pic'/>
+                        <img  src={require('../../pic/New folder (2)/IMG_20210801_092421.jpg')} alt='pic'/>
+                        <img  src={require('../../pic/New folder (2)/IMG_20210801_092426.jpg')} alt='pic'/>
+                        <img  src={require('../../pic/New folder (2)/IMG_20210801_092444.jpg')} alt='pic'/>
+                        <img  src={require('../../pic/New folder (2)/IMG_20210801_092519.jpg')} alt='pic'/>
+                        <img  src={require('../../pic/New folder (2)/IMG_20210801_092525.jpg')} alt='pic'/>
+                        <img  src={require('../../pic/New folder (3)/IMG_20210801_093245042.jpg')} alt='pic'/>
+                        <img  src={require('../../pic/New folder (3)/IMG_20210801_091855683.jpg')} alt='pic'/>
+                    </div>
+                </section>
                 <section className='pictureNow'>
                     <h1 className='outReach1'>EVANGELISM AND MISSION AT VOLTA REGION AGBOZUME GHANA</h1>
+                    <h1>FIRST 1Q/2021</h1>
                     <div className='picture'>
                         <img  src={require('../../pic/Restored/IMG_20210328_115911141.jpg')} alt='pic'/>
                         <img  src={require('../../pic/Restored/IMG_20210328_115927765.jpg')} alt='pic'/>
@@ -25,6 +54,7 @@ class Pictures extends Component {
                 </section>
                 <section className='pictureNow'>
                     <h1 className='outReach1'>EVANGELISM AND MISSION AT VOLTA REGION MAMEDO GHANA</h1>
+                    <h1>FIRST 3Q/2020</h1>
                     <div className='picture'>
                         <img  src={require('../../pic/IMG_20200926_091117.jpg')} alt='pic'/>
                         <img src={require('../../pic/IMG_20200926_091201.jpg')} alt='pic'/>

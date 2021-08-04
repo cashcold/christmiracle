@@ -9,6 +9,7 @@ import { ToastContainer } from 'react-toastify';
 import Carousel from 'react-bootstrap-carousel' 
 import './style.css'
 import SlibebarMain from '../Slibebar/slibebar';
+import Dressing from '../Slibebar/dressing';
 class HomeMain extends Component {
     constructor(props) {
         super(props);
@@ -97,9 +98,9 @@ class HomeMain extends Component {
                                     <h1> <span class="typed-text"></span><span class="cursor">&nbsp;</span></h1>
                                 </div>
                             </div>.
-                            <div className='welcomevIDEO'>
+                            {/* <div className='welcomevIDEO'>
                                 <video autoPlay  loop controls src={require('../../pic/Hosanna.mp4')}/> 
-                            </div>
+                            </div> */}
                         </div>
                 </section>
                 <section className='moreJesus'>
@@ -188,50 +189,9 @@ class HomeMain extends Component {
                         </div>
                     </div>
                 </section>
-                {/* <section className='weBliveMain'>
-                <div className='weBelive'>
-                        <div className='belive'>
-                            <div className='beliveMe'>
-                                <h1>TENETS OF FAITH (THIS WE BELIVE)</h1>
-                            </div>
-                            <hr/>ss
-                            
-                            <div className='verticalLine'></div>
-                            <div className='both'>
-                                <div className='bothA'>
-                                    <ul>
-                                        <li><p>Holy Scriptures</p></li>
-                                        <li><p>The internal god head The father the son the holy spirit</p></li>
-                                        <li><p>the fall of man</p></li>
-                                        <li><p>the plan of redemption</p></li>
-                                        <li><p>salvation through grace</p></li>
-                                        <li><p>repentance and acceptance</p></li>
-                                        <li><p>the new birth</p></li>
-                                        <li><p>Daily christian life</p></li>
-                                        <li><p>Baptism of water and the lord's supper</p></li>
-                                        <li><p>the baptism of the holy spirit</p></li>
-                                    </ul>
-                                    
-                                </div>
-                                <div className='bothA'>
-                                    <ul>
-                                        <li><p>the spirit - filled life</p></li>
-                                        <li><p>the gifts and the fruit of the spirit</p></li>
-                                        <li><p>Moderation</p></li>
-                                        <li><p>Divine healing</p></li>
-                                        <li><p>The second coming of christ</p></li>
-                                        <li><p>Church relationship</p></li>
-                                        <li><p>Church Government</p></li>
-                                        <li><p>the final judgement</p></li>
-                                        <li><p>heaven</p></li>
-                                        <li><p>Eveanglism</p></li>
-                                        <li><p>Tithes and offering</p></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section> */}
+                <section className='christian_dressing'>
+                    <Dressing/>
+                </section>
                 <section className='where_jesus_walk'>
                     <h1>Where Jesus Walked | Full Movie</h1>
                    <div className='webView'>
@@ -250,6 +210,11 @@ class HomeMain extends Component {
                     <div className='finalMsg'>
                         <div className='lastMsg'>
                             <img src={require('../../pic/IMG-20200120-WA0007.jpg')}/>
+                        </div>
+                    </div>
+                    <div className='finalMsg'>
+                        <div className='lastMsg'>
+                            <img src={require('../../pic/New folder/IMG-20190302-WA0001.jpg')}/>
                         </div>
                     </div>
                 </section>

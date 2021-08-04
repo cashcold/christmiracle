@@ -74,7 +74,8 @@ class NavbarMain extends Component {
                             <li><a href='/message'>MESSAGE</a></li>
                             <li><a href='/audio'>AUDIO</a></li>
                             <li><a href='/contact'>CONTACT-US</a></li>
-                            <li><a href='/pictures'>PICTURES</a></li>
+                            <li><a href='/pictures'>MISSION PICTURES</a></li>
+                            <li><a href='/other_pictures'>OTHERS PICTURES</a></li>
                             <li><a href='https://chat.whatsapp.com/KFQDuv2Ys4b9ylAsAufaro'><i class="fab fa-whatsapp "></i></a></li>
                         </ul>
                     </nav>
