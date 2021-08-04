@@ -232,5 +232,9 @@
     margin-left: -7em;
     padding-top: 1em 0;
 }
+.mobileMenu {
+    width: 70px;
+    margin: 0 auto;
+}
     
 }
