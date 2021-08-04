@@ -63,7 +63,8 @@ class NavbarMain extends Component {
                            <h2 className=' animate__animated animate__slower animate__flash'><span>T</span>HE <span>C</span>HRIST <span>M</span>IRACLE <span>C</span>HURCH <span>I</span>NTERNATION</h2>
                        </div>
                         <div className='toggleIcon animate__animated animate__slower animate__zoomInDown'>
-                        <i class="fas fa-bars fa-3x navIcon"></i>
+                        {/* <i class="fas fa-bars fa-3x navIcon"></i> */}
+                        <img className='mobileMenu' src={require('../../pic/png-transparent-menu-hamburger-button-cafe-computer-icons-menu-blue-angle-food-thumbnail.png')}/>
                         </div>
                    </header>
                     <nav className='nav-links animate__animated animate__bounceInLeft animate__slower'>
