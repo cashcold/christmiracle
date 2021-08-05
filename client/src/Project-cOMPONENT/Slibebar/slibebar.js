@@ -34,12 +34,6 @@ class SlibebarMain extends Component {
                         <img className="d-block w-100" src={require('../../pic/Restored/IMG_4698.jpg')} />
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img className="d-block w-100" src={require('../../pic/IMG_20200926_124853.jpg')} />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img className="d-block w-100" src={require('../../pic/Restored/IMG_20210328_115919581.jpg')} />
-                    </Carousel.Item>
-                    <Carousel.Item>
                         <img className="d-block w-100" src={require('../../pic/the-word-of-god-1-638.jpg')} />
                         <Carousel.Caption>
                         <h3>WE BELIVE ONLY THE WORD OF GOD</h3>

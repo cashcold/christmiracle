@@ -182,7 +182,7 @@ class HomeMain extends Component {
                                     </div>
                                     <div className='wayImg wayImg2'>
                                         <img src={require('../../pic/guidance.jpg')}/>
-                                        <h3>Not sure? Let us guide you.<div className='fastImg'><img src={require('../../pic/fast-forward.svg')}/></div></h3>
+                                        <h3>Not sure? Let us guide you.<div className='fastImg blink_me'><img src={require('../../pic/fast-forward.svg')}/></div></h3>
                                     </div>
                                 </div>
                             </div>
@@ -198,8 +198,8 @@ class HomeMain extends Component {
                    <iframe width="640" height="480" src="https://www.youtube.com/embed/efZXSQ2L6Ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                    </div>
                    <div className='mobileView'>
-                    <iframe height="380" src="https://www.youtube.com/embed/efZXSQ2L6Ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                   </div>
+                    <iframe  width="100%"  height="320" src="https://www.youtube.com/embed/efZXSQ2L6Ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   </div> 
                 </section>
                 <section className='lastBeat'>
                 <div className='finalMsg'>

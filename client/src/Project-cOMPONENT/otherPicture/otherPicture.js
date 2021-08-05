@@ -10,12 +10,12 @@ class Pictures extends Component {
             <div className='mainPictures'>
                  <section className='pictureNow'>
                     <div className='picture'>
-                        <img  src={require('../../pic/New folder/IMG_20201227_142044691.jpg')} alt='pic'/>
+                        <img  src={require('../../pic/Restored/IMG_20201227_135102293.jpg')} alt='pic'/>
                         <img  src={require('../../pic/New folder/IMG_20201224_222205908.jpg')} alt='pic'/>
                         <img  src={require('../../pic/New folder/IMG_20201220_154403888.jpg')} alt='pic'/>
                         <img  src={require('../../pic/New folder/IMG_20201226_100539_742.jpg')} alt='pic'/>
                         <img  src={require('../../pic/New folder/IMG_20201219_110409671_TOP.jpg')} alt='pic'/>
-                        <img  src={require('../../pic/New folder/IMG_20201227_140054167.jpg')} alt='pic'/>
+                        <img  src={require('../../pic/Restored/IMG_20210328_085248569.jpg')} alt='pic'/>
                     </div>
                 </section>
             </div>

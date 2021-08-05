@@ -45,6 +45,16 @@
 .mainContact{
     overflow: hidden;
 }
+.blink_me {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+ 
 
 
 @media screen and ( max-width: 500px){

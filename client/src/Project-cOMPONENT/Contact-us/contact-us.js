@@ -13,25 +13,26 @@ class ContactMain extends Component {
                         <div className='bothSupportA'>
                             <div className='bothMenu bothMenuCount1' >
                                 <div className='supportInfo'>
-                                    <img src={require('../../pic/email.png')}/>
-                                    <h4>OUR E-MAIL</h4>
+                                    <img src={require('../../pic/email.png')}  className='blink_me'/>
+                                    <h4  className='blink_me'>OUR E-MAIL</h4>
                                     <p>ChristChurch@gmail.com</p>
                                     <p>ChristMiracleChurch@gmail.com</p>
                                 </div>
                             </div>
                             <div className='bothMenu bothMenuCount2' >
                                 <div className='supportInfo'>
-                                    <img src={require('../../pic/telephone.png')}/>
-                                    <h4>PHONE NUMBER </h4>
+                                    <img src={require('../../pic/telephone.png')}  className='blink_me'/>
+                                    <h4 className='blink_me'>PHONE NUMBER </h4>
                                     <p>0547695813</p>
+                                    <p>0549617777</p>
                                     <p>0547300887</p>
                                 </div>
                             </div>
                             <div className='bothMenu bothMenuCount3'>
                                 <div className='supportInfo'>
-                                    <img src={require('../../pic/location.png')}/>
-                                    <h4>ADDRESS LINE</h4>
-                                    <p>GHANA TEMA COMM.9 NEAR SUPPER PAPER </p>
+                                    <img src={require('../../pic/location.png')} className='blink_me'/>
+                                    <h4  className='blink_me'>ADDRESS LINE</h4>
+                                    <p>GHANA TEMA COMMMUNITY 9 OPPOSITE SUPPER PAPER </p>
                                 </div>
                             </div>  
                         </div>
