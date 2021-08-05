@@ -60,10 +60,10 @@ class NavbarMain extends Component {
                    <header className='header'>
                        <div className='logo'>
                            <img src={require('../../pic/christImg.jpg')}/>
-                           <h2 className=' animate__animated animate__slower animate__flash'><span>T</span>HE <span>C</span>HRIST <span>M</span>IRACLE <span>C</span>HURCH <span>I</span>NTERNATION</h2>
-                       </div>
+                           <h2 className=' animate__animated animate__slower animate__flash'><span>T</span>HE <span>C</span>HRIST <span>M</span>IRACLE <span>C</span>HURCH <span>I</span>NTERNATION <br/> <span>A</span>KA  <br/> <span>C</span>HRIST <span>S</span>TANDARD</h2>
+                         </div>
                         <div className='toggleIcon animate__animated animate__slower animate__zoomInDown'>
-                             <i class="fas fa-bars fa-3x navIcon"></i>
+                            <img className='menu__bar' src={require('../../pic/menu.svg')}/>
                         </div>
                    </header>
                     <nav className='nav-links animate__animated animate__bounceInLeft animate__slower'>
@@ -92,6 +92,7 @@ class NavbarMain extends Component {
                            <p>SUNDAY SERVICE: Comm.9 Breach , TIME 7:30 am TO 11:40 AM</p>
                            <p>SUNDAY SERVICE: Lience Office Breach , TIME 7:30 am TO 11:40 AM</p>
                            <p>Contact-us 0547695813</p>
+                           <p>Contact-us 0549617777</p>
                            <p>Contact-us 0547300887</p>
                            <p>Join Next Mission Outreach Evanglisim</p>
                            

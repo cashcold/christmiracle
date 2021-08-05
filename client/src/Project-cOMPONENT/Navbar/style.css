@@ -97,13 +97,19 @@
     color:   red;
     font-size: bold;
 }
+
+.logo{
+    width: 100%;
+    padding-bottom: 3em;
+}
 .logo h2{
     letter-spacing: 5px;
     animation: type 60s;
     overflow: hidden;
     white-space: nowrap;
     position: absolute;
-    padding: 2rem 9rem;
+    right: 13em;
+   top: 0.4em;
 }
 @keyframes type{
     0% {
@@ -230,14 +236,19 @@
 }
 .toggleIcon{
   width: 100%;
+ position: absolute;
+ right: 0.2em;
 }
 .toggleIcon .navIcon{
-  margin:  0 auto;
+  
   
 }
 .mobileMenu {
     width: 70px;
     margin: 0 auto;
+}
+.menu__bar{
+    width: 62px;
 }
     
 }
