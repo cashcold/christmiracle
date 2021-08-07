@@ -69,7 +69,7 @@ class NavbarMain extends Component {
                     <nav className='nav-links animate__animated animate__bounceInLeft animate__slower'>
                         <ul >
                             <li><a href='/'>HOME</a></li>
-                            <li><a href='/aim'>OUR AIM</a></li>
+                            <li><a href='/aim'>OUR AIMS</a></li>
                             <li><a href='/mission'>MISSION</a></li>
                             <li><a href='/message'>MESSAGES</a></li>
                             <li><a href='/audio'>AUDIO</a></li>
