@@ -70,9 +70,9 @@ class NavbarMain extends Component {
                         <ul >
                             <li><a href='/'>HOME</a></li>
                             <li><a href='/aim'>OUR AIMS</a></li>
-                            <li><a href='/mission'>MISSION</a></li>
+                            <li><a href='/mission'>MISSIONS</a></li>
                             <li><a href='/message'>MESSAGES</a></li>
-                            <li><a href='/audio'>AUDIO</a></li>
+                            <li><a href='/audio'>AUDIOS</a></li>
                             <li><a href='/contact'>CONTACT-US</a></li>
                             <li><a href='/pictures'>MISSION PICTURES</a></li>
                             <li><a href='/other_pictures'>OTHERS PICTURES</a></li>
