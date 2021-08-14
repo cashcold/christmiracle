@@ -202,9 +202,14 @@ class HomeMain extends Component {
                    </div> 
                 </section>
                 <section className='lastBeat'>
-                <div className='finalMsg'>
+                     <div className='finalMsg'>
                         <div className='lastMsg'>
                             <img src={require('../../pic/IMG-20200120-WA0006.jpg')}/>
+                        </div>
+                    </div>
+                     <div className='finalMsg'>
+                        <div className='lastMsg'>
+                            <img src={require('../../pic/New folder (4)/IMG_20210810_190908.jpg')}/>
                         </div>
                     </div>
                     <div className='finalMsg'>
