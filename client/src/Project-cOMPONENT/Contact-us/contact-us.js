@@ -15,8 +15,7 @@ class ContactMain extends Component {
                                 <div className='supportInfo'>
                                     <img src={require('../../pic/email.png')}  className='blink_me'/>
                                     <h4  className='blink_me'>OUR E-MAIL</h4>
-                                    <p>ChristChurch@gmail.com</p>
-                                    <p>ChristMiracleChurch@gmail.com</p>
+                                    <p>thechristmiracleschurch@gmail.com</p>
                                 </div>
                             </div>
                             <div className='bothMenu bothMenuCount2' >
