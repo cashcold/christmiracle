@@ -10,6 +10,25 @@ class Pictures extends Component {
             <div className='mainPictures'>
                
                 <section className='pictureNow'>
+                 <h1 className='outReach1'>EVANGELISM AND MISSION AT VOLTA REGION LOGBA GHANA</h1>
+                 <h1>FIRST 1Q/2022</h1>
+
+                    <div className='picture'>
+                        <img  src={require('../../pic/Logba Volta/20220130_093359.jpg')} alt='pic'/>
+                        <img  src={require('../../pic/Logba Volta/20220130_102112.jpg')} alt='pic'/>
+                        <img  src={require('../../pic/Logba Volta/20220130_095842.jpg')} alt='pic'/>
+                        <img  src={require('../../pic/Logba Volta/20220130_104041.jpg')} alt='pic'/>
+                        <img  src={require('../../pic/Logba Volta/20220130_100612.jpg')} alt='pic'/>
+                        <img  src={require('../../pic/Logba Volta/20220130_095854.jpg')} alt='pic'/>
+                        <img  src={require('../../pic/Logba Volta/20220130_101144.jpg')} alt='pic'/>
+                        <img  src={require('../../pic/Logba Volta/20220130_092433.jpg')} alt='pic'/>
+                        <img  src={require('../../pic/Logba Volta/20220130_091648.jpg')} alt='pic'/>
+                        <img  src={require('../../pic/Logba Volta/20220130_102638.jpg')} alt='pic'/>
+                        <img  src={require('../../pic/Logba Volta/20220129_120916.jpg')} alt='pic'/>
+                        <img  src={require('../../pic/Logba Volta/20220129_120842.jpg')} alt='pic'/>
+                    </div>
+                </section>
+                <section className='pictureNow'>
                  <h1 className='outReach1'>EVANGELISM AND MISSION AT VOLTA REGION  AKATSI ANYIHEME GHANA</h1>
                  <h1>FIRST 3Q/2021</h1>
 
