@@ -12,6 +12,7 @@ import AudioMain from './Project-cOMPONENT/Audio/audio';
 import FooterMain from './Project-cOMPONENT/Footer/footer';
 import SlibebarMain from './Project-cOMPONENT/Slibebar/slibebar';
 import OtherPicture from './Project-cOMPONENT/otherPicture/otherPicture';
+import VideosMain from './Project-cOMPONENT/Videos/videos';
 class MainApp extends Component {
     constructor(props) {
         super(props);
@@ -31,10 +32,11 @@ class MainApp extends Component {
                               <Route path='/contact' component={ContactMain}/>
                               <Route path='/aim' component={AimMain}/>
                               <Route path='/mission' component={MissionMain}/>
-                              <Route path='/pictures' component={Pictures}/>
+                              <Route path='/mission_pictures' component={Pictures}/>
                               <Route path='/other_pictures' component={OtherPicture}/>
                               <Route path='/message' component={MessageMain}/>
                               <Route path='/audio' component={AudioMain}/>
+                              <Route path='/videos' component={VideosMain}/>
                               <Route path='/slibe' component={SlibebarMain}/>
                            </Switch>
                         </div>

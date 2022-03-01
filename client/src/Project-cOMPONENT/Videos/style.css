@@ -1,0 +1,15 @@
+.mainVideos{
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    padding: 3em 0em;
+}
+.video_page_1 h2{
+    padding: 1em 0em;
+}
+.video_Now{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap: 2em;
+}

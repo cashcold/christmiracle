@@ -73,16 +73,16 @@ class NavbarMain extends Component {
                             <li><a href='/mission'>MISSIONS</a></li>
                             <li><a href='/message'>MESSAGES</a></li>
                             <li><a href='/audio'>AUDIOS</a></li>
+                            <li><a href='/videos'>VIDEOS</a></li>
+                            <li><a href='/mission_pictures'>MISSION PICTURES</a></li>
                             <li><a href='/contact'>CONTACT-US</a></li>
-                            <li><a href='/pictures'>MISSION PICTURES</a></li>
-                            <li><a href='/other_pictures'>OTHERS PICTURES</a></li>
                             <li><a href='https://chat.whatsapp.com/KFQDuv2Ys4b9ylAsAufaro'><i class="fab fa-whatsapp "></i></a></li>
                         </ul>
                     </nav>
                 </div> 
                 <div className='showText'>
                        <marquee className='marqueeText'>
-                           <p>AD 2021 Have Been Declare as  Great Abundance</p>
+                           <p>AD 2022 Have Been Declare as  super nature miracle</p>
                            <p>January 21 Fasting and Thanks Given with Testimony</p>
                            <p>Up Coming Next Mission  Evanglisim </p>
                            <p>The purpose of THE CHRIST MIRACLE CHURCH INT is to enrich and multiply life and hope through disciple-making in the name of Our Lord and Savior Jesus Christ.</p>
