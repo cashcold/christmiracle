@@ -106,7 +106,7 @@ class HomeMain extends Component {
                 <section className='moreJesus'>
                 <div className='aboutJesus'>
                         <div className='masterJesus'>
-                            <div className='master'>
+                            <div className='master'> 
                                 <h1>JESUS</h1>
                                 <p>The world knows that 2,000 years ago a man named Jesus came from the town of Nazareth in what is now called Israel. He traveled about the region and gained a large following. After a few years, the religious leaders in Jerusalem falsely accused him of crimes and handed him over to the Roman authorities. They executed him by nailing him to a cross. A short time later, his followers preached in the name of Jesus Christ, whom they said rose from the dead. More and more followers were added to this movement which has become the Christian church of today.</p>
                                 <p>These are the facts upon which even the greatest skeptic will agree. But there is so much more to Jesus than that. Where he came from, what he did on earth, what he can do for us now is all revealed in the Bible. This book contains the only record of Jesus and was written by the generation of people who heard him teach and saw his deeds. Here is what the Bible teaches us about Jesus Christ:</p>
@@ -194,12 +194,9 @@ class HomeMain extends Component {
                 </section>
                 <section className='where_jesus_walk'>
                     <h1>Where Jesus Walked | Full Movie</h1>
-                   <div className='webView'>
+                   <div className='webView iframe-container'>
                    <iframe width="640" height="480" src="https://www.youtube.com/embed/efZXSQ2L6Ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                    </div>
-                   <div className='mobileView'>
-                    <iframe  width="100%"  height="320" src="https://www.youtube.com/embed/efZXSQ2L6Ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                   </div> 
                 </section>
                 <section className='lastBeat'>
                      <div className='finalMsg'>

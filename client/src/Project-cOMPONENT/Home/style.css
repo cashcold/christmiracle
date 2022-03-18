@@ -219,7 +219,7 @@ section{
     color: blue;
 }
 
-.aboutMaster p{
+.aboutMaster p, .master p{
     width: 60%;
     margin: 0 auto;
 }
@@ -324,17 +324,12 @@ section{
     .beliveMe h1{
         font-size: 1.5rem;
     }
-    .webView{
-        display: none;
-    }
-    .mobileView{
-        display: block;
-    }
+   
       .moreJesus img{
         width: 90%;
         margin: 0 auto;
   }
-  .aboutMaster p{
+  .aboutMaster p ,.master p{
     width: 90%;
     margin: 0 auto;
 }

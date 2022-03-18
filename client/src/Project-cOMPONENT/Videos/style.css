@@ -13,3 +13,29 @@
     grid-template-columns: repeat(1,1fr);
     grid-row-gap: 2em;
 }
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+
+.iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  @media(max-width: 700px){
+    .video_Now{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-column-gap: 4em;
+    }
+    .video_page_1{
+        margin-bottom: 8em;
+    }
+  }
