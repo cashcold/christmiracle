@@ -60,7 +60,7 @@ class NavbarMain extends Component {
                    <header className='header'>
                        <div className='logo'>
                            <img src={require('../../pic/christImg.jpg')}/>
-                           <h2 className=' animate__animated animate__slower animate__flash'><span>T</span>HE <span>C</span>HRIST <span>M</span>IRACLE <span>C</span>HURCH <span>I</span>NTERNATION <br/> <span>A</span>KA  <br/> <span>C</span>HRIST <span>S</span>TANDARD</h2>
+                           <h2 className=''><span>T</span>HE <span>C</span>HRIST <span>M</span>IRACLE <span>C</span>HURCH <span>I</span>NTERNATION <br/> <span>A</span>KA  <br/> <span>C</span>HRIST <span>S</span>TANDARD</h2>
                          </div>
                         <div className='toggleIcon animate__animated animate__slower animate__zoomInDown'>
                             <img className='menu__bar' src={require('../../pic/menu.svg')}/>
