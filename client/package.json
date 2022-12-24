@@ -15,9 +15,13 @@
     "gsap": "^3.5.1",
     "jwt-decode": "^2.2.0",
     "react": "^16.14.0",
+    "react-awesome-lightbox": "^1.8.1",
     "react-bootstrap": "^1.6.1",
     "react-bootstrap-carousel": "^4.1.1",
     "react-dom": "^16.14.0",
+    "react-image-lightbox": "^5.1.4",
+    "react-photo-album": "^2.0.0",
+    "react-photo-gallery": "^8.0.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.3.0",
     "react-toastify": "^6.1.0"
