@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css'
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom' 
 import NavbarMain from './Project-cOMPONENT/Navbar/navbar';
 import HomeMain from './Project-cOMPONENT/Home/home';
 import AimMain from './Project-cOMPONENT/Aims/aim';
