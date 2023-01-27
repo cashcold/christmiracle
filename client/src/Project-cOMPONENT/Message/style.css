@@ -8,7 +8,26 @@
     color: white;
 }
 
+.messageNow{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: black;sss */
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-areas: 
+    'newMessage_box_1 newMessage_box_1 newMessage_box_1 newMessage_box_2 newMessage_box_2'
+    ;
+}
 
+.newMessage_box_1{
+    grid-area: newMessage_box_1;
+    background-color: red;
+}
+.newMessage_box_2{
+    grid-area: newMessage_box_2;
+    background-color: green;
+}
 
 
 
@@ -19,7 +38,7 @@
         text-align: center;
     }
     .newMessage h1{
-        color: red;
+        /* color: red; */
         font-size: 1.5rem;
     }
 }

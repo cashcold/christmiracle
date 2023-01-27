@@ -60,7 +60,7 @@ class NavbarMain extends Component {
                    <header className='header'>
                        <div className='logo'>
                            <img src={require('../../pic/christImg.jpg')}/>
-                           <h2 className=''><span>T</span>HE <span>C</span>HRIST <span>M</span>IRACLE <span>C</span>HURCH <span>I</span>NTERNATION <br/> <span>A</span>KA  <br/> <span>C</span>HRIST <span>S</span>TANDARD</h2>
+                           <h4 className=''><span>T</span>HE <span>C</span>HRIST <span>M</span>IRACLE <span>C</span>HURCH <span>I</span>NTERNATIONAL <br/> <span>A</span>KA  <br/> <span>C</span>HRIST <span>S</span>TANDARD</h4>
                          </div>
                         <div className='toggleIcon animate__animated animate__slower animate__zoomInDown'>
                             <img className='menu__bar' src={require('../../pic/menu.svg')}/>
@@ -82,7 +82,7 @@ class NavbarMain extends Component {
                 </div> 
                 <div className='showText'>
                        <marquee className='marqueeText'>
-                           <p>AD 2022 Have Been Declare as  super nature miracle</p>
+                           <p>AD 2023 Have Been Declare as Divine Multiplication</p>
                            <p>January 21 Fasting and Thanks Given with Testimony</p>
                            <p>Up Coming Next Mission  Evanglisim </p>
                            <p>The purpose of THE CHRIST MIRACLE CHURCH INT is to enrich and multiply life and hope through disciple-making in the name of Our Lord and Savior Jesus Christ.</p>

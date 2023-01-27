@@ -9,7 +9,7 @@
     color: white;
 }
 .logo img{
-    width: 100px;
+    width: 200px;
     border-radius: 10px;
 }
 
@@ -250,5 +250,13 @@
 .menu__bar{
     width: 62px;
 }
+
+
+.logo h4{
+    display: none;
+}
+
+
+
     
 }

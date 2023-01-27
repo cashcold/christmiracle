@@ -93,14 +93,14 @@ class HomeMain extends Component {
                 <section className='aboutJesus'>
                         <div className='letTalk'>
                             <div className='h1Title'>
-                                <h1>WHO IS JESUS</h1>
+                                <h1>WHO IS JESUS?</h1>
                                 <div className='subHead'>
                                     <h1> <span class="typed-text"></span><span class="cursor">&nbsp;</span></h1>
                                 </div>
                             </div>.
-                            <div className='welcomevIDEO'>
+                            {/* <div className='welcomevIDEO'>
                                 <video autoPlay  loop controls src={require('../../pic/Hosanna.mp4')}/> 
-                            </div>
+                            </div> */}
                         </div>
                 </section>
                 <section className='moreJesus'>
@@ -161,6 +161,15 @@ class HomeMain extends Component {
                                </div>
                             </div>
                         </div>
+                    </div>
+                </section>
+                <section className='passionate_main'>
+                    <div className='pass_nate'>
+                        <h2>We Are Passionate About Christ</h2>
+                        <h5>We believe in doing the long, hard work of missions. We believe that the Great Commission means sharing the gospel and discipling new believers in the local church and helping biblical, healthy churches multiply and reach their own nations. By God’s grace, we seek him to do what only he can do and spark global missions movements that extend beyond ourselves—through the power of the gospel.</h5>
+                    </div>
+                    <div className='pass_nate'>
+                        <h2>Our passion for Christ and his Word are displayed in our organizational values</h2>
                     </div>
                 </section>
                 <section className='connectJesus'>
