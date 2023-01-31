@@ -16,9 +16,23 @@ class MessageMain extends Component {
         return ( 
             <div classNam='mainMessage'>
                 <section className='messageNow'>
-                    <div className='newMessage'>
+                    <div className='newMessage newMessage_box_1'>
+                        <div className='display_message'>
+                            {this.state.message_api.map(data => (
+                                <div className='message_flow_home'>
+                                    <h4>{data.title}</h4>
+                                    <img className='social_img' src={data.social_on_image}/>
+                                    <p>By {data.name}</p>
+                                    <h4 className='desc_text'>{data.description}</h4>
+                                    <a href='#' className='btn btn-warning'>Read More &#8594;</a>
+                                </div>
+                            ))}
+                        </div>
                         
-                        <h1>Message now coming soon.................</h1>
+                    </div>
+                    <div className='newMessage newMessage_box_2'>
+                        
+                        <h4>Message now coming soon.................</h4>
                     </div>
                 </section>
             </div>
