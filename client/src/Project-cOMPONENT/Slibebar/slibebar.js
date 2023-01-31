@@ -18,6 +18,7 @@ class SlibebarMain extends Component {
                         <p>if any man hear my voice, and open the door</p>
                         </Carousel.Caption>
                     </Carousel.Item>
+                  
                     <Carousel.Item>
                         <img className="d-block w-100" src={require('../../pic/IMG-20200120-WA0006.jpg')} />
                     </Carousel.Item>

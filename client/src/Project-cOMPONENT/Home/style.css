@@ -244,6 +244,23 @@ section{
       padding: 5em 0em;
   }
 
+.billboard img{
+    width: 100%;
+    margin: 2.5em 0em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and ( max-width: 768px){

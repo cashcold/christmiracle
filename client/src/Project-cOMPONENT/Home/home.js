@@ -165,7 +165,10 @@ class HomeMain extends Component {
                     </div>
                 </section>
                 <section className='connectJesus'>
-                    
+                <section className='billboard'>
+                    <a href={require('../../pic/outdoor-billboard-mockup.png')}> <img src={require('../../pic/outdoor-billboard-mockup.png')}/></a>
+                   
+                </section>  
                 <div className='otherInfo'>
                         <div className='infoReady'>
                             <div className='readyInfo'>
