@@ -16,11 +16,9 @@ class MessageMain extends Component {
         return ( 
             <div classNam='mainMessage'>
                 <section className='messageNow'>
-                    <div className='newMessage newMessage_box_1'>
+                    <div className='newMessage'>
+                        
                         <h1>Message now coming soon.................</h1>
-                    </div>
-                    <div className='newMessage newMessage_box_2'>
-                        <h3>Other Books Of Prophet Jerry Sanyi</h3>
                     </div>
                 </section>
             </div>

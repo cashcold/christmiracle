@@ -138,6 +138,7 @@ class HomeMain extends Component {
                                         <h4>5. JESUS PERFORMS MIRACLES.</h4>
                                         <p>All through his time on earth, Jesus performed miracles. He healed the sick (Matthew 8:16 among many other instances), controlled the weather (Mark 4:39), multiplied food (Matthew 14:14-21), and provided money when needed (Matthew 17:24-27). Even after leaving the earth, He still does miracles in people’s lives (Acts 3:12-16).</p>
                                     </div>
+                                    
                                     <div className='aboutMaster'>
                                         <img src={require('../../pic/guérison-lépreux-678x381.jpg')}/>
                                         <h4>6. JESUS CHANGES LIVES.</h4>
@@ -161,15 +162,6 @@ class HomeMain extends Component {
                                </div>
                             </div>
                         </div>
-                    </div>
-                </section>
-                <section className='passionate_main'>
-                    <div className='pass_nate'>
-                        <h2>We Are Passionate About Christ</h2>
-                        <h5>We believe in doing the long, hard work of missions. We believe that the Great Commission means sharing the gospel and discipling new believers in the local church and helping biblical, healthy churches multiply and reach their own nations. By God’s grace, we seek him to do what only he can do and spark global missions movements that extend beyond ourselves—through the power of the gospel.</h5>
-                    </div>
-                    <div className='pass_nate'>
-                        <h2>Our passion for Christ and his Word are displayed in our organizational values</h2>
                     </div>
                 </section>
                 <section className='connectJesus'>

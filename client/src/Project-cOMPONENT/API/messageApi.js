@@ -3,17 +3,31 @@ import moment from 'moment'
 export const message_api = [
     {
         id: 1,
-        img: `https://firebasestorage.googleapis.com/v0/b/nextplatform77-79102.appspot.com/o/nextplatform_img_2%2Fprohet_jerry.jpg?alt=media&token=1333eaf0-06ff-4712-99b6-d9fc0baa5468`,
-        media_img: ``,
-        head_Text_url: 'Prophet-Jerry-Sanyni-The-Fruit-of-the-Spirit',
-        head_Text: 'Prophet Jerry Sanyni',
-        title: `The Fruit of the Spirit `,
-        desc: `The fruit of the Spirit is love, joy, peace, patience, kindness, generosity, faithfulness, gentleness, self-control…” – Galatians 5:22-23`,
+        img: `https://firebasestorage.googleapis.com/v0/b/nextplatform77-79102.appspot.com/o/nextplatform_img_2%2FRosam-Im-free.jpeg?alt=media&token=2c5e50d6-2076-435c-8a61-8174f4a834f1`,
+        head_Text_url: 'Fruit-of-the-Holy-Spirit-Prophet-Jerry-Sanyni',
+        name: 'PROPHET JERRY SANYNI',
+        title: 'FRUIT OF THE SPIRIT ',
+        description: `The fruit of the Spirit is love, joy, peace, patience, kindness, generosity, faithfulness, gentleness, self-control…” Those who are in Christ are distinguished from unbelievers in that they have been gifted with the Holy Spirit, enabling them to bear fruit.`,
         date:  moment('2022-05-03T14:48:00.000Z').format('LLLL'),
-        eye_seen: '32.9k',
-        about_message: ''
+        eye_seen: '52.9k',
+        social_on_image: `https://firebasestorage.googleapis.com/v0/b/nextplatform77-79102.appspot.com/o/nextplatform_img_2%2Fprophet_jerry_sanyni_fruit_of_the_spirit.jpg?alt=media&token=7b28b66c-48af-4695-9aa8-f8eba5a0cd34`,
+        about_Main: `loremAd officia dolor nisi dolor deserunt anim. Consequat sunt enim pariatur deserunt sunt. Officia amet commodo enim ex aliqua irure ex ea veniam sunt laboris labore officia. Velit adipisicing pariatur reprehenderit duis pariatur ex duis culpa voluptate. Est tempor amet esse id veniam elit exercitation excepteur incididunt consectetur ea culpa duis irure. Aliquip eiusmod aute veniam incididunt. Dolor consectetur eiusmod ipsum tempor pariatur ad.loremUllamco elit ullamco veniam sit ullamco. Consequat sint consectetur incididunt dolore mollit nisi proident amet aliqua do quis irure. Esse exercitation adipisicing proident mollit. Non est duis aliqua anim sunt in voluptate do labore Lorem. Fugiat id ex excepteur dolor dolor cillum ea aliquip est quis duis.loremAliquip ex veniam in eiusmod nisi eiusmod ex nisi dolor labore. Magna ut duis aliquip elit irure anim laboris est nostrud duis. Velit nisi voluptate commodo culpa eu consectetur anim nostrud irure ex exercitation eiusmod nisi. Elit aliqua occaecat qui duis velit ut. Nulla commodo fugiat culpa enim id ipsum nisi anim nisi excepteur duis.lorem400Laborum incididunt nisi mollit ea commodo. Proident veniam voluptate officia quis ipsum sit eu in do et veniam laboris. Irure proident quis est qui .
+        loremAd officia dolor nisi dolor deserunt anim. Consequat sunt enim pariatur deserunt sunt. Officia amet commodo enim ex aliqua irure ex ea veniam sunt laboris labore officia. Velit adipisicing pariatur reprehenderit duis pariatur ex duis culpa voluptate. Est tempor amet esse id veniam elit exercitation excepteur incididunt consectetur ea culpa duis irure. Aliquip eiusmod aute veniam incididunt. Dolor consectetur eiusmod ipsum tempor pariatur ad.loremUllamco elit ullamco veniam sit ullamco. Consequat sint consectetur incididunt dolore mollit nisi proident amet aliqua do quis irure. Esse exercitation adipisicing proident mollit. Non est duis aliqua anim sunt in voluptate do labore Lorem. Fugiat id ex excepteur dolor dolor cillum ea aliquip est quis duis.loremAliquip ex veniam in eiusmod nisi eiusmod ex nisi dolor labore. Magna ut duis aliquip elit irure anim laboris est nostrud duis. Velit nisi voluptate commodo culpa eu consectetur anim nostrud irure ex exercitation eiusmod nisi. Elit aliqua occaecat qui duis velit ut. Nulla commodo fugiat culpa enim id ipsum nisi anim nisi excepteur duis.lorem400Laborum incididunt nisi mollit ea commodo. Proident veniam voluptate officia quis ipsum sit eu in do et veniam laboris. Irure proident quis est qui. `
     },
-    
+    {
+        id: 2,
+        img: `https://firebasestorage.googleapis.com/v0/b/nextplatform77-79102.appspot.com/o/nextplatform_img_2%2FRosam-Im-free.jpeg?alt=media&token=2c5e50d6-2076-435c-8a61-8174f4a834f1`,
+        head_Text_url: 'Higher-Is-Waiting-Phophet-Jerry-Sanyni',
+        name: 'PROPHET JERRY SANYNI',
+        title: 'HIGHER IS WAITING ',
+        description: `Higher Is Waiting is a spiritual guidebook, a collection of teachings culled from the experiences of a lifetime, meant to inspire readers to climb higher in their own lives and pull themselves up to a better, more fulfilling place.`,
+        date:  moment('2022-05-03T14:48:00.000Z').format('LLLL'),
+        eye_seen: '65.9k',
+        social_on_image: 'https://firebasestorage.googleapis.com/v0/b/nextplatform77-79102.appspot.com/o/nextplatform_img_2%2FRosam-Im-free.jpeg?alt=media&token=2c5e50d6-2076-435c-8a61-8174f4a834f1',
+        about_Main: `loremAd officia dolor nisi dolor deserunt anim. Consequat sunt enim pariatur deserunt sunt. Officia amet commodo enim ex aliqua irure ex ea veniam sunt laboris labore officia. Velit adipisicing pariatur reprehenderit duis pariatur ex duis culpa voluptate. Est tempor amet esse id veniam elit exercitation excepteur incididunt consectetur ea culpa duis irure. Aliquip eiusmod aute veniam incididunt. Dolor consectetur eiusmod ipsum tempor pariatur ad.loremUllamco elit ullamco veniam sit ullamco. Consequat sint consectetur incididunt dolore mollit nisi proident amet aliqua do quis irure. Esse exercitation adipisicing proident mollit. Non est duis aliqua anim sunt in voluptate do labore Lorem. Fugiat id ex excepteur dolor dolor cillum ea aliquip est quis duis.loremAliquip ex veniam in eiusmod nisi eiusmod ex nisi dolor labore. Magna ut duis aliquip elit irure anim laboris est nostrud duis. Velit nisi voluptate commodo culpa eu consectetur anim nostrud irure ex exercitation eiusmod nisi. Elit aliqua occaecat qui duis velit ut. Nulla commodo fugiat culpa enim id ipsum nisi anim nisi excepteur duis.lorem400Laborum incididunt nisi mollit ea commodo. Proident veniam voluptate officia quis ipsum sit eu in do et veniam laboris. Irure proident quis est qui .
+        loremAd officia dolor nisi dolor deserunt anim. Consequat sunt enim pariatur deserunt sunt. Officia amet commodo enim ex aliqua irure ex ea veniam sunt laboris labore officia. Velit adipisicing pariatur reprehenderit duis pariatur ex duis culpa voluptate. Est tempor amet esse id veniam elit exercitation excepteur incididunt consectetur ea culpa duis irure. Aliquip eiusmod aute veniam incididunt. Dolor consectetur eiusmod ipsum tempor pariatur ad.loremUllamco elit ullamco veniam sit ullamco. Consequat sint consectetur incididunt dolore mollit nisi proident amet aliqua do quis irure. Esse exercitation adipisicing proident mollit. Non est duis aliqua anim sunt in voluptate do labore Lorem. Fugiat id ex excepteur dolor dolor cillum ea aliquip est quis duis.loremAliquip ex veniam in eiusmod nisi eiusmod ex nisi dolor labore. Magna ut duis aliquip elit irure anim laboris est nostrud duis. Velit nisi voluptate commodo culpa eu consectetur anim nostrud irure ex exercitation eiusmod nisi. Elit aliqua occaecat qui duis velit ut. Nulla commodo fugiat culpa enim id ipsum nisi anim nisi excepteur duis.lorem400Laborum incididunt nisi mollit ea commodo. Proident veniam voluptate officia quis ipsum sit eu in do et veniam laboris. Irure proident quis est qui.`
+    },
+ 
     
  
 
