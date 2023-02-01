@@ -39,12 +39,32 @@
 }
 
 .message_flow_home{
-    padding: 4em 1em;
-    background-color:aliceblue;
-    margin: 2.5em 0em;
+    padding: 6em 1em;
+    background-color: black;
+    color: white;
+    margin: 4em 0em;
 }
 .desc_text{
     margin-bottom: 2em;
+    width: 90%;
+    margin: 0 auto;
+    line-height: 1.5em;
+}
+.underline_line{
+    width: 100;
+    color: red;
+    background-color: red;
+}
+.icon_star{
+    color: rgba(255, 255, 0, 0.697);
+}
+
+.btn_readMore{
+    margin: 1.5em;
+}
+
+.viewed_tag{
+    color: red;
 }
 
 
@@ -74,5 +94,10 @@
         width: 98%;
         border-radius: 50%;
         padding: 1em 0em;
+    }
+    .desc_text{
+        margin-bottom: 2em;
+        width: 98%;
+        margin: 0 auto;
     }
 }

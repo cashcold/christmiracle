@@ -34,7 +34,7 @@ class MainApp extends Component {
                               <Route path='/mission' component={MissionMain}/>
                               <Route path='/mission_pictures' component={Pictures}/>
                               <Route path='/other_pictures' component={OtherPicture}/>
-                              <Route path='/message' component={MessageMain}/>
+                              <Route path='/books' component={MessageMain}/>
                               <Route path='/audio' component={AudioMain}/>
                               <Route path='/videos' component={VideosMain}/>
                               <Route path='/slibe' component={SlibebarMain}/>

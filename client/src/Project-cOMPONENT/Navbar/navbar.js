@@ -71,7 +71,7 @@ class NavbarMain extends Component {
                             <li><a href='/'>HOME</a></li>
                             <li><a href='/aim'>OUR AIMS</a></li>
                             <li><a href='/mission'>MISSIONS</a></li>
-                            <li><a href='/message'>BOOKS</a></li>
+                            <li><a href='/books'>BOOKS</a></li>
                             <li><a href='/audio'>AUDIOS</a></li>
                             <li><a href='/videos'>VIDEOS</a></li>
                             <li><a href='/mission_pictures'>MISSION PICTURES</a></li>
