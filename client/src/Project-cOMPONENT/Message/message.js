@@ -45,9 +45,11 @@ class MessageMain extends Component {
                                         <span>Viewed {data.eye_seen}</span>
                                     </div>
                                     <p>By {data.name}</p>
-                                    <span><i class="fa fa-clock-o fa-3x" aria-hidden="true"></i> <span>{moment(data.date).format('LLLL')}</span></span>
+                                    <span><i class="fa fa-clock-o " aria-hidden="true"></i> <span>{moment(data.date).format('LLLL')}</span></span>
                                     <h4 className='desc_text'>{data.description}</h4>
-                                    <a href='#' className='btn btn-warning btn_readMore'>Read More &#8594;</a>
+                                    <button onClick={()=>{
+                                        window.location = `/read_books/${data.head_Text_url}`
+                                    }} className='btn btn-warning btn_readMore' >Read More &#8594;</button>
                                 </div>
                             ))}
                         </div>
@@ -55,7 +57,7 @@ class MessageMain extends Component {
                     </div>
                     <div className='newMessage newMessage_box_2'>
                         
-                        <h4>A Guide to Spiritual Enlightenment by <br/> Prophet Jerry  Sanyni</h4>
+                        <h4>Find out more mIssion and Evanglisim</h4>
                         <hr className='underline_line'/>
                     </div>
                 </section>
