@@ -25,6 +25,7 @@
     "react-photo-gallery": "^8.0.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.3.0",
+    "react-share": "^4.4.1",
     "react-toastify": "^6.1.0"
   },
   "scripts": {

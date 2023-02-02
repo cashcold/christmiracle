@@ -12,9 +12,10 @@
 
 .newMessageDisplay_box_1{
     grid-area: newMessageDisplay_box_1;
-    background-color: chocolate;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 2em 1em;
+    text-align: left;
 }
 .newMessageDisplay_box_2{
     grid-area: newMessageDisplay_box_2;
@@ -28,6 +29,20 @@
     text-align: left;
     cursor: pointer;
 }
+
+.Books_api_social_on_image{
+    width: 100%;
+}
+.about_main_h5{
+    line-height: 1.5em;
+    margin: 2em 0em;
+}
+.book_title_h1{
+    color: black;
+    font-weight: bolder;
+}
+
+
 
 
 @media screen and ( max-width: 500px){

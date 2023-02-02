@@ -1,30 +1,181 @@
 import React, { Component } from 'react';
+import moment from 'moment'
+import { Helmet } from 'react-helmet';
 import './messageDisplay.css'
+import {
+    EmailShareButton,
+    FacebookShareButton,
+    InstapaperShareButton,
+    LineShareButton,
+    LinkedinShareButton,
+    MailruShareButton,
+    OKShareButton,
+    PinterestShareButton,
+    PocketShareButton,
+    RedditShareButton,
+    TelegramShareButton,
+    TumblrShareButton,
+    TwitterShareButton,
+    ViberShareButton,
+    VKShareButton,
+    WhatsappShareButton,
+    WorkplaceShareButton
+  } from "react-share";
+  import {
+    EmailIcon,
+    FacebookIcon,
+    FacebookMessengerIcon,
+    HatenaIcon,
+    InstapaperIcon,
+    LineIcon,
+    LinkedinIcon,
+    LivejournalIcon,
+    MailruIcon,
+    OKIcon,
+    PinterestIcon,
+    PocketIcon,
+    RedditIcon,
+    TelegramIcon,
+    TumblrIcon,
+    TwitterIcon,
+    ViberIcon,
+    VKIcon,
+    WeiboIcon,
+    WhatsappIcon,
+    WorkplaceIcon
+  } from "react-share";
 class MessageDisplayMain extends Component {
     constructor(props) {
         super(props);
         this.state = { 
-            message_api: ''
+            message_api: '',
+            Books_api_id: '',
+            Books_api_name: '',
+            Books_api_title: '',
+            Books_api_description: '',
+            Books_api_date: '',
+            Books_api_about_Main: '',
+            Books_api_about_Main_2: '',
+            Books_api_social_on_image: '',
          }
     }
     componentDidMount(){
-       
+        const Books_api_id = localStorage.getItem('Books_api_id')
+        const Books_api_name = localStorage.getItem('Books_api_name')
+        const Books_api_title = localStorage.getItem('Books_api_title')
+        const Books_api_description = localStorage.getItem('Books_api_description')
+        const Books_api_date = localStorage.getItem('Books_api_date')
+        const Books_api_about_Main_2 = localStorage.getItem('Books_api_about_Main_2')
+        const Books_api_about_Main_3 = localStorage.getItem('Books_api_about_Main_3')
+        const Books_api_about_Main_4 = localStorage.getItem('Books_api_about_Main_4')
+        const Books_api_about_Main_5 = localStorage.getItem('Books_api_about_Main_5')
+        const Books_api_about_Main = localStorage.getItem('Books_api_about_Main')
+        const Books_api_social_on_image = localStorage.getItem('Books_api_social_on_image')
+
+
+        this.setState({
+            Books_api_id,
+            Books_api_name,
+            Books_api_title,
+            Books_api_description,
+            Books_api_date,
+            Books_api_about_Main,
+            Books_api_about_Main_2,
+            Books_api_about_Main_3,
+            Books_api_about_Main_4,
+            Books_api_about_Main_5,
+            Books_api_social_on_image,
+        })
     }
     render() { 
         return ( 
             <div classNam='MessageDisplayMain'>
+                   <Helmet>
+                    <base />
+                    <title>{this.state.Books_api_title}- {this.state.Books_api_name}</title>
+                    <meta name="description" content="RDownload & Read Free Christian Books That Will Help You Grow Closer to God. The Economy of God. The All-Inclusive Christ. Christian Life Basics. The Knowledge of Life. The Glorious Church. Types: New Testament Bible, Downloadable eBooks, Christian Blog Posts." />
+                    <link rel="canonical" href="somelink" />
+                </Helmet>
                 <section className='back_rootMatch'>
                 <h5 onClick={()=>{
                     window.location = '/books'
                 }} className='back_rootMatch_h5'>  <i class="fa-solid fa-angles-left fa 3x"></i> Back to Books Library</h5>
                 </section>
               <section className='messageDisplayNow'>
-                    <div className='newMessage newMessageDisplay_box_1'>
-                        <h1>Display Message </h1>
+                    <div className=' newMessageDisplay_box_1'>
+                        <p>By {this.state.Books_api_name}</p>
+                        <h1 className='book_title_h1'>{this.state.Books_api_title}</h1>
+                        <span><i class="fa fa-clock-o " aria-hidden="true"></i> <span>{moment(this.state.Books_api_date).format('LLLL')}</span></span>
+                        <img className='Books_api_social_on_image' src={this.state.Books_api_social_on_image}/>
+                        <h5 className='about_main_h5'>{this.state.Books_api_about_Main}</h5>
+                        <h5 className='about_main_h5'>{this.state.Books_api_about_Main_2}</h5>
+                        <h5 className='about_main_h5'>{this.state.Books_api_about_Main_3}</h5>
+                        <h5 className='about_main_h5'>{this.state.Books_api_about_Main_4}</h5>
+                        <h5 className='about_main_h5'>{this.state.Books_api_about_Main_5}</h5>
+                        <div className='social_icons'>
+                            <h3><i class="fa-solid fa-share-nodes"></i> SHARE </h3>
+                            <div className='socail_icon'>
+                                    <FacebookShareButton  url={window.location.href}>
+                                    <FacebookIcon size={40}  round={true} />
+                                </FacebookShareButton>
+                                <PinterestShareButton  url={window.location.href}>
+                                    <PinterestIcon size={40}  round={true} />
+                                </PinterestShareButton>
+                                <WhatsappShareButton  url={window.location.href}>
+                                    <WhatsappIcon size={40}  round={true} />
+                                </WhatsappShareButton>
+                                <TwitterShareButton  url={window.location.href}>
+                                <VKShareButton  url={window.location.href}>
+                                    <VKIcon size={40}  round={true} />
+                                </VKShareButton>
+                                    <TwitterIcon size={40}  round={true} />
+                                </TwitterShareButton>
+                              <br/>
+                                <LineShareButton  url={window.location.href}>
+                                    <LineIcon size={40}  round={true} />
+                                </LineShareButton>
+                                <RedditShareButton  url={window.location.href}>
+                                    <RedditIcon size={40}  round={true} />
+                                </RedditShareButton>
+                                    
+                                <ViberShareButton  url={window.location.href}>
+                                    <ViberIcon size={40}  round={true} />
+                                </ViberShareButton>
+                                <LinkedinShareButton  url={window.location.href}>
+                                    <LinkedinIcon size={40}  round={true} />
+                                </LinkedinShareButton>
+                                <TelegramShareButton  url={window.location.href}>
+                                    <TelegramIcon size={40}  round={true} />
+                                </TelegramShareButton>
+                                <br/>
+                                <OKShareButton  url={window.location.href}>
+                                    <OKIcon size={40}  round={true} />
+                                </OKShareButton>
+                                <InstapaperShareButton  url={window.location.href}>
+                                    <InstapaperIcon size={40}  round={true} />
+                                </InstapaperShareButton>
+                                <MailruShareButton  url={window.location.href}>
+                                    <MailruIcon size={40}  round={true} />
+                                </MailruShareButton>
+                                <TumblrShareButton  url={window.location.href}>
+                                    <TumblrIcon size={40}  round={true} />
+                                </TumblrShareButton>
+                                <PocketShareButton  url={window.location.href}>
+                                    <PocketIcon size={40}  round={true} />
+                                </PocketShareButton>
+                                <br/>
+                                < WorkplaceShareButton  url={window.location.href}>
+                                    <WorkplaceIcon size={40}  round={true} />
+                                </ WorkplaceShareButton>
+                                <EmailShareButton  url={window.location.href}>
+                                    <EmailIcon size={40}  round={true} />
+                                </EmailShareButton>
+                            </div>
+                        </div>
                     </div>
                     <div className='newMessage newMessageDisplay_box_2'>
                         
-                        <h4>Other Books Of Prophet Jerry Sanyni</h4>
+                        <h4>Other Christains Books Written By Christ Miracle Church Leaders</h4>
                         <hr className='underline_line'/>
                     </div>
                 </section>

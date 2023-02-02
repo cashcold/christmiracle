@@ -42,12 +42,24 @@ class MessageMain extends Component {
                                         <i class="fas fa-star"></i>
                                     </div>
                                     <div className='viewed_tag'>
-                                        <span>Viewed {data.eye_seen}</span>
+                                        <span><i class="fa-solid fa-eye fa-1x"></i> Viewed {data.eye_seen}</span>
                                     </div>
                                     <p>By {data.name}</p>
                                     <span><i class="fa fa-clock-o " aria-hidden="true"></i> <span>{moment(data.date).format('LLLL')}</span></span>
                                     <h4 className='desc_text'>{data.description}</h4>
                                     <button onClick={()=>{
+
+                                        localStorage.setItem('Books_api_id',data.id)
+                                        localStorage.setItem('Books_api_name',data.name)
+                                        localStorage.setItem('Books_api_title',data.title)
+                                        localStorage.setItem('Books_api_description',data.description)
+                                        localStorage.setItem('Books_api_social_on_image',data.social_on_image)
+                                        localStorage.setItem('Books_api_date',data.date)
+                                        localStorage.setItem('Books_api_about_Main',data.about_Main)
+                                        localStorage.setItem('Books_api_about_Main_2',data.about_Main_2)
+                                        localStorage.setItem('Books_api_about_Main_3',data.about_Main_3)
+                                        localStorage.setItem('Books_api_about_Main_4',data.about_Main_4)
+                                        localStorage.setItem('Books_api_about_Main_5',data.about_Main_5)
                                         window.location = `/read_books/${data.head_Text_url}`
                                     }} className='btn btn-warning btn_readMore' >Read More &#8594;</button>
                                 </div>
@@ -57,7 +69,8 @@ class MessageMain extends Component {
                     </div>
                     <div className='newMessage newMessage_box_2'>
                         
-                        <h4>Find out more mIssion and Evanglisim</h4>
+                        <h4>Find Out More About Mission and Evanglisim</h4>
+                        <button className='btn btn-warning'>Find Out</button>
                         <hr className='underline_line'/>
                     </div>
                 </section>
