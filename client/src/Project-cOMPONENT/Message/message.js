@@ -60,7 +60,7 @@ class MessageMain extends Component {
                                         localStorage.setItem('Books_api_about_Main_3',data.about_Main_3)
                                         localStorage.setItem('Books_api_about_Main_4',data.about_Main_4)
                                         localStorage.setItem('Books_api_about_Main_5',data.about_Main_5)
-                                        window.location = `/read_books/${data.head_Text_url}`
+                                        window.location = `/christains_books/${data.head_Text_url}`
                                     }} className='btn btn-warning btn_readMore' >Read More &#8594;</button>
                                 </div>
                             ))}
