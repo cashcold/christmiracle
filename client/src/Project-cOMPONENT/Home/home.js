@@ -166,7 +166,7 @@ class HomeMain extends Component {
                 </section>
                 <section className='connectJesus'>
                 <section className='billboard'>
-                    <a href={require('../../pic/outdoor-billboard-mockup.png')}> <img src={require('../../pic/outdoor-billboard-mockup.png')}/></a>
+                    <a href='https://firebasestorage.googleapis.com/v0/b/nextplatform77-79102.appspot.com/o/nextplatform_img_2%2FTheChristMiracleChruch.png?alt=media&token=636c46b3-5e67-455c-a94b-531b5fa9ced9'> <img src='https://firebasestorage.googleapis.com/v0/b/nextplatform77-79102.appspot.com/o/nextplatform_img_2%2FTheChristMiracleChruch.png?alt=media&token=636c46b3-5e67-455c-a94b-531b5fa9ced9'/></a>
                    
                 </section>  
                 <div className='otherInfo'>
