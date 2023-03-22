@@ -98,9 +98,9 @@ class HomeMain extends Component {
                                     <h1> <span class="typed-text"></span><span class="cursor">&nbsp;</span></h1>
                                 </div>
                             </div>.
-                            {/* <div className='welcomevIDEO'>
+                            <div className='welcomevIDEO'>
                                 <video autoPlay  loop controls src={require('../../pic/Hosanna.mp4')}/> 
-                            </div> */}
+                            </div>
                         </div>
                 </section>
                 <section className='moreJesus'>

@@ -28,7 +28,7 @@ class MessageMain extends Component {
                 </section>
                 <section className='messageNow'>
                     <div className='newMessage newMessage_box_1'>
-                        <h2>A Guide to Spiritual Enlightenment by <br/> Apostle Jerry  Sanni</h2>
+                        <h2>A Guide to Spiritual Enlightenment by <br/> Pastor Jerry  Sanni</h2>
                         <div className='display_message'>
                             {this.state.message_api.map(data => (
                                 <div className='message_flow_home'>

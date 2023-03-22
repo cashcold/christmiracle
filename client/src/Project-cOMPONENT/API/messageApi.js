@@ -3,8 +3,8 @@ import moment from 'moment'
 export const message_api = [
     {
         id: 2,
-        head_Text_url: 'Why-Given-Thanks-Is-Importance-Apostle-Jerry-Sanni',
-        name: 'APOSTLE JERRY SANNI',
+        head_Text_url: 'Why-Given-Thanks-Is-Importance-Pastor-Jerry-Sanni',
+        name: 'PASTOR JERRY SANNI',
         title: 'WHY GIVEN THANKS IS IMPORTANCE ',
         description: `Given Thanks is  Necessary because of his Convernet keeping  and his goodness and mercy, his faithfullness and steadfastigness`,
         date:  moment('2023-01-01T07:30:00.000Z').format('LLLL'),
@@ -19,8 +19,8 @@ export const message_api = [
     },
     {
         id: 1,
-        head_Text_url: 'Fruit-of-the-Holy-Spirit-Apostle-Jerry-Sanni',
-        name: 'APOSTLE JERRY SANNI',
+        head_Text_url: 'Fruit-of-the-Holy-Spirit-Pastor-Jerry-Sanni',
+        name: 'PASTOR JERRY SANNI',
         title: 'FRUIT OF THE SPIRIT ',
         description: `The fruit of the Spirit is love, joy, peace, patience, kindness, generosity, faithfulness, gentleness, self-control…” Those who are in Christ are distinguished from unbelievers in that they have been gifted with the Holy Spirit, enabling them to bear fruit.`,
         date:  moment('2022-05-03T14:48:00.000Z').format('LLLL'),
@@ -34,10 +34,10 @@ export const message_api = [
         about_Main_5: `loremAd officia dolor nisi dolor deserunt anim. Consequat sunt enim pariatur deserunt sunt. Officiaexercitation eiusmod nisi. Elit aliqua occaecat qui duis velit ut. Nulla commodo fugiat culpa enim id ipsum nisi anim nisi excepteur duis.lorem400L. `,
     },
   
-    {
+    {     
         id: 4,
-        head_Text_url: 'Belivers-Resoucess-In-This-Last-Days-Apostle-Jerry-Sanni',
-        name: 'APOSTLE JERRY SANNI',
+        head_Text_url: 'Belivers-Resoucess-In-This-Last-Days-Pastor-Jerry-Sanni',
+        name: 'PASTOR JERRY SANNI',
         title: 'BELIVERS RESOUCESS IN THIS LAST DAYS',
         description: `Faith,The Spirit of God, The Word of God, The Grace Of Christ is Belivers Resoucess In This Last Days`,
         date:  moment('2022-11-03T14:48:00.000Z').format('LLLL'),
