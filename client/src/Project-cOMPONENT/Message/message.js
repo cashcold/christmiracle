@@ -15,7 +15,7 @@ class MessageMain extends Component {
     }
     render() { 
         console.log(this.state.message_api)
-        return ( 
+        return (  
             <div classNam='mainMessage'>
                  <Helmet>
                     <base />
@@ -28,7 +28,7 @@ class MessageMain extends Component {
                 </section>
                 <section className='messageNow'>
                     <div className='newMessage newMessage_box_1'>
-                        <h2>A Guide to Spiritual Enlightenment by <br/> Pastor Jerry  Sanni</h2>
+                        <h2>A Guide to Spiritual Enlightenment </h2>
                         <div className='display_message'>
                             {this.state.message_api.map(data => (
                                 <div className='message_flow_home'>
@@ -39,10 +39,10 @@ class MessageMain extends Component {
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i> 
                                     </div>
                                     <div className='viewed_tag'>
-                                        <span><i class="fa-solid fa-eye fa-1x"></i> Viewed {data.eye_seen}</span>
+                                        <span><i class="fa-solid fa-eye fa-1x"></i> Viewed {data.eye_seen}</span> 
                                     </div>
                                     <p>By {data.name}</p>
                                     <span><i class="fa fa-clock-o " aria-hidden="true"></i> <span>{moment(data.date).format('LLLL')}</span></span>

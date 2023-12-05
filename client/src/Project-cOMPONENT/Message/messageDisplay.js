@@ -73,7 +73,7 @@ class MessageDisplayMain extends Component {
         const Books_api_social_on_image = localStorage.getItem('Books_api_social_on_image')
 
 
-        this.setState({
+        this.setState({ 
             Books_api_id,
             Books_api_name,
             Books_api_title,
