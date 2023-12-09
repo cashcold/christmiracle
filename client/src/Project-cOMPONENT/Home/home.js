@@ -90,6 +90,12 @@ class HomeMain extends Component {
                 <section className='slibeMe'>
                    
                 </section>
+                <section className='bible_widget_main_1'>
+                    <h1>Enjoy Free Bible <span>Reading Scriptures</span></h1>
+                    <div data-gb-widget="search" />
+                    <div data-gb-widget="passage" data-passage="JAS.4.5" />
+                    <a data-gb-link="JHN.1.11">reference</a>
+                </section>
                 <section className='aboutJesus'>
                         <div className='letTalk'>
                             <div className='h1Title'>

@@ -45,13 +45,21 @@
     })();
     </script>
     <!--End of Tawk.to Script-->
+
+    <script src="https://bibles.org/static/widget/v2/widget.js"></script>
+    <script>
+        GLOBALBIBLE.init({
+            url: "https://bibles.org",
+            bible: "61fd76eafa1577c2-01",
+        });
+    </script>
     
     <style>
       body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    overflow: hidden; /* Prevent scrolling while loading */
+    /* overflow: hidden;  */
 }
 
 .preloader-wrapper {
@@ -70,9 +78,9 @@
 .preloader {
     border: 8px solid #f3f3f3;
     border-top: 8px solid #3498db;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    border-radius: 60%;
+    width: 80px;
+    height: 80px;
     animation: spin 1s linear infinite;
 }
 
@@ -89,7 +97,7 @@
 /* Adjust the delay as needed */
 .content.loaded {
     opacity: 1;
-    transition-delay: 1s; /* Should match the transition duration */
+    transition-delay: 5s; /* Should match the transition duration */
 }
 
     </style>
@@ -97,16 +105,9 @@
   <body >
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root">
-      <div class='preView'>
-        <div class="preloader-wrapper">
-          <div class="preloader"></div>
-      </div>
-  
-      <div class="content">
-          <!-- Your actual content goes here -->
-          <h1>Welcome to THE CHRIST MIRACLE CHURCH INT</h1>
-          <!-- Other content goes here -->
-      </div>
+      <div class="preloader-wrapper">
+        <div class="preloader"></div>
+    </div>
   
       </div>
     </div>
