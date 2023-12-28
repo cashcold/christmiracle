@@ -103,7 +103,7 @@ class HomeMain extends Component {
                                 <div className='subHead'>
                                     <h1> <span class="typed-text"></span><span class="cursor">&nbsp;</span></h1>
                                 </div>
-                            </div>.
+                            </div>
                             <div className='welcomevIDEO'>
                                 <video autoPlay  loop controls src={require('../../pic/Hosanna.mp4')}/> 
                             </div>
@@ -207,6 +207,14 @@ class HomeMain extends Component {
                    <div className='webView iframe-container'>
                    <iframe width="640" height="480" src="https://www.youtube.com/embed/efZXSQ2L6Ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                    </div>
+                </section>
+                
+                <section className='fame_money'>
+                    {/* <h3>Ritual For Fame And Money<br/>May God Have Mercy On Us</h3> */}
+                    <div className='RitualvIDEO'>
+                        <video   loop controls src='https://firebasestorage.googleapis.com/v0/b/nextplatformcashcold.appspot.com/o/img_2%2F394022030_614897813944882_9014597489614668116_n.mp4?alt=media&token=9ee68ead-b9a0-40ad-8e17-895bed7f4eb3'/> 
+                    </div>
+                    
                 </section>
                 <section className='lastBeat'>
                      <div className='finalMsg'>

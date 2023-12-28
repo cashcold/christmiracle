@@ -40,8 +40,8 @@ app.get('/', function(request, response) {
       }
       
       // replace the special strings with server generated strings
-      data = data.replace(/\$OG_TITLE/g, 'The Christ Miracles Chruch International');
-      data = data.replace(/\$OG_DESCRIPTION/g, "Join The Growing Christain Platform to lean more and also steam evry church program Online ");
+      data = data.replace(/\$OG_TITLE/g, '🌟✝️🕊️ Embracing Grace: The Transformative Power of Walking with Jesus Christ');
+      data = data.replace(/\$OG_DESCRIPTION/g, "In the footsteps of our Savior, we discover the profound grace that transforms hearts and lives. Join us on this journey of faith, where every step is guided by love, forgiveness, and the eternal promise of redemption. Let the light of Jesus shine in your life. 💖✝️🌟 #InHisFootsteps #GraceUnleashed #JesusChrist #FaithJourney");
       result = data.replace(/\$OG_IMAGE/g, 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
       response.send(result);
     });
@@ -58,14 +58,14 @@ app.get('/books', function(request, response) {
     }
     
     // replace the special strings with server generated strings
-    data = data.replace(/\$OG_TITLE/g, 'Christians books and other sunday material');
-    data = data.replace(/\$OG_DESCRIPTION/g, "Read Free Sunday Material From The Christ Miracles church Intl. Online ");
+    data = data.replace(/\$OG_TITLE/g, "Journey Through Faith: 📖 Exploring the Pages of 'Hearts Renewed' 🌟");
+    data = data.replace(/\$OG_DESCRIPTION/g, "Dive into the transformative pages of 'Hearts Renewed,' a soul-stirring journey of faith, love, and redemption. 🌟 Immerse yourself in the profound stories that illuminate the path to a renewed heart and a deeper connection with God. Join us on this inspiring literary adventure. 📚💖 #HeartsRenewed #ChristianBooks #FaithJourney #BookLovers");
     result = data.replace(/\$OG_IMAGE/g, 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
     response.send(result);
   });
 });
 
-app.get('/books/:id', function(request, response) {
+app.get('/christains_books/:id', function(request, response) {
  
   const filePath = path.resolve(__dirname, './client/build' ,'index.html');
 
@@ -82,15 +82,15 @@ app.get('/books/:id', function(request, response) {
 
     var qdata = q.query
     
-    const {name, info, on_image} = qdata
+    const {book_api_title, book_api_description, book_api_social_on_image} = qdata
 
     console.log(qdata)
 
 
 // replace the special strings with server generated strings
-    data = data.replace(/\$OG_TITLE/g,name);
-    data = data.replace(/\$OG_DESCRIPTION/g,info);
-    result = data.replace(/\$OG_IMAGE/g,on_image);
+    data = data.replace(/\$OG_TITLE/g,book_api_title);
+    data = data.replace(/\$OG_DESCRIPTION/g,book_api_description);
+    result = data.replace(/\$OG_IMAGE/g,book_api_social_on_image);
     response.send(result);
   });
 
