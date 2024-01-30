@@ -41,6 +41,13 @@
     color: black;
     font-weight: bolder;
 }
+.social_icons{
+    width: 30%;
+    margin: 0 auto;
+}
+.social_icons h3{
+  margin-bottom: 1em;
+}
 
 
 

@@ -117,7 +117,8 @@ class MessageDisplayMain extends Component {
               <section className='messageDisplayNow'>
                     <div className=' newMessageDisplay_box_1'>
                     <p>By {this.state.Books_api_name}</p>
-                        <h1 className='book_title_h1'>{this.state.Books_api_title}</h1>
+                        <h1 className='book_title_h1' dangerouslySetInnerHTML={{ __html: this.state.Books_api_title.replace(/\n/g, '<br />') }}></h1>
+                        {/* <h1 className='book_title_h1'>{this.state.Books_api_title}</h1> */}
                         <h1> {titleParts.map((part, index) => (
                             <h5 key={index} className='about_main_h5'>{part}</h5>
                         ))}</h1>
@@ -130,7 +131,8 @@ class MessageDisplayMain extends Component {
                         <h5 className='about_main_h5' dangerouslySetInnerHTML={{ __html: this.state.Books_api_Chapter_5.replace(/\n/g, '<br />') }}></h5>
                         <h5 className='about_main_h5' dangerouslySetInnerHTML={{ __html: this.state.Books_api_Chapter_6.replace(/\n/g, '<br />') }}></h5>
                         <h5 className='about_main_h5' dangerouslySetInnerHTML={{ __html: this.state.Books_api_Chapter_7.replace(/\n/g, '<br />') }}></h5>
-                        <h5 className='about_main_h5'>{this.state.Books_api_Chapter_Conclusion.replace(/\\n/g, <br />)}</h5>
+                        <h5 className='about_main_h5' dangerouslySetInnerHTML={{ __html: this.state.Books_api_Chapter_Conclusion.replace(/\n/g, '<br />') }}></h5>
+                        {/* <h5 className='about_main_h5'>{this.state.Books_api_Chapter_Conclusion.replace(/\\n/g, <br />)}</h5> */}
                         <div className='social_icons'>
                         <h3><i class="fa-solid fa-share-nodes"></i> SHARE </h3>
                         <div className='socail_icon'>

@@ -32,7 +32,7 @@ class MessageMain extends Component {
                         <div className='display_message'>
                             {this.state.message_api.map(data => (
                                 <div className='message_flow_home'>
-                                    <h4>{data.title}</h4>
+                                    <h4  dangerouslySetInnerHTML={{ __html: data.title.replace(/\n/g, '<br />') }}></h4>
                                     <img className='social_img' src={data.social_on_image}/>
                                     <div className='icon_star'>
                                         <i class="fas fa-star"></i>
@@ -76,7 +76,7 @@ class MessageMain extends Component {
                                         
                                         window.location =`/christains_books/${data.title}?${passTMDB_api_Params}`
                                         
-                                        // window.location = `/christains_books/${data.head_Text_url}`
+                                        window.location = `/christains_books/${data.head_Text_url}`
                                     }} className='btn btn-warning btn_readMore' >Read More &#8594;</button>
                                 </div> 
                             ))}
