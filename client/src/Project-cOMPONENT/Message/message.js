@@ -52,19 +52,22 @@ class MessageMain extends Component {
                                         localStorage.setItem('Books_api_id',data.id)
                                         localStorage.setItem('Books_api_name',data.name)
                                         localStorage.setItem('Books_api_title',data.title)
-                                        localStorage.setItem('Books_api_description',data.description)
+                                        localStorage.setItem('Books_api_Introduction',data.Introduction)
                                         localStorage.setItem('Books_api_social_on_image',data.social_on_image)
                                         localStorage.setItem('Books_api_date',data.date)
-                                        localStorage.setItem('Books_api_about_Main',data.about_Main)
-                                        localStorage.setItem('Books_api_about_Main_2',data.about_Main_2)
-                                        localStorage.setItem('Books_api_about_Main_3',data.about_Main_3)
-                                        localStorage.setItem('Books_api_about_Main_4',data.about_Main_4)
-                                        localStorage.setItem('Books_api_about_Main_5',data.about_Main_5)
+                                        localStorage.setItem('Books_api_Chapter_1',data.Chapter_1)
+                                        localStorage.setItem('Books_api_Chapter_2',data.Chapter_2)
+                                        localStorage.setItem('Books_api_Chapter_3',data.Chapter_3)
+                                        localStorage.setItem('Books_api_Chapter_4',data.Chapter_4)
+                                        localStorage.setItem('Books_api_Chapter_5',data.Chapter_5)
+                                        localStorage.setItem('Books_api_Chapter_6',data.Chapter_6)
+                                        localStorage.setItem('Books_api_Chapter_7',data.Chapter_7)
+                                        localStorage.setItem('Books_api_Chapter_Conclusion',data.Chapter_Conclusion)
 
                                         const TMDB_api_ParamsUrl = { 
                                             book_api_id: data.id,
                                             book_api_title: data.title,
-                                            book_api_description: data.description,
+                                            book_api_Chapter_Conclusion: data.Chapter_Conclusion,
                                             book_api_social_on_image: data.social_on_image
                                         }
                                         const queryMusicParams = require('query-string')
@@ -84,7 +87,7 @@ class MessageMain extends Component {
                         
                         <h4>Find Out More About Mission and Evanglisim</h4>
                         <button className='btn btn-warning'>Find Out</button>
-                        <hr className='underline_line'/>
+                        <hr className='underline_line'/> 
                     </div>
                 </section>
                 

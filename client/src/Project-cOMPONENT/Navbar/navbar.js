@@ -82,7 +82,7 @@ class NavbarMain extends Component {
                 </div> 
                 <div className='showText'>
                        <marquee className='marqueeText'>
-                           <p>AD 2023 Have Been Declare as Divine Multiplication</p>
+                           <p>AD 2024 Have Been Declare as Divine Multiplication</p>
                            <p>January 21 Fasting and Thanks Given with Testimony</p>
                            <p>Up Coming Next Mission  Evanglisim </p>
                            <p>The purpose of THE CHRIST MIRACLE CHURCH INT is to enrich and multiply life and hope through disciple-making in the name of Our Lord and Savior Jesus Christ.</p>

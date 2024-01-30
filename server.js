@@ -19,7 +19,7 @@ const app = express()
 
 app.use(cors())
 app.use(bodyParser.json())
-
+ 
 app.use('/users',userRouter)
 
 if(process.env.NODE_ENV === 'production'){
@@ -82,14 +82,14 @@ app.get('/christains_books/:id', function(request, response) {
 
     var qdata = q.query
     
-    const {book_api_title, book_api_description, book_api_social_on_image} = qdata
+    const {book_api_title, book_api_Chapter_Conclusion, book_api_social_on_image} = qdata
 
     console.log(qdata)
 
 
 // replace the special strings with server generated strings
     data = data.replace(/\$OG_TITLE/g,book_api_title);
-    data = data.replace(/\$OG_DESCRIPTION/g,book_api_description);
+    data = data.replace(/\$OG_DESCRIPTION/g,book_api_Chapter_Conclusion);
     result = data.replace(/\$OG_IMAGE/g,book_api_social_on_image);
     response.send(result);
   });

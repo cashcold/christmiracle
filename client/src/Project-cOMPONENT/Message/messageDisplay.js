@@ -50,12 +50,18 @@ class MessageDisplayMain extends Component {
         this.state = { 
             message_api: '',
             Books_api_id: '',
-            Books_api_name: '',
             Books_api_title: '',
-            Books_api_description: '',
-            Books_api_date: '',
-            Books_api_about_Main: '',
-            Books_api_about_Main_2: '',
+            Books_api_name: '',
+            Books_api_name: '',
+            Books_api_Chapter_1: '',
+            Books_api_Chapter_2: '',
+            Books_api_Chapter_3: '',
+            Books_api_Chapter_4: '',
+            Books_api_Chapter_5: '',
+            Books_api_Chapter_6: '',
+            Books_api_Chapter_7: '',
+            Books_api_Chapter_7: '',
+            Books_api_Chapter_Conclusion: '',
             Books_api_social_on_image: '',
          }
     }
@@ -63,13 +69,15 @@ class MessageDisplayMain extends Component {
         const Books_api_id = localStorage.getItem('Books_api_id')
         const Books_api_name = localStorage.getItem('Books_api_name')
         const Books_api_title = localStorage.getItem('Books_api_title')
-        const Books_api_description = localStorage.getItem('Books_api_description')
+        const Books_api_Chapter_1 = localStorage.getItem('Books_api_Chapter_1')
+        const Books_api_Chapter_2 = localStorage.getItem('Books_api_Chapter_2')
+        const Books_api_Chapter_3 = localStorage.getItem('Books_api_Chapter_3')
+        const Books_api_Chapter_4 = localStorage.getItem('Books_api_Chapter_4')
+        const Books_api_Chapter_5 = localStorage.getItem('Books_api_Chapter_5')
+        const Books_api_Chapter_6 = localStorage.getItem('Books_api_Chapter_6')
+        const Books_api_Chapter_7 = localStorage.getItem('Books_api_Chapter_7')
+        const Books_api_Chapter_Conclusion = localStorage.getItem('Books_api_Chapter_Conclusion')
         const Books_api_date = localStorage.getItem('Books_api_date')
-        const Books_api_about_Main_2 = localStorage.getItem('Books_api_about_Main_2')
-        const Books_api_about_Main_3 = localStorage.getItem('Books_api_about_Main_3')
-        const Books_api_about_Main_4 = localStorage.getItem('Books_api_about_Main_4')
-        const Books_api_about_Main_5 = localStorage.getItem('Books_api_about_Main_5')
-        const Books_api_about_Main = localStorage.getItem('Books_api_about_Main')
         const Books_api_social_on_image = localStorage.getItem('Books_api_social_on_image')
 
 
@@ -77,17 +85,22 @@ class MessageDisplayMain extends Component {
             Books_api_id,
             Books_api_name,
             Books_api_title,
-            Books_api_description,
             Books_api_date,
-            Books_api_about_Main,
-            Books_api_about_Main_2,
-            Books_api_about_Main_3,
-            Books_api_about_Main_4,
-            Books_api_about_Main_5,
             Books_api_social_on_image,
+            Books_api_Chapter_1,
+            Books_api_Chapter_2,
+            Books_api_Chapter_3,
+            Books_api_Chapter_4,
+            Books_api_Chapter_5,
+            Books_api_Chapter_6,
+            Books_api_Chapter_7,
+            Books_api_Chapter_Conclusion
         })
     }
     render() { 
+
+        const titleParts = this.state.title ? this.state.title.split('\n\n') : [];
+        
         return ( 
             <div classNam='MessageDisplayMain'>
                    <Helmet>
@@ -103,18 +116,24 @@ class MessageDisplayMain extends Component {
                 </section>
               <section className='messageDisplayNow'>
                     <div className=' newMessageDisplay_box_1'>
-                        <p>By {this.state.Books_api_name}</p>
+                    <p>By {this.state.Books_api_name}</p>
                         <h1 className='book_title_h1'>{this.state.Books_api_title}</h1>
-                        <span><i class="fa fa-clock-o " aria-hidden="true"></i> <span>{moment(this.state.Books_api_date).format('LLLL')}</span></span>
+                        <h1> {titleParts.map((part, index) => (
+                            <h5 key={index} className='about_main_h5'>{part}</h5>
+                        ))}</h1>
+                        <span><i className="fa fa-clock-o " aria-hidden="true"></i> <span>{moment(this.state.Books_api_date).format('LLLL')}</span></span>
                         <img className='Books_api_social_on_image' src={this.state.Books_api_social_on_image}/>
-                        <h5 className='about_main_h5'>{this.state.Books_api_about_Main}</h5>
-                        <h5 className='about_main_h5'>{this.state.Books_api_about_Main_2}</h5>
-                        <h5 className='about_main_h5'>{this.state.Books_api_about_Main_3}</h5>
-                        <h5 className='about_main_h5'>{this.state.Books_api_about_Main_4}</h5>
-                        <h5 className='about_main_h5'>{this.state.Books_api_about_Main_5}</h5>
+                        <h5 className='about_main_h5' dangerouslySetInnerHTML={{ __html: this.state.Books_api_Chapter_1.replace(/\n/g, '<br />') }}></h5>
+                        <h5 className='about_main_h5' dangerouslySetInnerHTML={{ __html: this.state.Books_api_Chapter_2.replace(/\n/g, '<br />') }}></h5>
+                        <h5 className='about_main_h5' dangerouslySetInnerHTML={{ __html: this.state.Books_api_Chapter_3.replace(/\n/g, '<br />') }}></h5>
+                        <h5 className='about_main_h5' dangerouslySetInnerHTML={{ __html: this.state.Books_api_Chapter_4.replace(/\n/g, '<br />') }}></h5>
+                        <h5 className='about_main_h5' dangerouslySetInnerHTML={{ __html: this.state.Books_api_Chapter_5.replace(/\n/g, '<br />') }}></h5>
+                        <h5 className='about_main_h5' dangerouslySetInnerHTML={{ __html: this.state.Books_api_Chapter_6.replace(/\n/g, '<br />') }}></h5>
+                        <h5 className='about_main_h5' dangerouslySetInnerHTML={{ __html: this.state.Books_api_Chapter_7.replace(/\n/g, '<br />') }}></h5>
+                        <h5 className='about_main_h5'>{this.state.Books_api_Chapter_Conclusion.replace(/\\n/g, <br />)}</h5>
                         <div className='social_icons'>
-                            <h3><i class="fa-solid fa-share-nodes"></i> SHARE </h3>
-                            <div className='socail_icon'>
+                        <h3><i class="fa-solid fa-share-nodes"></i> SHARE </h3>
+                        <div className='socail_icon'>
                                     <FacebookShareButton  url={window.location.href}>
                                     <FacebookIcon size={40}  round={true} />
                                 </FacebookShareButton>
