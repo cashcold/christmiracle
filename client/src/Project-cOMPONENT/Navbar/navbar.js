@@ -91,7 +91,7 @@ class NavbarMain extends Component {
                            <p>FRIDAY: PRAYER REVIVAL MEETING, TIME 5:00 PM TO 8:30 PM </p>
                            <p>SUNDAY SERVICE: Comm.9 Breach , TIME 7:30 am TO 11:40 AM</p>
                            <p>SUNDAY SERVICE: Lience Office Breach , TIME 7:30 am TO 11:40 AM</p>
-                           <p>Contact-us 0547695813</p>
+                           <p>Contact-us call</p>
                            <p>Contact-us 0549617777</p>
                            <p>Contact-us 0547300887</p>
                            <p>Join Next Mission Outreach Evanglisim</p>
