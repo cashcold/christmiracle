@@ -210,10 +210,10 @@ class HomeMain extends Component {
                 </section>
                 
                 <section className='fame_money'>
-                    {/* <h3>Ritual For Fame And Money<br/>May God Have Mercy On Us</h3> */}
-                    <div className='RitualvIDEO'>
-                        <video   loop controls src='https://firebasestorage.googleapis.com/v0/b/nextplatformcashcold.appspot.com/o/img_2%2F394022030_614897813944882_9014597489614668116_n.mp4?alt=media&token=9ee68ead-b9a0-40ad-8e17-895bed7f4eb3'/> 
-                    </div>
+                <div className='welcomevIDEO'>
+                <video   loop controls src='https://firebasestorage.googleapis.com/v0/b/nextplatformcashcold.appspot.com/o/img_2%2F394022030_614897813944882_9014597489614668116_n.mp4?alt=media&token=9ee68ead-b9a0-40ad-8e17-895bed7f4eb3'/> 
+                            </div>
+                    
                     
                 </section>
                 <section className='lastBeat'>
