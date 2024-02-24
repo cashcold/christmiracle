@@ -182,7 +182,7 @@ class HomeMain extends Component {
                             </div>
                             <hr/>
                             <div className='otherInfoText'>
-                                <p>If you desire to step out in faith and go above and beyond, to be a part of something more than yourself, and to allow God to use you in mighty ways, then we want to help you take the next steps on your journey. It’s time to connect your passion with God’s plan for redemption. This is God’s best for us. We can equip and support you, helping you find the intersection of your passion and God’s heart.</p>
+                                <p>If you desire to step out in faith and go above and beyond, to be a part of something more than yourself, and to allow God to use you in mighty ways, then we want to help you take the next steps on your journey. It’s time to connect your passion with God’s plan for redemption. This is God’s best for us. We can equip and support you, helping you find the intersection of your passion and God’s heart...</p>
                             </div>
                             <div className='infoWay'>
                                 <div className='wayInfo'>
