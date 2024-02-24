@@ -23,7 +23,7 @@ class SlibebarMain extends Component {
                         <img className="d-block w-100" src={require('../../pic/IMG-20200120-WA0006.jpg')} />
                     </Carousel.Item>
                      <Carousel.Item>
-                        <img className="d-block w-100" src={require('../../pic/New folder (2)/IMG_20210801_092421.jpg')} />
+                        <img className="d-block w-100" src='https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/EVANGELISM%20AND%20MISSION%20AT%20VOLTA%20REGION%20%20AKATSI%20ANYIHEME%20GHANA%2FIMG_20210801_092421.jpg?alt=media&token=9183ca74-8c38-4e3d-a4f6-43430bcfc0d2'/>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src={require('../../pic/Restored/IMG_4870.jpg')} />
