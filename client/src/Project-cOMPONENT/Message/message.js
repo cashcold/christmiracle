@@ -38,7 +38,7 @@ class MessageMain extends Component {
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>  
                                         <i class="fas fa-star"></i> 
                                     </div>
                                     <div className='viewed_tag'>
@@ -74,9 +74,7 @@ class MessageMain extends Component {
                             
                                         const passTMDB_api_Params = queryMusicParams.stringify(TMDB_api_ParamsUrl)
                                         
-                                        window.location =`/christains_books/${data.title}?${passTMDB_api_Params}`
-                                        
-                                        window.location = `/christains_books/${data.head_Text_url}`
+                                        window.location =`/christains_books/${data.head_Text_url}?${passTMDB_api_Params}`
                                     }} className='btn btn-warning btn_readMore' >Read More &#8594;</button>
                                 </div> 
                             ))}

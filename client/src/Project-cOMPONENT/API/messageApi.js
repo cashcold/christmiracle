@@ -3,7 +3,7 @@ import moment from 'moment'
 export const message_api = [
     {
         id: 1,
-        head_Text_url: 'Why-Given-Thanks-Is-Importance-Pastor-Jerry-Sanni',
+        head_Text_url: 'Why Given Thankks Is Importance',
         name: 'The Miraculous Team',
         title: `WHY GIVEN THANKS IS IMPORTANCE\n\n <h3>A Journey into the Heart of Thanksgiving</h3> `,
         Introduction: 'In the vast tapestry of human experience, woven with threads of joy, sorrow, triumph, and challenge, one resplendent color emerges as a beacon of light—the vibrant hue of gratitude. It is a universal language, transcending cultural boundaries, and a harmonious melody that resonates in the deepest chambers of the human spirit. As we stand on the threshold of a transformative journey, let us embark together on an exploration of profound significance: Why is giving thanks so critically important?',
@@ -21,7 +21,7 @@ export const message_api = [
     },
     {
         id: 2,
-        head_Text_url: 'Why-Given-Thanks-Is-Importance-Pastor-Jerry-Sanni',
+        head_Text_url: 'Phinehas: A Tale of Courage and Righteousness',
         name: 'The Miraculous Team',
         title: `Phinehas: A Tale of Courage and Righteousness\n\n <h3>Exploring Number 25:10-11</h3> `,
         Introduction: `The biblical narrative of Phinehas, nestled within the pages of the Old Testament, offers a timeless tale of courage, moral conviction, and the profound impact of individual action. Amidst the backdrop of the Israelites' journey through the wilderness, Phinehas emerges as a singular figure of righteousness, whose unwavering commitment to upholding God's honor serves as a beacon of inspiration for generations to come.The story of Phinehas unfolds against a backdrop of moral decay and spiritual compromise within the Israelite camp. As the people succumb to the allure of idolatry and immorality, Phinehas stands apart as a symbol of moral clarity and unwavering devotion to God's principles. In a world where moral relativism often clouds judgment and dilutes convictions, Phinehas's steadfast commitment to righteousness shines brightly, illuminating the path for all who seek to honor God and uphold what is right.At the heart of Phinehas's story lies an exemplar of courage – the courage to stand against the prevailing tide of sin and corruption, the courage to confront wrongdoing even at great personal risk. Phinehas's decisive action in the face of moral compromise serves as a powerful testament to the transformative power of courage and conviction. His willingness to take a stand for righteousness, regardless of the consequences, challenges readers to examine their own convictions and the depth of their commitment to moral truth.
