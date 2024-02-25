@@ -61,7 +61,7 @@ app.get('/books', function(request, response) {
     
     // replace the special strings with server generated strings
     data = data.replace(/\$OG_TITLE/g, "Journey Through Faith: 📖 Exploring the Pages of 'Hearts Renewed' 🌟");
-    data = data.replace(/\$OG_DESCRIPTION/g, "Dive into the transformative pages of 'Hearts Renewed,' a soul-stirring journey of faith, love, and redemption. 🌟 Immerse yourself in the profound stories that illuminate the path to a renewed heart and a deeper connection with God. Join us on this inspiring literary adventure. 📚💖 #HeartsRenewed #ChristianBooks #FaithJourney #BookLovers");
+    data = data.replace(/\$OG_DESCRIPTION/g, "Dive into the transformative pages of 'Hearts Renewed,' a soul-stirring journey of faith, love, and redemption. 🌟 Immerse yourself in the profound stories that illuminate the path to a renewed heart and a deeper connection with God. Join us on this inspiring literary adventure. 📚✝️💖 #HeartsRenewed #ChristianBooks #FaithJourney #BookLovers");
     result = data.replace(/\$OG_IMAGE/g, 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
     response.send(result);
   });
