@@ -12,21 +12,7 @@ class NavbarMain extends Component {
          }
     }
    componentDidMount(){
-    setTimeout(()=>{
-        toast.success('Master Jesus Welcomes You')
-    },8000)
-    setTimeout(()=>{
-        toast.success('TUEDAY: BIBLE STUDY, TIME 5:00 PM TO 8:00 PM')
-    },14000)
-    setTimeout(()=>{
-        toast.success('FRIDAY: PRAYER REVIVAL MEETING, TIME 5:00 PM TO 8:00 PM')
-    },20000)
-    setTimeout(()=>{
-        toast.success('SUNDAY SERVICE: Comm.9 Breach , TIME 7:30 am TO 11:40 PM')
-    },30000)
-    setTimeout(()=>{
-        toast.success('SUNDAY SERVICE: Lience Office Breach , TIME 7:00 am TO 11:30 PM')
-    },40000)
+
 
     const ToggleBtn = ()=>{
         const btnNow = document.querySelector('.toggleIcon')
@@ -82,18 +68,18 @@ class NavbarMain extends Component {
                 </div> 
                 <div className='showText'>
                        <marquee className='marqueeText'>
-                           <p>AD 2024 Have Been Declare as Divine Multiplication</p>
+                           <p>AD 2024 Have Been Declare as Our Year Of  All Round Divine Blessings </p>
                            <p>January 21 Fasting and Thanks Given with Testimony</p>
                            <p>Up Coming Next Mission  Evanglisim </p>
-                           <p>The purpose of THE CHRIST MIRACLE CHURCH INT is to enrich and multiply life and hope through disciple-making in the name of Our Lord and Savior Jesus Christ.</p>
+                           <p>The purpose of THE CHRIST MIRACLES CHURCH INT is to enrich and multiply life and hope through disciple-making in the name of Our Lord and Savior Jesus Christ.</p>
                            <p>Worhsip with us</p>
                            <p>TUEDAY: BIBLE STUDY, TIME 5:00 PM TO 8:30 PM</p>
-                           <p>FRIDAY: PRAYER REVIVAL MEETING, TIME 5:00 PM TO 8:30 PM </p>
-                           <p>SUNDAY SERVICE: Comm.9 Breach , TIME 7:30 am TO 11:40 AM</p>
-                           <p>SUNDAY SERVICE: Lience Office Breach , TIME 7:30 am TO 11:40 AM</p>
+                           <p>FRIDAY: MIRACLES PRAYER REVIVAL PRAYERS, TIME 5:00 PM TO 8:30 PM </p>
+                           <p>SUNDAY SERVICE: TEMA Comm.9 Breach , TIME 7:30 am TO 12:00 AM</p>
+                           <p>SUNDAY SERVICE: ACCRA Dodowa Breach , TIME 8:30 am TO 12:30 AM</p>
                            <p>Contact-us call</p>
-                           <p>Contact-us 0549617777</p>
-                           <p>Contact-us 0547300887</p>
+                           <p>Contact-us 0554928021</p>
+                           <p>Contact-us 0546398300</p>
                            <p>Join Next Mission Outreach Evanglisim</p>
                            
                        </marquee>

@@ -20,6 +20,9 @@ class SlibebarMain extends Component {
                     </Carousel.Item>
                   
                     <Carousel.Item>
+                        <img className="d-block w-100" src="https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/Others%2FTheChrist2024.jpg?alt=media&token=6257e4dd-6637-4784-b5d4-3e75b4a90228" />
+                    </Carousel.Item>
+                    <Carousel.Item>
                         <img className="d-block w-100" src={require('../../pic/IMG-20200120-WA0006.jpg')} />
                     </Carousel.Item>
                      <Carousel.Item>
@@ -29,32 +32,13 @@ class SlibebarMain extends Component {
                         <img className="d-block w-100" src={require('../../pic/Restored/IMG_4870.jpg')} />
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img className="d-block w-100" src={require('../../pic/Restored/IMG_20210404_125719443.jpg')} />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img className="d-block w-100" src={require('../../pic/Restored/IMG_4698.jpg')} />
-                    </Carousel.Item>
-                    <Carousel.Item>
                         <img className="d-block w-100" src={require('../../pic/the-word-of-god-1-638.jpg')} />
                         <Carousel.Caption>
                         <h3>WE BELIVE ONLY THE WORD OF GOD</h3>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item>
-                        <img className="d-block w-100" src={require('../../pic/IMG_20200926_124849.jpg')} />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img className="d-block w-100" src={require('../../pic/Restored/IMG_20210328_085248569.jpg')} />
-                    </Carousel.Item>
-                    <Carousel.Item>
+                   <Carousel.Item>
                         <img className="d-block w-100" src={require('../../pic/Restored/IMG_4665.jpg')} />
-                    </Carousel.Item>
-                    
-                    <Carousel.Item>
-                        <img className="d-block w-100" src={require('../../pic/IMG_20200926_083105.jpg')} />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img className="d-block w-100" src={require('../../pic/Restored/IMG_20210328_115927765.jpg')} />
                     </Carousel.Item>
                 </Carousel>
             </section>

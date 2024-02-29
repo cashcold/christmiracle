@@ -22,9 +22,8 @@ class ContactMain extends Component {
                                 <div className='supportInfo'>
                                     <img src={require('../../pic/telephone.png')}  className='blink_me'/>
                                     <h4 className='blink_me'>PHONE NUMBER </h4>
-                                    <p>0547695813</p>
-                                    <p>0257531177</p>
-                                    <p>0547300887</p>
+                                    <p>0554928021</p>
+                                    <p>0546398300</p>
                                 </div>
                             </div>
                             <div className='bothMenu bothMenuCount3'>

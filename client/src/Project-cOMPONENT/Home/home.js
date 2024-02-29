@@ -16,6 +16,23 @@ class HomeMain extends Component {
         this.state = {  }
     }
     componentDidMount(){
+        
+        setTimeout(()=>{
+            toast.success('Master Jesus Welcomes You')
+        },8000)
+        setTimeout(()=>{
+            toast.success('TUEDAY: BIBLE STUDY, TIME 5:00 PM TO 8:00 PM')
+        },14000)
+        setTimeout(()=>{
+            toast.success('FRIDAY: PRAYER REVIVAL MEETING, TIME 5:00 PM TO 8:00 PM')
+        },20000)
+        setTimeout(()=>{
+            toast.success('SUNDAY SERVICE: Comm.9 Breach , TIME 7:30 am TO 11:40 PM')
+        },30000)
+        setTimeout(()=>{
+            toast.success('SUNDAY SERVICE: Lience Office Breach , TIME 7:00 am TO 11:30 PM')
+        },40000)
+
         const NotSure = ()=>{
             const wayImg2 = document.querySelector('.wayImg2')
             wayImg2.addEventListener('click',()=>{
@@ -217,6 +234,11 @@ class HomeMain extends Component {
                     
                 </section>
                 <section className='lastBeat'>
+                     <div className='finalMsg'>
+                        <div className='lastMsg'>
+                            <img src='https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/Others%2FTheChrist2024.jpg?alt=media&token=6257e4dd-6637-4784-b5d4-3e75b4a90228'/>
+                        </div>
+                    </div>
                      <div className='finalMsg'>
                         <div className='lastMsg'>
                             <img src={require('../../pic/IMG-20200120-WA0006.jpg')}/>
