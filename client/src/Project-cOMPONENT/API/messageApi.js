@@ -17,7 +17,7 @@ export const message_api = [
         Chapter_Conclusion: `<strong>As our journey of exploration and revelation comes to a close</strong>\n\n we gather the threads of insight and experience that have woven through the chapters. The conclusion serves as a synthesis of our discoveries—a reflection on the transformative importance of giving thanks. We revisit key points, acknowledging the impact of thanksgiving on our well-being, relationships, faith, and the collective tapestry of human experience.`,
         date:  moment('2024-01-01T07:30:00.000Z').format('LLLL'),
         eye_seen: '847.9k',
-        social_on_image: `https://firebasestorage.googleapis.com/v0/b/nextplatform77-79102.appspot.com/o/nextplatform_img_2%2FapostleJerrySanni_why_thanks_is_importance.png?alt=media&token=62b0ac71-c49e-4907-af2c-15b5dc5a5349`,
+        social_on_image: `https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/others_Main%2FchristImg.jpg?alt=media&token=17934020-593d-4122-84a7-841f282c3202`,
     },
     {
         id: 2,
@@ -39,7 +39,7 @@ export const message_api = [
         `,
         date:  moment('2024-01-01T07:30:00.000Z').format('LLLL'),
         eye_seen: '987.9k',
-        social_on_image: `https://firebasestorage.googleapis.com/v0/b/nextplatform77-79102.appspot.com/o/nextplatform_img_2%2FapostleJerrySanni_why_thanks_is_importance.png?alt=media&token=62b0ac71-c49e-4907-af2c-15b5dc5a5349`,
+        social_on_image: `https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/others_Main%2FchristImg.jpg?alt=media&token=17934020-593d-4122-84a7-841f282c3202`,
     },
    
  
