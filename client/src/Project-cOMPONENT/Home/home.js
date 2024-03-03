@@ -10,15 +10,23 @@ import Carousel from 'react-bootstrap-carousel'
 import './style.css'
 import SlibebarMain from '../Slibebar/slibebar';
 import Dressing from '../Slibebar/dressing';
+import WelcomePopup from './WelcomePopup';
 class HomeMain extends Component {
     constructor(props) {
         super(props);
-        this.state = {  }
+        this.state = { 
+            showWelcomePopup: false,
+         }
     }
     componentDidMount(){
+   
+         setTimeout(() => {
+            this.setState({ showWelcomePopup: true });
+        }, 8000);
         
         setTimeout(()=>{
             toast.success('Master Jesus Welcomes You')
+           
         },8000)
         setTimeout(()=>{
             toast.success('TUEDAY: BIBLE STUDY, TIME 5:00 PM TO 8:00 PM')
@@ -30,7 +38,7 @@ class HomeMain extends Component {
             toast.success('SUNDAY SERVICE: Comm.9 Breach , TIME 7:30 am TO 11:40 PM')
         },30000)
         setTimeout(()=>{
-            toast.success('SUNDAY SERVICE: Lience Office Breach , TIME 7:00 am TO 11:30 PM')
+            toast.success('SUNDAY SERVICE: TEMA Comm.9 Breach , TIME 7:30 am TO 12:00 AM')
         },40000)
 
         const NotSure = ()=>{
@@ -85,9 +93,13 @@ class HomeMain extends Component {
             if(textArray.length) setTimeout(type, newTextDelay + 250);
             });
         }
-    Typing()
+       Typing()
     }
+
+   
     render() { 
+        const { showWelcomePopup } = this.state;
+
         return ( 
             <div className='mainHome'>
                 <h1 className='welcomeTitle'>MISSION AND EVANLISM</h1>
@@ -260,6 +272,7 @@ class HomeMain extends Component {
                         </div>
                     </div>
                 </section>
+                  {showWelcomePopup && <WelcomePopup onClose={() => this.setState({ showWelcomePopup: false })} />}
             </div>
          );
     }
