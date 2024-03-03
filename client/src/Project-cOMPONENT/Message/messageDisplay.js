@@ -132,6 +132,7 @@ class MessageDisplayMain extends Component {
                         <h5 className='about_main_h5' dangerouslySetInnerHTML={{ __html: this.state.Books_api_Chapter_6.replace(/\n/g, '<br />') }}></h5>
                         <h5 className='about_main_h5' dangerouslySetInnerHTML={{ __html: this.state.Books_api_Chapter_7.replace(/\n/g, '<br />') }}></h5>
                         <h5 className='about_main_h5' dangerouslySetInnerHTML={{ __html: this.state.Books_api_Chapter_Conclusion.replace(/\n/g, '<br />') }}></h5>
+
                         {/* <h5 className='about_main_h5'>{this.state.Books_api_Chapter_Conclusion.replace(/\\n/g, <br />)}</h5> */}
                         <div className='social_icons'>
                         <h3><i class="fa-solid fa-share-nodes"></i> SHARE </h3>
@@ -193,7 +194,17 @@ class MessageDisplayMain extends Component {
                                 </EmailShareButton>
                             </div>
                         </div>
+
+                        
+                        <div className='advt__main'>
+
+                        <img className='advt_img' src="https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/Others%2F1.jpg?alt=media&token=6a5e816b-3ad1-4292-b624-83a781135c85"/>  
+
+                        <img className='advt_img' src="https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/Others%2F2.jpg?alt=media&token=2c3ae8a3-b43a-483e-b49a-d8bcc72b9e82"/>   
+
+                        </div>
                     </div>
+                    
                     <div className='newMessage newMessageDisplay_box_2'>
                         
                         <h4>Other Christains Books Written By Christ Miracle Church Leaders</h4>

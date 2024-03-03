@@ -49,7 +49,7 @@ class NavbarMain extends Component {
                            <h4 className=''><span>T</span>HE <span>C</span>HRIST <span>M</span>IRACLE <span>C</span>HURCH <span>I</span>NTERNATIONAL <br/> <span>A</span>KA  <br/> <span>C</span>HRIST <span>S</span>TANDARD</h4>
                          </div>
                         <div className='toggleIcon animate__animated animate__slower animate__zoomInDown'>
-                            <img className='menu__bar' src={require('../../pic/menu.svg')}/>
+                            <img className='menu__bar' src="https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/Others%2F6507107.webp?alt=media&token=f83f1338-af79-4f51-9ecf-ba5db61f47e2"/>    
                         </div>
                    </header>
                     <nav className='nav-links animate__animated animate__bounceInLeft animate__slower'>

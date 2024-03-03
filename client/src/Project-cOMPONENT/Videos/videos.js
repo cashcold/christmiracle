@@ -8,7 +8,7 @@ class VideosMain extends Component {
     render() { 
         return ( 
             <div className='mainVideos'>
-                 <section className='video_Now'> 
+                 <section className='video_Now'>  
                     <div className='video_page_1  iframe-container'>
                         <h2>Who is God</h2>
                         <iframe src="https://www.youtube.com/embed/eAvYmE2YYIU?vq=hd1080&autoplay=1&rel=0" width="560" height="315" frameborder="0"></iframe>

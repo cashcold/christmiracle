@@ -58,7 +58,7 @@ class FooterMain extends React.Component{
                             <li><a href='/audio'>AUDIO</a></li>
                             <li><a href='/contact'>CONTACT-US</a></li>
                             <li><a href='/pictures'>PICTURES</a></li>
-                            <li><a href='/https://chat.whatsapp.com/KFQDuv2Ys4b9ylAsAufaro'><i class="fab fa-whatsapp "></i></a></li>
+                            <li><a href='/https://chat.whatsapp.com/KrglPK7cnSx0NoDHharKe7'><i class="fab fa-whatsapp "></i></a></li>
                              </ul>
                         </div>
                     </div>
