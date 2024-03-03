@@ -33,3 +33,19 @@
 .welcome-popup img{
     width: 50%;
 }
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .welcome-popup {
+        padding: 15px; /* Decrease padding for smaller screens */
+        width: 95%; /* Adjust maximum width for smaller screens */
+    }
+
+    .welcome-popup h2 {
+        font-size: 20px; /* Decrease font size for smaller screens */
+    }
+
+    .welcome-popup p {
+        font-size: 14px; /* Decrease font size for smaller screens */
+    }
+}

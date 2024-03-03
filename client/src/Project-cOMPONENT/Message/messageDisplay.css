@@ -58,7 +58,7 @@
 }
 
 
-@media screen and ( max-width: 500px){
+@media screen and ( max-width: 480px){
     .messageDisplayNow{
         width: 100%;
         min-height: 100vh;
@@ -70,5 +70,17 @@
         'newMessageDisplay_box_1 '
         'newMessageDisplay_box_2 '
         ;
+    }
+    .welcome-popup {
+        padding: 10px; /* Decrease padding for smaller screens */
+        max-width: 80%; /* Adjust maximum width for smaller screens */
+    }
+
+    .welcome-popup h2 {
+        font-size: 16px; /* Decrease font size for smaller screens */
+    }
+
+    .welcome-popup p {
+        font-size: 12px; /* Decrease font size for smaller screens */
     }
 }
