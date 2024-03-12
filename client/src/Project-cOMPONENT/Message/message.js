@@ -66,15 +66,18 @@ class MessageMain extends Component {
 
                                         const TMDB_api_ParamsUrl = { 
                                             book_api_id: data.id,
-                                            book_api_title: data.title,
-                                            book_api_Chapter_Conclusion: data.Chapter_Conclusion,
+                                            head_Text_url: data.head_Text_url,
+                                            Chapter_Info: data.Chapter_Info,
                                             book_api_social_on_image: data.social_on_image
                                         }
                                         const queryMusicParams = require('query-string')
                             
                                         const passTMDB_api_Params = queryMusicParams.stringify(TMDB_api_ParamsUrl)
-                                        
+
                                         window.location =`/christains_books/${data.head_Text_url}?${passTMDB_api_Params}`
+
+
+
                                     }} className='btn btn-warning btn_readMore' >Read More &#8594;</button>
                                 </div> 
                             ))}

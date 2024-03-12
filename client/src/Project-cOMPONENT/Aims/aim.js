@@ -54,7 +54,6 @@ class AimMain extends Component {
                                 <p><img src={require('../../pic/black-circle.png')}/><span className='stateSpace'></span>in the resurrection of Jesus Christ and in the resurrection of all who believe in Him to life eternal.</p>
                                 <p><img src={require('../../pic/black-circle.png')}/><span className='stateSpace'></span>in Jesus Christ’s personal return in power and glory.</p>
                                 <p><img src={require('../../pic/black-circle.png')}/><span className='stateSpace'></span>in the absolute authority of the Bible.</p>
-                                <p><img src={require('../../pic/black-circle.png')}/><span className='stateSpace'></span>in the absolute authority of the Bible.</p>
                                 <p><img src={require('../../pic/black-circle.png')}/><span className='stateSpace'></span>That both Old and New Testaments constitute the divinely inspired Word of God, inerrant in the
                                 originals, and the final authority for life and truth.</p>
                                 <p><img src={require('../../pic/black-circle.png')}/><span className='stateSpace'></span>That there is one God, eternally existent in the Holy Trinity of Father, Son, and Holy Spirit, each with

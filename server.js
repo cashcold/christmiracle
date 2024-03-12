@@ -77,14 +77,14 @@ app.get('/christains_books/:id', function(request, response) {
 
     var qdata = q.query
     
-    const {book_api_title, book_api_Chapter_Conclusion, book_api_social_on_image} = qdata
+    const {head_Text_url, Chapter_Info, book_api_social_on_image} = qdata
 
     console.log(qdata)
 
 
 // replace the special strings with server generated strings
-    data = data.replace(/\$OG_TITLE/g,book_api_title);
-    data = data.replace(/\$OG_DESCRIPTION/g,book_api_Chapter_Conclusion);
+    data = data.replace(/\$OG_TITLE/g,head_Text_url);
+    data = data.replace(/\$OG_DESCRIPTION/g,Chapter_Info);
     result = data.replace(/\$OG_IMAGE/g,book_api_social_on_image);
     response.send(result);
   });
