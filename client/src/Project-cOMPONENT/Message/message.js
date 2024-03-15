@@ -65,7 +65,6 @@ class MessageMain extends Component {
                                         localStorage.setItem('Books_api_Chapter_Conclusion',data.Chapter_Conclusion)
 
                                         const TMDB_api_ParamsUrl = { 
-                                            book_api_id: data.id,
                                             head_Text_url: data.head_Text_url,
                                             Chapter_Info: data.Chapter_Info,
                                             book_api_social_on_image: data.social_on_image
@@ -74,7 +73,7 @@ class MessageMain extends Component {
                             
                                         const passTMDB_api_Params = queryMusicParams.stringify(TMDB_api_ParamsUrl)
 
-                                        window.location =`/christains_books/${data.head_Text_url}?${passTMDB_api_Params}`
+                                        window.location =`/christains_books/${data.id}?${passTMDB_api_Params}`
 
 
 
