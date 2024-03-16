@@ -74,8 +74,8 @@ class NavbarMain extends Component {
                            <p>Up Coming Next Mission  Evanglisim </p>
                            <p>The purpose of THE CHRIST MIRACLES CHURCH INT is to enrich and multiply life and hope through disciple-making in the name of Our Lord and Savior Jesus Christ.</p>
                            <p>Worhsip with us</p>
-                           <p>TUEDAY: BIBLE STUDY, TIME 5:00 PM TO 9:30 PM</p>
-                           <p>FRIDAY: MIRACLES REVIVALS PRAYERS , TIME 5:00 PM TO 8:0 PM </p>
+                           <p>TUEDAY: BIBLE STUDY, TIME 5:30 PM TO 9:00 PM</p>
+                           <p>FRIDAY: MIRACLES REVIVALS PRAYERS , TIME 5:30 PM TO 9:00 PM </p>
                            <p>SUNDAY SERVICE: TEMA Comm.9 Breach , TIME 7:30 am TO 12:00 PM</p>
                            <p>SUNDAY SERVICE: ACCRA Dodowa Breach , TIME 8:30 am TO 12:30 PM</p>
                            <p>Contact-us call</p>
