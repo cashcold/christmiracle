@@ -76,8 +76,8 @@ class NavbarMain extends Component {
                            <p>Worhsip with us</p>
                            <p>TUEDAY: BIBLE STUDY, TIME 5:30 PM TO 9:00 PM</p>
                            <p>FRIDAY: MIRACLES REVIVALS PRAYERS , TIME 5:30 PM TO 9:00 PM </p>
-                           <p>SUNDAY SERVICE: TEMA Comm.9 Breach , TIME 7:30 am TO 12:00 PM</p>
-                           <p>SUNDAY SERVICE: ACCRA Dodowa Breach , TIME 8:30 am TO 12:30 PM</p>
+                           <p>SUNDAY SERVICE: TEMA Comm.9 Branch , TIME 7:30 am TO 12:00 PM</p>
+                           <p>SUNDAY SERVICE: ACCRA Dodowa Branch , TIME 8:30 am TO 12:30 PM</p>
                            <p>Contact-us call</p>
                            <p>Contact-us 0554928021</p>
                            <p>Contact-us 0546398300</p>
