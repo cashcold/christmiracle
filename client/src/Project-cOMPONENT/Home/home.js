@@ -32,7 +32,7 @@ class HomeMain extends Component {
             toast.success('TUEDAY: BIBLE STUDY, TIME 5:30 PM TO 9:00 PM')
         },14000)
         setTimeout(()=>{
-            toast.success('FRIDAY: PRAYER REVIVAL MEETING, TIME 5:30 PM TO 9:00 PM')
+            toast.success('FRIDAY: MIRACLES REVIVAL PRAYERS , TIME 5:30 PM TO 9:00 PM')
         },20000)
         setTimeout(()=>{
             toast.success('SUNDAY SERVICE: TEMA Comm.9 Breach , TIME 7:30 am TO 12:00 PM')
