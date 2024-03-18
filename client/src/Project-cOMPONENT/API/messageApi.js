@@ -3,9 +3,9 @@ import moment from 'moment'
 export const message_api = [
     {
         id: 1,
-        head_Text_url: 'Why-Given-Thanks-Is-Importance',
+        head_Text_url: 'Why-Given-Thanks-Is-Important',
         name: 'The Miraculous Team',
-        title: `WHY GIVEN THANKS IS IMPORTANCE\n\n <h3>A Journey into the Heart of Thanksgiving</h3> `,
+        title: `WHY GIVING THANKS IS IMPORTANT\n\n <h3>A Journey into the Heart of Thanksgiving</h3> `,
         Introduction: 'In the vast tapestry of human experience, woven with threads of joy, sorrow, triumph, and challenge, one resplendent color emerges as a beacon of light—the vibrant hue of gratitude. It is a universal language, transcending cultural boundaries, and a harmonious melody that resonates in the deepest chambers of the human spirit. As we stand on the threshold of a transformative journey, let us embark together on an exploration of profound significance: Why is giving thanks so critically important?',
         Chapter_1: `<strong>The Power of Thank fulness</strong>\n\n Our journey unfolds with a foundational chapter that delves into the extraordinary power of thankfulness. Gratitude is not a mere social nicety; it is a formidable force capable of reshaping our perspectives and elevating the very essence of our existence. In the sacred pages of ancient wisdom and timeless teachings, we discover the intrinsic value of a thankful heart. Through narratives that echo through the corridors of history, we witness the profound shifts brought about by the seemingly simple act of giving thanks.At its core, gratitude is a transformative energy—a force that redirects our focus from what is lacking to the abundance that surrounds us. The tales of individuals who have journeyed through life with hearts aglow with thanksgiving serve as guideposts on this initial leg of our expedition. Their stories illuminate the path towards understanding the power of thankfulness, an understanding that has the potential to reshape our lives.`,
         Chapter_2: `<strong>The Impact on Well-Being</strong>\n\n As we move forward, our journey ventures into the expansive landscapes of well-being. The positive effects of expressing thanks extend far beyond polite gestures; they intricately influence our mental and physical states. This chapter serves as a comprehensive exploration, unwrapping the layers of the intricate relationship between gratitude and a life saturated with joy, fulfillment, and resilience.Scientific insights become our compass, navigating us through the empirical evidence supporting the profound impact of thanksgiving on overall well-being. We peer into studies and research that reveal the neurological and psychological benefits of cultivating a thankful heart. The correlation between gratitude and a flourishing life emerges as a theme, inviting us to contemplate the ways in which the simple act of giving thanks can be a catalyst for transformation.`,
@@ -18,7 +18,7 @@ export const message_api = [
         Chapter_Info: `As-our-journey-of-exploration-and-revelation-comes-to-a-close-we-gather-the-threads-of-insight-and-experience-that-have-woven-through-the-chapters.`,
         date:  moment('2024-01-01T07:30:00.000Z').format('LLLL'),
         eye_seen: '847.9k',
-        social_on_image: `https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/others_Main%2FchristImg.jpg?alt=media&token=17934020-593d-4122-84a7-841f282c3202`,
+        social_on_image: `https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/images%2FWhy-Given-Thanks-Is-Important.jpg?alt=media&token=c0de8daf-9bc7-4ea2-93aa-24c57b538e11`,
     },
     {
         id: 2,
@@ -42,7 +42,7 @@ export const message_api = [
         `,
         date:  moment('2024-01-01T07:30:00.000Z').format('LLLL'),
         eye_seen: '987.9k',
-        social_on_image: `https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/others_Main%2FchristImg.jpg?alt=media&token=17934020-593d-4122-84a7-841f282c3202`,
+        social_on_image: `https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/images%2FPhinehas-A-Tale-of-Courage-and-Righteousness.jpg?alt=media&token=3b094311-b6eb-47b0-8c97-2007bb09cf7b`,
     },
    
  
