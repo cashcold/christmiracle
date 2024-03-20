@@ -14,6 +14,21 @@ import SlibebarMain from './Project-cOMPONENT/Slibebar/slibebar';
 import OtherPicture from './Project-cOMPONENT/otherPicture/otherPicture';
 import VideosMain from './Project-cOMPONENT/Videos/videos';
 import MessageDisplayMain from './Project-cOMPONENT/Message/messageDisplay';
+import { initializeApp } from "firebase/app";
+import { getMessaging, onMessage } from "firebase/messaging";
+
+
+
+const firebaseConfig = {
+    apiKey: "AIzaSyCm0p0CsIAdB3tpwVmND6zF5o-ptdovKLI",
+    authDomain: "the-christ-miracles-church.firebaseapp.com",
+    projectId: "the-christ-miracles-church",
+    storageBucket: "the-christ-miracles-church.appspot.com",
+    messagingSenderId: "500835849232",
+    appId: "1:500835849232:web:87e3662a1f34faf5d56695"
+  };
+
+
 class MainApp extends Component {
     constructor(props) {
         super(props);
@@ -21,6 +36,32 @@ class MainApp extends Component {
 
          }
     }
+
+    componentDidMount() {
+        // Initialize Firebase app
+        const app = initializeApp(firebaseConfig);
+        // Get Firebase messaging object
+        const messaging = getMessaging(app);
+    
+        // Handle incoming messages
+        onMessage(messaging, (payload) => {
+          console.log('Message received. Payload:', payload);
+          // Display the notification to the user
+          const { notification } = payload;
+          if (notification) {
+            new Notification(notification.title, { body: notification.body });
+          }
+        });
+    
+        // Request permission for notifications
+        Notification.requestPermission().then((permission) => {
+          if (permission === 'granted') {
+            console.log('Notification permission granted.');
+          } else {
+            console.log('Unable to get permission to notify.');
+          }
+        });
+      }
     render() { 
         return ( 
             <Router>
