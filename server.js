@@ -85,7 +85,8 @@ app.get('/christains_books/:id', function(request, response) {
 // replace the special strings with server generated strings
     data = data.replace(/\$OG_TITLE/g,head_Text_url);
     data = data.replace(/\$OG_DESCRIPTION/g,Chapter_Info);
-    result = data.replace(/\$OG_IMAGE/g,book_api_social_on_image);
+    result = data.replace(/\$OG_IMAGE/g,"https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/images%2FPhinehas-A-Tale-of-Courage-and-Righteousness.jpg?alt=media&token=3b094311-b6eb-47b0-8c97-2007bb09cf7b");
+    // result = data.replace(/\$OG_IMAGE/g,book_api_social_on_image);
     response.send(result);
   });
 
