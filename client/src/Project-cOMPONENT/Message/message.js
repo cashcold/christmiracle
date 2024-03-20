@@ -53,7 +53,7 @@ class MessageMain extends Component {
                                         localStorage.setItem('Books_api_name',data.name)
                                         localStorage.setItem('Books_api_title',data.title)
                                         localStorage.setItem('Books_api_Introduction',data.Introduction)
-                                        localStorage.setItem('Books_api_social_on_image',data.social_on_image)
+                                        localStorage.setItem('social_on_image',data.social_on_image)
                                         localStorage.setItem('Books_api_date',data.date)
                                         localStorage.setItem('Books_api_Chapter_1',data.Chapter_1)
                                         localStorage.setItem('Books_api_Chapter_2',data.Chapter_2)
@@ -67,7 +67,7 @@ class MessageMain extends Component {
                                         const TMDB_api_ParamsUrl = { 
                                             head_Text_url: data.head_Text_url,
                                             Chapter_Info: data.Chapter_Info,
-                                            book_api_social_on_image: data.social_on_image
+                                            social_on_image: data.social_on_image
                                         }
                                         const queryMusicParams = require('query-string')
                             
