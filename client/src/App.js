@@ -14,8 +14,6 @@ import SlibebarMain from './Project-cOMPONENT/Slibebar/slibebar';
 import OtherPicture from './Project-cOMPONENT/otherPicture/otherPicture';
 import VideosMain from './Project-cOMPONENT/Videos/videos';
 import MessageDisplayMain from './Project-cOMPONENT/Message/messageDisplay';
-import firebase from 'firebase/app';
-import 'firebase/messaging';
 
 
 class MainApp extends Component {
@@ -25,15 +23,7 @@ class MainApp extends Component {
   }
 
   componentDidMount() {
-    const firebaseConfig = {
-      apiKey: "AIzaSyCm0p0CsIAdB3tpwVmND6zF5o-ptdovKLI",
-      authDomain: "the-christ-miracles-church.firebaseapp.com",
-      projectId: "the-christ-miracles-church",
-      storageBucket: "the-christ-miracles-church.appspot.com",
-      messagingSenderId: "500835849232",
-      appId: "1:500835849232:web:87e3662a1f34faf5d56695"
-    };
-    
+ 
     
  
   }
