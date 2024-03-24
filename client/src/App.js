@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css'
+import './client'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import NavbarMain from './Project-cOMPONENT/Navbar/navbar';
 import HomeMain from './Project-cOMPONENT/Home/home';
@@ -14,17 +15,6 @@ import SlibebarMain from './Project-cOMPONENT/Slibebar/slibebar';
 import OtherPicture from './Project-cOMPONENT/otherPicture/otherPicture';
 import VideosMain from './Project-cOMPONENT/Videos/videos';
 import MessageDisplayMain from './Project-cOMPONENT/Message/messageDisplay';
-import { initializeApp } from "firebase/app";
-import { getMessaging, onMessage, getToken } from "firebase/messaging";
-
-const firebaseConfig = {
-  apiKey: "AIzaSyCm0p0CsIAdB3tpwVmND6zF5o-ptdovKLI",
-  authDomain: "the-christ-miracles-church.firebaseapp.com",
-  projectId: "the-christ-miracles-church",
-  storageBucket: "the-christ-miracles-church.appspot.com",
-  messagingSenderId: "500835849232",
-  appId: "1:500835849232:web:87e3662a1f34faf5d56695"
-};
 
 
 class MainApp extends Component {
@@ -34,39 +24,7 @@ class MainApp extends Component {
   }
 
   componentDidMount() {
-    // Initialize Firebase app
-    const app = initializeApp(firebaseConfig);
-    // Get Firebase messaging object
-    const messaging = getMessaging(app);
 
-    // Handle incoming messages
-    onMessage(messaging, (payload) => {
-      console.log('Message received. Payload:', payload);
-      // Display the notification to the user
-      const { notification } = payload;
-      if (notification) {
-        new Notification(notification.title, { body: notification.body });
-      }
-    });
-
-    // Request permission for notifications
-    Notification.requestPermission().then((permission) => {
-      if (permission === 'granted') {
-        console.log('Notification permission granted.');
-        // Get FCM token
-        getToken(messaging, { vapidKey: 'BJVh6ErHGHwRrE6ow029X5hU3IZpxEtezXhMd40HxxScr_CAs-vDa81jeca5VgZ-RVoEEmse3LQ9MbCn7grx0_s' }).then((currentToken) => {
-          if (currentToken) {
-            console.log('FCM token:', currentToken);
-          } else {
-            console.log('No registration token available.');
-          }
-        }).catch((err) => {
-          console.log('An error occurred while retrieving token:', err);
-        });
-      } else {
-        console.log('Unable to get permission to notify.');
-      }
-    });
   }
 
   render() {

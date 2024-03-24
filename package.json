@@ -51,6 +51,7 @@
     "query-string": "^7.1.1",
     "react-photo-album": "^2.0.0",
     "ts-loader": "^8.4.0",
+    "web-push": "^3.6.7",
     "webpack": "^4.41.2",
     "webpack-cli": "^4.9.2",
     "webpack-node-externals": "^3.0.0"

@@ -143,6 +143,7 @@
 .wayImg img{
     width: 100%;
 }
+
 .wayImg h3,.readyInfo,.master h1{
     color: white;
     font-weight: bolder;
@@ -245,6 +246,11 @@ section{
   }
 
 .billboard img{
+    width: 100%;
+    margin: 2.5em 0em;
+}
+
+.socialStream img{
     width: 100%;
     margin: 2.5em 0em;
 }

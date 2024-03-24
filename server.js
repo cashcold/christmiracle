@@ -1,4 +1,5 @@
 const express = require('express')
+const webpush = require("web-push");
 const cors = require('cors')
 const dotEnv = require('dotenv')
 const bodyParser = require('body-parser')
@@ -19,9 +20,36 @@ const app = express()
 
 app.use(cors())
 app.use(bodyParser.json())
-// app.use(express.static(path.join(__dirname, 'client', 'build')));
- 
 app.use('/users',userRouter)
+
+
+// app.use(express.static(path.join(__dirname, 'client', 'build')));
+const publicVapidKey =
+  "BMESG41bsR0sb2wCGVefwrpozSBoT1TQWoq4iqOvuifmDvXJxWL4gBqgLzXyNHrfKB6Odv4NFZg381APFDV5VwY";
+const privateVapidKey = "b5krQRhwejbVCGIEYEG-3vNvj0bfTDhavanNpkwKJhs";
+ 
+webpush.setVapidDetails(
+  "mailto:test@test.com",
+  publicVapidKey,
+  privateVapidKey
+);
+
+
+app.post("/subscribe", (req, res) => {
+  // Get pushSubscription object
+  const subscription = req.body;
+
+  // Send 201 - resource created
+  res.status(201).json({});
+
+  // Create payload
+  const payload = JSON.stringify({ title: "Push Test" });
+
+  // Pass object into sendNotification
+  webpush
+    .sendNotification(subscription, payload)
+    .catch(err => console.error(err));
+});
 
 
 

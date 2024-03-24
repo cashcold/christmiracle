@@ -203,7 +203,10 @@ class HomeMain extends Component {
                 <section className='billboard'>
                     <a href='https://firebasestorage.googleapis.com/v0/b/nextplatform77-79102.appspot.com/o/nextplatform_img_2%2FTheChristMiracleChruch.png?alt=media&token=636c46b3-5e67-455c-a94b-531b5fa9ced9'> <img src='https://firebasestorage.googleapis.com/v0/b/nextplatform77-79102.appspot.com/o/nextplatform_img_2%2FTheChristMiracleChruch.png?alt=media&token=636c46b3-5e67-455c-a94b-531b5fa9ced9'/></a>
                    
-                </section>  
+                </section> 
+                <section className='socialStream'>
+                <img className="d-block w-100" src='https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/Others%2Fthechrist.jpg?alt=media&token=8fef5ae3-37b8-493a-996f-c1e4e01b1ed1'/>
+                </section> 
                 <div className='otherInfo'>
                         <div className='infoReady'>
                             <div className='readyInfo'>
