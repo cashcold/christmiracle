@@ -52,13 +52,14 @@ class FooterMain extends React.Component{
                                 <h1>Quick Links</h1>
                             <ul className='footerLinks'>
                             <li><a href='/'>HOME</a></li>
-                            <li><a href='/aim'>AIM</a></li>
-                            <li><a href='/mission'>MISSION</a></li>
-                            <li><a href='/message'>MESSAGE</a></li>
-                            <li><a href='/audio'>AUDIO</a></li>
+                            <li><a href='/aim'>OUR AIMS</a></li>
+                            <li><a href='/mission'>MISSIONS</a></li>
+                            <li><a href='/books'>BOOKS</a></li>
+                            <li><a href='/audio'>AUDIOS</a></li>
+                            <li><a href='/videos'>VIDEOS</a></li>
+                            <li><a href='/mission_pictures'>MISSION PICTURES</a></li>
                             <li><a href='/contact'>CONTACT-US</a></li>
-                            <li><a href='/pictures'>PICTURES</a></li>
-                            <li><a href='/https://chat.whatsapp.com/KrglPK7cnSx0NoDHharKe7'><i class="fab fa-whatsapp "></i></a></li>
+                            <li><a href='https://chat.whatsapp.com/KrglPK7cnSx0NoDHharKe7'><i class="fab fa-whatsapp "></i></a></li>
                              </ul>
                         </div>
                     </div>

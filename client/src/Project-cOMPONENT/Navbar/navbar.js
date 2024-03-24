@@ -38,7 +38,7 @@ class NavbarMain extends Component {
     render() { 
         return ( 
             <div className='mainNavbar '>
-                <div className='main-nav'>
+                <div className='main-nav'> 
                     <div className='mobileLogo'>
                     <img src={require('../../pic/christImg.jpg')}/>
                     </div>
