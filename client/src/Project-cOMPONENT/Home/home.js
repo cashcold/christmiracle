@@ -40,6 +40,13 @@ class HomeMain extends Component {
         setTimeout(()=>{
             toast.success('SUNDAY SERVICE: ACCRA Dodowa Branch , TIME 8:30 am TO 12:30 PM')
         },40000)
+        setTimeout(()=>{
+            toast.success(
+                <div className='incoming_msg'>
+                <img className="d-block w-100" src='https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/Others%2Fthemiraclesprayers.jpg?alt=media&token=af347c7e-6069-4606-beb3-1d746b310cfb'/>
+            </div>
+            )
+        },60000)
 
         const NotSure = ()=>{
             const wayImg2 = document.querySelector('.wayImg2')
@@ -278,6 +285,12 @@ We look forward to seeing you online! 🌐</p>
                      <div className='finalMsg'>
                         <div className='lastMsg'>
                             <img src='https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/Others%2FTheChrist2024.jpg?alt=media&token=6257e4dd-6637-4784-b5d4-3e75b4a90228'/>
+                        </div>
+                    </div>
+                     <div className='finalMsg'>
+                        <div className='lastMsg'>
+                        <img className="d-block w-100" src='https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/Others%2Fthemiraclesprayers.jpg?alt=media&token=af347c7e-6069-4606-beb3-1d746b310cfb'/>
+                            
                         </div>
                     </div>
                      <div className='finalMsg'>
