@@ -23,7 +23,65 @@
 .data_drop_info_box_2{
     color: white;
 }
- 
+
+
+.container_stream {
+    max-width: 950px;
+    margin: 50px auto;
+    padding: 30px;
+    text-align: center;
+    background-color: #fff;
+  }
+  h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  p {
+    color: #666;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  .cta-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .cta-button:hover {
+    background-color: #45a049;
+  }
+/* CSS code for the contact information */
+#contact-info {
+    display: none; /* Initially hidden */
+    margin-top: 10px; /* Adjust as needed */
+    padding: 10px; /* Adjust as needed */
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Background color */
+}
+
+#contact-info h4 {
+    margin-top: 0; /* Remove top margin */
+    color: #333; /* Text color */
+    font-size: 18px; /* Font size */
+}
+
+#contact-info p {
+    margin-top: 5px; /* Adjust spacing between paragraphs */
+    color: #555; /* Text color */
+    font-size: 16px; /* Font size */
+}
+
+
+
+
 @media screen and (max-width: 768px){
     .drop_data img{
         width: 90%;
@@ -34,5 +92,38 @@
         grid-template-columns: repeat(1,1fr);
       column-gap: 3.5em;
     }
+
+    
+    .container_stream {
+        max-width: 980px;
+        margin: 40px 0em;
+        padding: 50px 10px;
+        text-align: center;
+      }
+      h1 {
+        color: #333;
+        font-size: 30px;
+        margin-bottom: 20px;
+      }
+      p {
+        color: #666;
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 20px;
+      }
+      .cta-button {
+        background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        padding: 15px 30px;
+        font-size: 24px;
+        border-radius: 5px;
+        text-decoration: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      .cta-button:hover {
+        background-color: #45a049;
+      }
 
 }

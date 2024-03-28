@@ -87,13 +87,49 @@ class MusicBox_1 extends Component {
          });
  
      };
+
+     handleSubmitSong = (event) => {
+        event.preventDefault(); // Prevent the default behavior of the anchor tag
+        const contactInfo = document.getElementById('contact-info');
+        if (contactInfo.style.display === 'none') {
+            contactInfo.style.display = 'block';
+        } else {
+            contactInfo.style.display = 'none';
+        }
+    };
+
+
      componentDidMount(){
+
         this.receivedData()
-     }
+
+        this.submitSongBtn.addEventListener('click', this.handleSubmitSong);
+
+        }
+
+     componentWillUnmount() {
+        // Remove event listener to avoid memory leaks
+        this.submitSongBtn.removeEventListener('click', this.handleSubmitSong);
+    }
     render() { 
         return ( 
             <div className='music_box_1'>
                     <h3>Next-Platform <br/>Music Box On Fire</h3>
+                    <section className='promote_song'>
+                    <div class="container_stream">
+                        <h1>Promote Your Gospel Song for Free!</h1>
+                        <p>Are you a gospel singer hoping to make an impact with your music?</p>
+                        <p>Our platform offers an incredible opportunity for gospel artists to showcase their talent to a global audience. Whether you're a seasoned performer or just starting your musical journey, we're here to support you every step of the way.</p>
+                        <p>When you submit your song with us, you're not just sharing your music; you're spreading a message of love, faith, and inspiration. Your song could be featured prominently on our website, shared across our social media channels, and even included in our newsletter, reaching thousands of passionate gospel music enthusiasts.</p>
+                        <p>Don't let this chance slip away. Take the first step towards reaching your audience and fulfilling your calling. Submit your song now and let your voice be heard!</p>
+                        <a href="#" ref={(element) => this.submitSongBtn = element} className="cta-button">Submit Your Song</a>
+                        <div id="contact-info" style={{ display: 'none' }}>
+                            <h4>PHONE NUMBER</h4>
+                            <p>0554928021</p>
+                            <p>0546398300</p>
+                        </div>
+                    </div>
+                    </section>
                 <section className="box_music_1_main">
                     {this.state.postData}
                 <section className='check_pagination'>

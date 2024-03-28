@@ -255,6 +255,43 @@ section{
     margin: 2.5em 0em;
 }
 
+/* Style for the streaming button */
+.stream-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+/* Change background color on hover */
+.stream-button:hover {
+    background-color: #45a049;
+}
+
+/* Style for the event titles and times */
+.event {
+    margin-bottom: 20px;
+}
+
+.event-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.event-time {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+
 
 
 
