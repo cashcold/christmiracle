@@ -38,7 +38,7 @@
     margin-bottom: 20px;
   }
   p {
-    color: #666;
+    /* color: #666; */
     font-size: 20px;
     line-height: 1.6;
     margin-bottom: 20px;
@@ -106,7 +106,7 @@
         margin-bottom: 20px;
       }
       p {
-        color: #666;
+        /* color: #666; */
         font-size: 18px;
         line-height: 1.6;
         margin-bottom: 20px;

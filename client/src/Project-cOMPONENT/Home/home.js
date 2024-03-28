@@ -43,7 +43,7 @@ class HomeMain extends Component {
         setTimeout(()=>{
             toast.success(
                 <div className='incoming_msg'>
-                <img className="d-block w-100" src='https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/Others%2Fthemiraclesprayers.jpg?alt=media&token=af347c7e-6069-4606-beb3-1d746b310cfb'/>
+                <img className="d-block w-100" src='https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/Others%2Fdbe34fb31a6e4877980683c1d18853ef.jpg?alt=media&token=06b3921d-5e19-4631-904c-352db4b5ece8'/>
             </div>
             )
         },60000)
@@ -301,6 +301,11 @@ class HomeMain extends Component {
                     
                 </section>
                 <section className='lastBeat'>
+                     <div className='finalMsg'>
+                        <div className='lastMsg'>
+                            <img src='https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/Others%2Fdbe34fb31a6e4877980683c1d18853ef.jpg?alt=media&token=06b3921d-5e19-4631-904c-352db4b5ece8'/>
+                        </div>
+                    </div>
                      <div className='finalMsg'>
                         <div className='lastMsg'>
                             <img src='https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/Others%2FTheChrist2024.jpg?alt=media&token=6257e4dd-6637-4784-b5d4-3e75b4a90228'/>
