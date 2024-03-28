@@ -142,7 +142,12 @@ class MusicLinkBox extends Component {
                 <meta property="og:image" content="https://nest-platform.herokuapp.com/static/media/A2%20STICKER-01%20(1).f946bff1c9648de93e5b.jpg" />
                 <link rel="canonical" href={this.state.home_url} />
             </Helmet>
+           
+
                 <section className="link_view_1">
+                 <h5 onClick={()=>{
+                    window.location = '/music'
+                }} className='back_rootMatch_h5'>  <i class="fa-solid fa-angles-left fa 3x"></i> Back to Music </h5>
                     <div className='both_view'>
                         <h1><span>DOWNLOAD:</span><br/> {this.state.mp3_api_head_Text} Mp3</h1>
                         <div className='view_1_tab'>

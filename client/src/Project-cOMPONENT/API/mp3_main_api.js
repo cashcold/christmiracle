@@ -108,6 +108,39 @@ export const Mp3_main_api = [
         `
 
     },
+    {
+        id: 13,
+        img: `https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/Others%2FIMG-20240328-WA0005.jpg?alt=media&token=aaaf7171-687a-470c-8e4f-1687cef0cb28`,
+        head_Text_url: '(The-Worshipper)-Kyere-Me-Kwan',
+        head_Text: '(The Worshiper) Kyere Me Kwan',
+        name: 'John Ben Annan (The Worshipper)',
+        title: 'Kyere-Me-Kwan',
+        song_href: 'https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/Music%2FAUD-20240328-WA0010.mp3?alt=media&token=16e0e83c-10a8-4b7e-9ff7-e2d92dd6f129',
+        text: `"Kyere Me Kwan": The Heartfelt Worship Journey of John Ben Annan, The Worshipper 🎵🙏`,
+        date:  moment('2023-06-07T14:48:00.000Z').format('LLLL'),
+        eye_seen: '248.4k',
+        country: 'Ghanaian',
+        music_type: 'Worship/ Top listen this Month',
+        social_on_image: 'https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/Others%2FIMG-20240328-WA0005.jpg?alt=media&token=aaaf7171-687a-470c-8e4f-1687cef0cb28',
+        about_Main: `  
+        In the tapestry of gospel music, few threads shine as brightly as the soul-stirring melodies of John Ben Annan, affectionately known as "The Worshipper." Hailing from the vibrant music scene of Ghana, John Ben Annan's music transcends borders, captivating audiences worldwide with his powerful voice and heartfelt lyrics. At the heart of his musical journey lies his latest worship song, "Kyere Me Kwan," a composition that resonates deeply with listeners, touching hearts and stirring souls with its profound message of surrender and devotion.
+
+As the opening chords of "Kyere Me Kwan" fill the air, a sense of reverence descends upon the listener. John Ben Annan's rich, velvety voice carries the weight of the song's message, inviting all who hear to join him on a spiritual journey of reflection and renewal. Produced by the talented K-MIX, the song is a testament to John Ben Annan's dedication to his craft and his unwavering commitment to sharing the gospel through music.
+
+"Kyere Me Kwan," which translates to "Show Me the Way," serves as a heartfelt plea for guidance and direction in the midst of life's uncertainties. With each verse, John Ben Annan pours out his soul, expressing a deep longing to walk in alignment with the will of God. His lyrics resonate with authenticity, reflecting the struggles and triumphs of the human experience, and offering a message of hope to all who listen.
+
+At its core, "Kyere Me Kwan" is a worship song in its purest form—a heartfelt expression of love and adoration for the Divine. It speaks to the universal longing for connection and communion with a higher power, inviting listeners to surrender their fears and doubts and place their trust in the hands of the Almighty. In a world filled with chaos and confusion, John Ben Annan's music offers a sanctuary of peace and tranquility, reminding us of the power of faith to sustain us through even the darkest of times.
+
+John Ben Annan's journey as "The Worshipper" is a testament to the transformative power of music to uplift and inspire. With his soulful melodies and stirring lyrics, he has become a beacon of light in the world of gospel music, drawing listeners from all walks of life into a deeper encounter with the divine. His international travels have taken him to churches and events around the globe, where he continues to share his gift with audiences hungry for spiritual nourishment.
+
+As John Ben Annan continues to walk the path of the worshipper, he remains committed to allowing the Spirit to lead him in his musical endeavors. He understands that true inspiration comes not from earthly ambition, but from a willingness to surrender to the divine will. With each new song that emerges from his heart, he seeks to honor God and touch the lives of those who listen, knowing that his music has the power to heal, uplift, and transform.
+
+In the ever-changing landscape of the music industry, John Ben Annan stands as a shining example of integrity and authenticity. His commitment to his craft and his unwavering faith in God have endeared him to fans around the world, who eagerly await each new release with anticipation. As he continues to journey deeper into the heart of worship, John Ben Annan invites us all to join him on a quest for spiritual renewal and transformation, one song at a time.
+
+In conclusion, "Kyere Me Kwan" is more than just a song—it is a heartfelt expression of devotion and surrender, a testament to the power of worship to transform lives and touch hearts. Through his music, John Ben Annan, The Worshipper, invites us into a sacred space of communion with the divine, where fears are replaced with faith, and doubts are dissolved in the light of God's love. As we listen to the soul-stirring melodies of "Kyere Me Kwan," may we be reminded of the ever-present guidance and grace that surrounds us, leading us on a journey of spiritual awakening and renewal. 🌟🎶
+        `
+
+    },
     
  
 
