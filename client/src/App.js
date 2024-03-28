@@ -15,6 +15,8 @@ import SlibebarMain from './Project-cOMPONENT/Slibebar/slibebar';
 import OtherPicture from './Project-cOMPONENT/otherPicture/otherPicture';
 import VideosMain from './Project-cOMPONENT/Videos/videos';
 import MessageDisplayMain from './Project-cOMPONENT/Message/messageDisplay';
+import MusicBox_1 from './Project-cOMPONENT/Music_Box/Box_Music_1/Music_box_1';
+import MusicLinkBox from './Project-cOMPONENT/Music_Box/MusicLinkBox/music_link_box';
 
 
 class MainApp extends Component {
@@ -43,7 +45,9 @@ class MainApp extends Component {
                 <Route path='/other_pictures' component={OtherPicture} />
                 <Route path='/books' component={MessageMain} />
                 <Route path='/christains_books/:id' component={MessageDisplayMain} />
-                <Route path='/audio' component={AudioMain} />
+                <Route path='/music' component={MusicBox_1} />
+                <Route path='/music_box/:id' component={MusicLinkBox} />
+                {/* <Route path='/audio' component={AudioMain} /> */}
                 <Route path='/videos' component={VideosMain} />
                 <Route path='/slibe' component={SlibebarMain} />
               </Switch>

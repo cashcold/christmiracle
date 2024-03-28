@@ -119,6 +119,54 @@ app.get('/christains_books/:id', function(request, response) {
 
 });
 
+app.get('/music', function(request, response) {
+  const filePath = path.resolve(__dirname, './client/build' ,'index.html');
+
+  // read in the index.html file
+  fs.readFile(filePath, 'utf8', function (err,data) {
+    if (err) {
+      return console.log(err);
+    }
+    
+    // replace the special strings with server generated strings
+    data = data.replace(/\$OG_TITLE/g, "Journey Through Faith: 📖 Exploring the Pages of 'Hearts Renewed' 🌟");
+    data = data.replace(/\$OG_DESCRIPTION/g, "Dive into the transformative pages of  'Hearts Renewed,' a soul-stirring journey of faith, love, and redemption. 🌟 Immerse yourself in the profound stories that illuminate the path to a renewed heart and a deeper connection with God. Join us on this inspiring literary adventure. 📚✝️💖 #HeartsRenewed #ChristianBooks #FaithJourney #BookLovers");
+    result = data.replace(/\$OG_IMAGE/g, 'https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/others_Main%2FchristImg.jpg?alt=media&token=17934020-593d-4122-84a7-841f282c3202');
+    response.send(result);
+  });
+});
+
+
+app.get('/music_box/:id', function(request, response) {
+ 
+  const filePath = path.resolve(__dirname, './client/build' ,'index.html');
+
+  // read in the index.html file
+  fs.readFile(filePath, 'utf8', function (err,data) {
+    if (err) {
+      return console.log(err);
+    }
+    
+    const parsed = (request.url)
+    var url = require('url');
+
+    var q = url.parse(parsed, true);
+
+    var qdata = q.query        
+                   
+    const {info, name, on_image} = qdata
+
+
+// replace the special strings with server generated strings
+    data = data.replace(/\$OG_TITLE/g,name);
+    data = data.replace(/\$OG_DESCRIPTION/g,info);
+    result = data.replace(/\$OG_IMAGE/g,on_image);
+    response.send(result);
+  });
+
+});
+
+
 
 
 app.use(express.static("client/build"))
