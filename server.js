@@ -81,9 +81,9 @@ app.get('/books', function(request, response) {
     }
     
     // replace the special strings with server generated strings
-    data = data.replace(/\$OG_TITLE/g, "Journey Through Faith: 📖 Exploring the Pages of 'Hearts Renewed' 🌟");
-    data = data.replace(/\$OG_DESCRIPTION/g, "Dive into the transformative pages of  'Hearts Renewed,' a soul-stirring journey of faith, love, and redemption. 🌟 Immerse yourself in the profound stories that illuminate the path to a renewed heart and a deeper connection with God. Join us on this inspiring literary adventure. 📚✝️💖 #HeartsRenewed #ChristianBooks #FaithJourney #BookLovers");
-    result = data.replace(/\$OG_IMAGE/g, 'https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/others_Main%2FchristImg.jpg?alt=media&token=17934020-593d-4122-84a7-841f282c3202');
+    data = data.replace(/\$OG_TITLE/g, "Discover a Treasure Trove of Free Christian Books!");
+    data = data.replace(/\$OG_DESCRIPTION/g, "Unlock a world of spiritual enrichment with our collection of free Christian books. Dive into timeless classics, explore profound teachings, and immerse yourself in uplifting narratives—all at your fingertips, completely free of charge. Whether you're seeking inspiration, guidance, or simply a moment of reflection, our library has something for everyone. Don't miss out on this opportunity to enrich your faith journey. Start reading today and let the wisdom of these timeless texts illuminate your path");
+    result = data.replace(/\$OG_IMAGE/g, 'https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/images%2Fbooks_www.tcmci.org.png?alt=media&token=f173bebd-17a5-4a41-8dd2-67eed2afd81f');
     response.send(result);
   });
 });
@@ -129,9 +129,9 @@ app.get('/music', function(request, response) {
     }
     
     // replace the special strings with server generated strings
-    data = data.replace(/\$OG_TITLE/g, "Journey Through Faith: 📖 Exploring the Pages of 'Hearts Renewed' 🌟");
-    data = data.replace(/\$OG_DESCRIPTION/g, "Dive into the transformative pages of  'Hearts Renewed,' a soul-stirring journey of faith, love, and redemption. 🌟 Immerse yourself in the profound stories that illuminate the path to a renewed heart and a deeper connection with God. Join us on this inspiring literary adventure. 📚✝️💖 #HeartsRenewed #ChristianBooks #FaithJourney #BookLovers");
-    result = data.replace(/\$OG_IMAGE/g, 'https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/others_Main%2FchristImg.jpg?alt=media&token=17934020-593d-4122-84a7-841f282c3202');
+    data = data.replace(/\$OG_TITLE/g, "Promote Your Gospel Song for Free!, Are you a gospel singer hoping to make an impact with your music?");
+    data = data.replace(/\$OG_DESCRIPTION/g, "Our platform offers an incredible opportunity for gospel artists to showcase their talent to a global audience. Whether you're a seasoned performer or just starting your musical journey, we're here to support you every step of the way.");
+    result = data.replace(/\$OG_IMAGE/g, 'https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/images%2Fpromote_song_www.tcmci.org.jpg?alt=media&token=1830c185-d173-4e59-aaa8-7620af44b4a5');
     response.send(result);
   });
 });

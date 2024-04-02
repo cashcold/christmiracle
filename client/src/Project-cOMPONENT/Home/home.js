@@ -25,6 +25,10 @@ class HomeMain extends Component {
         }, 8000);
         
         setTimeout(()=>{
+            toast.success('Peace Be Unto You All')
+           
+        },4000)
+        setTimeout(()=>{
             toast.success('Master Jesus Welcomes You')
            
         },8000)
@@ -40,13 +44,13 @@ class HomeMain extends Component {
         setTimeout(()=>{
             toast.success('SUNDAY SERVICE: ACCRA Dodowa Branch , TIME 8:30 am TO 12:30 PM')
         },40000)
-        setTimeout(()=>{
-            toast.success(
-                <div className='incoming_msg'>
-                <img className="d-block w-100" src='https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/Others%2Fdbe34fb31a6e4877980683c1d18853ef.jpg?alt=media&token=06b3921d-5e19-4631-904c-352db4b5ece8'/>
-            </div>
-            )
-        },60000)
+        // setTimeout(()=>{
+        //     toast.success(
+        //         <div className='incoming_msg'>
+        //         <img className="d-block w-100" src='https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/Others%2Fdbe34fb31a6e4877980683c1d18853ef.jpg?alt=media&token=06b3921d-5e19-4631-904c-352db4b5ece8'/>
+        //     </div>
+        //     )
+        // },60000)
 
         const NotSure = ()=>{
             const wayImg2 = document.querySelector('.wayImg2')
@@ -132,6 +136,14 @@ class HomeMain extends Component {
                     <div data-gb-widget="passage" data-passage="JAS.4.5" />
                     <a data-gb-link="JHN.1.11">reference</a>
                 </section>
+                <section className='promot_song'>
+                    <div className='finalMsg'>
+                        <div className='lastMsg'>
+                            <img src='https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/images%2Fpromote_song_www.tcmci.org.jpg?alt=media&token=1830c185-d173-4e59-aaa8-7620af44b4a5'/>
+                        </div>
+                    </div>
+                </section>
+              
                 <section className='aboutJesus'>
                         <div className='letTalk'>
                             <div className='h1Title'>
@@ -203,6 +215,13 @@ class HomeMain extends Component {
                                     </div>
                                </div>
                             </div>
+                        </div>
+                    </div>
+                </section>
+                <section className='promot_books'>
+                    <div className='finalMsg'>
+                        <div className='lastMsg'>
+                        <img className="d-block w-100" src="https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/images%2Fbooks_www.tcmci.org.png?alt=media&token=f173bebd-17a5-4a41-8dd2-67eed2afd81f" />
                         </div>
                     </div>
                 </section>
