@@ -83,7 +83,7 @@ app.get('/books', function(request, response) {
     // replace the special strings with server generated strings
     data = data.replace(/\$OG_TITLE/g, "Discover a Treasure Trove of Free Christian Books!");
     data = data.replace(/\$OG_DESCRIPTION/g, "Unlock a world of spiritual enrichment with our collection of free Christian books. Dive into timeless classics, explore profound teachings, and immerse yourself in uplifting narratives—all at your fingertips, completely free of charge. Whether you're seeking inspiration, guidance, or simply a moment of reflection, our library has something for everyone. Don't miss out on this opportunity to enrich your faith journey. Start reading today and let the wisdom of these timeless texts illuminate your path");
-    result = data.replace(/\$OG_IMAGE/g, 'https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/images%2Fbooks_label.jpg?alt=media&token=534fd1c4-9919-4a00-8105-db4e90350fff');
+    result = data.replace(/\$OG_IMAGE/g, "https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/images%2Fbooks_label.jpg?alt=media&token=534fd1c4-9919-4a00-8105-db4e90350fff");
     response.send(result);
   });
 });
