@@ -16,6 +16,7 @@ class HomeMain extends Component {
         super(props);
         this.state = { 
             showWelcomePopup: false,
+            showWe: '',
          }
     }
     componentDidMount(){
