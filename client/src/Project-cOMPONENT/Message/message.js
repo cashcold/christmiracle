@@ -54,6 +54,7 @@ class MessageMain extends Component {
                                         localStorage.setItem('Books_api_title',data.title)
                                         localStorage.setItem('Books_api_Introduction',data.Introduction)
                                         localStorage.setItem('social_on_image',data.social_on_image)
+                                        localStorage.setItem('social_on_image_label',data.social_on_image_label)
                                         localStorage.setItem('Books_api_date',data.date)
                                         localStorage.setItem('Books_api_Chapter_1',data.Chapter_1)
                                         localStorage.setItem('Books_api_Chapter_2',data.Chapter_2)

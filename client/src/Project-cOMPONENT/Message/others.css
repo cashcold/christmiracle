@@ -45,7 +45,7 @@
 }
 
 .social_icons {
-    width: 40%;
+    width: 30%;
     margin: 0 auto;
 }
 
@@ -71,19 +71,10 @@
 
     .social_on_image_message {
         margin: 1.5em 0;
-        width: 100%;
+        width: 95%;
     }
 
     .about_main_h5 {
-        width: 99%;
-    }
-    .social_icons {
         width: 60%;
-        margin: 0 auto;
-    }
-    .book_title_h1 {
-        color: #333;
-        font-weight: bold;
-        width: 95%;
     }
 }

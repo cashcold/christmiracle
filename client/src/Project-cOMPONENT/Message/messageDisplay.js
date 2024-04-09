@@ -63,6 +63,7 @@ class MessageDisplayMain extends Component {
             Books_api_Chapter_7: '',
             Books_api_Chapter_Conclusion: '',
             social_on_image: '',
+            social_on_image_label: '',
          }
     }
     componentDidMount(){
@@ -79,6 +80,7 @@ class MessageDisplayMain extends Component {
         const Books_api_Chapter_Conclusion = localStorage.getItem('Books_api_Chapter_Conclusion')
         const Books_api_date = localStorage.getItem('Books_api_date')
         const social_on_image = localStorage.getItem('social_on_image')
+        const social_on_image_label = localStorage.getItem('social_on_image_label')
 
 
         this.setState({ 
@@ -87,6 +89,7 @@ class MessageDisplayMain extends Component {
             Books_api_title,
             Books_api_date,
             social_on_image,
+            social_on_image_label,
             Books_api_Chapter_1,
             Books_api_Chapter_2,
             Books_api_Chapter_3,
@@ -123,7 +126,7 @@ class MessageDisplayMain extends Component {
                             <h5 key={index} className='about_main_h5'>{part}</h5>
                         ))}</h1>
                         <span><i className="fa fa-clock-o " aria-hidden="true"></i> <span>{moment(this.state.Books_api_date).format('LLLL')}</span></span>
-                        <img className='social_on_image' src={this.state.social_on_image}/>
+                        <img className='social_on_image_message' src={this.state.social_on_image_label}/>
                         <h5 className='about_main_h5' dangerouslySetInnerHTML={{ __html: this.state.Books_api_Chapter_1.replace(/\n/g, '<br />') }}></h5>
                         <h5 className='about_main_h5' dangerouslySetInnerHTML={{ __html: this.state.Books_api_Chapter_2.replace(/\n/g, '<br />') }}></h5>
                         <h5 className='about_main_h5' dangerouslySetInnerHTML={{ __html: this.state.Books_api_Chapter_3.replace(/\n/g, '<br />') }}></h5>

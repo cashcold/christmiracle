@@ -19,6 +19,7 @@ export const message_api = [
         date:  moment('2024-01-01T07:30:00.000Z').format('LLLL'),
         eye_seen: '847.9k',
         social_on_image: `https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/images%2FWhy-Given-Thanks-Is-Important.jpg?alt=media&token=c0de8daf-9bc7-4ea2-93aa-24c57b538e11`,
+        social_on_image_label: `https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/images%2FWhy-Given-Thanks-Is-Important.jpg?alt=media&token=c0de8daf-9bc7-4ea2-93aa-24c57b538e11`,
     },
     {
         id: 2,
@@ -43,6 +44,7 @@ export const message_api = [
         date:  moment('2024-01-01T07:30:00.000Z').format('LLLL'),
         eye_seen: '987.9k',
         social_on_image: `https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/images%2FPhinehas-A-Tale-of-Courage-and-Righteousness.jpg?alt=media&token=3b094311-b6eb-47b0-8c97-2007bb09cf7b`,
+        social_on_image_label: `https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/images%2FPhinehas-A-Tale-of-Courage-and-Righteousness.jpg?alt=media&token=3b094311-b6eb-47b0-8c97-2007bb09cf7b`,
     },
    
  
