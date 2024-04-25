@@ -114,7 +114,6 @@ class Pictures extends Component {
                         <img  src={require('../../pic/Restored/IMG_20210328_085248569.jpg')} alt='pic'/>
                         <img  src={require('../../pic/Restored/IMG_20210328_123555134.jpg')} alt='pic'/>
                         <img  src={require('../../pic/Restored/IMG_20210328_123853217.jpg')} alt='pic'/>
-                        <img  src={require('../../pic/Restored/IMG_20210328_133515586.jpg')} alt='pic'/>
                         <img  src={require('../../pic/Restored/IMG_20210328_115943265.jpg')} alt='pic'/>
                     </div>
                 </section>
