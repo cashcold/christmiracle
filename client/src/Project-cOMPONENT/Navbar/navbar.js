@@ -33,7 +33,7 @@ class NavbarMain extends Component {
             window.location = '/'
         })
     }
-    LogoRedirect()
+    LogoRedirect() 
    }
     render() { 
         return ( 
@@ -62,7 +62,7 @@ class NavbarMain extends Component {
                             <li><a href='/videos'>VIDEOS</a></li>
                             <li><a href='/mission_pictures'>MISSION PICTURES</a></li>
                             <li><a href='/contact'>CONTACT-US</a></li>
-                            <li><a href='https://chat.whatsapp.com/KrglPK7cnSx0NoDHharKe7'><i class="fab fa-whatsapp "></i></a></li>
+                            <li><a href='Resources'>RESOURCES</a></li>
                         </ul>
                     </nav>
                 </div> 
@@ -71,16 +71,12 @@ class NavbarMain extends Component {
                         <p>Peace be unto you all</p>
                            <p>AD 2024 Have Been Declare as Our Year Of  All Round Divine Blessings </p>
                            <p>The purpose of THE CHRIST MIRACLES CHURCH INT is to enrich and multiply life and hope through disciple-making in the name of Our Lord and Savior Jesus Christ.</p>
-                           <p>🎂 Church Birthday Celebration: This month, we joyfully commemorate the anniversary of the founding of our church. Over the years, we have witnessed the faithfulness of God as He has guided and sustained us through every season. Let us take this opportunity to reflect on the blessings, growth, and transformation that our church has experienced, and to give thanks for the countless lives touched and transformed by the power of God's love</p>
                            <p>Up Coming Next Mission  Evanglisim </p>
                            <p>Worhsip with us</p>
                            <p>TUEDAY: BIBLE STUDY, TIME 5:30 PM TO 9:00 PM</p>
                            <p>FRIDAY: MIRACLES REVIVALS PRAYERS , TIME 5:30 PM TO 9:00 PM </p>
                            <p>SUNDAY SERVICE: TEMA Comm.9 Branch , TIME 7:30 am TO 12:00 PM</p>
                            <p>SUNDAY SERVICE: ACCRA Dodowa Branch , TIME 8:30 am TO 12:30 PM</p>
-                           <p>🇬🇭 Ghana's Independence Day: March 6th marks the historic day when Ghana, our beloved nation, declared its independence and embarked on a journey of sovereignty, freedom, and self-determination. As proud citizens of Ghana, let us honor the sacrifices of our forebears and celebrate the progress, unity, and resilience that define our great nation. May we continue to uphold the values of peace, justice, and equality as we work together to build a brighter future for generations to come.</p>
-                           <p>As we gather in celebration and gratitude, let us also renew our commitment to serving God and our community with love, compassion, and humility. Together, let us press forward in faith, knowing that with God, all things are possible.</p>
-                           <p>Join us throughout the month as we commemorate these special occasions with worship services, prayer gatherings, and acts of service to our community. Let us come together in unity and praise, giving thanks for the blessings of our church and our nation.May God continue to bless our church, our nation, and each and every one of us as we journey together in faith and fellowship.With love and blessings,</p>
                            <p>Contact-us call</p>
                            <p>Contact-us 0554928021</p>
                            <p>Contact-us 0546398300</p>
