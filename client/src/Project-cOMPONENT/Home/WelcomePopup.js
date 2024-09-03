@@ -11,6 +11,6 @@ const WelcomePopup = ({ onClose }) => {
     </div>
     
     );
-};
+}; 
 
 export default WelcomePopup;

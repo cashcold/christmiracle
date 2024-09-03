@@ -11,22 +11,27 @@ import './style.css'
 import SlibebarMain from '../Slibebar/slibebar';
 import Dressing from '../Slibebar/dressing';
 import WelcomePopup from './WelcomePopup';
+import RequestPopup from './RequestPopup';
 class HomeMain extends Component {
     constructor(props) {
         super(props);
         this.state = { 
             showWelcomePopup: false,
+            RequestPopup: false,
             showWe: '',
          }
     }
     componentDidMount(){
    
+        //  setTimeout(() => {
+        //     this.setState({ showWelcomePopup: true });
+        // }, 8000);
          setTimeout(() => {
-            this.setState({ showWelcomePopup: true });
+            this.setState({ RequestPopup: true });
         }, 8000);
         
         setTimeout(()=>{
-            toast.success('Peace Be Unto You All')
+            toast.success('Peace Be Unto You All')   
            
         },4000)
         setTimeout(()=>{
@@ -45,13 +50,7 @@ class HomeMain extends Component {
         setTimeout(()=>{
             toast.success('SUNDAY SERVICE: ACCRA Dodowa Branch , TIME 8:30 am TO 12:30 PM')
         },40000)
-        // setTimeout(()=>{
-        //     toast.success(
-        //         <div className='incoming_msg'>
-        //         <img className="d-block w-100" src='https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/Others%2Fdbe34fb31a6e4877980683c1d18853ef.jpg?alt=media&token=06b3921d-5e19-4631-904c-352db4b5ece8'/>
-        //     </div>
-        //     )
-        // },60000)
+       
 
         const NotSure = ()=>{
             const wayImg2 = document.querySelector('.wayImg2')
