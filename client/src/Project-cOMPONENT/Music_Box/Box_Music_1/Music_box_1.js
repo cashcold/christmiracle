@@ -125,8 +125,8 @@ class MusicBox_1 extends Component {
                         <a href="#" ref={(element) => this.submitSongBtn = element} className="cta-button">Submit Your Song</a>
                         <div id="contact-info" style={{ display: 'none' }}>
                             <h4>PHONE NUMBER</h4>
-                            <p>0554928021</p>
-                            <p>0546398300</p>
+                            <p>+233554928021</p>
+                            <p>+233546398300</p>
                         </div>
                     </div>
                     </section>

@@ -17,18 +17,21 @@ class HomeMain extends Component {
         super(props);
         this.state = { 
             showWelcomePopup: false,
-            RequestPopup: false,
+            showRequestPopup: false,
             showWe: '',
          }
     }
     componentDidMount(){
    
-        //  setTimeout(() => {
-        //     this.setState({ showWelcomePopup: true });
-        // }, 8000);
          setTimeout(() => {
-            this.setState({ RequestPopup: true });
+            this.setState({ showWelcomePopup: true });
         }, 8000);
+
+        setTimeout(() => {
+            this.setState({ showRequestPopup: true }, () => {
+                this.playSound();
+            });
+        }, 9000);
         
         setTimeout(()=>{
             toast.success('Peace Be Unto You All')   
@@ -107,9 +110,14 @@ class HomeMain extends Component {
        Typing()
     }
 
+    playSound = () => {
+        const audio = new Audio('/tones/incoming_msg.mp3'); // Adjust the path to your sound file
+        audio.play();
+    };
+
    
     render() { 
-        const { showWelcomePopup } = this.state;
+        const { showWelcomePopup, showRequestPopup } = this.state;
 
         return ( 
             <div className='mainHome'>
@@ -358,6 +366,7 @@ class HomeMain extends Component {
                     </div>
                 </section>
                   {showWelcomePopup && <WelcomePopup onClose={() => this.setState({ showWelcomePopup: false })} />}
+                  {showRequestPopup && <RequestPopup onClose={() => this.setState({ showRequestPopup: false })} />}
             </div>
          );
     }
