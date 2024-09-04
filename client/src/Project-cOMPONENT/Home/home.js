@@ -19,6 +19,7 @@ class HomeMain extends Component {
             showWelcomePopup: false,
             showRequestPopup: false,
             showWe: '',
+            checkup: '',
          }
     }
     componentDidMount(){
@@ -125,14 +126,6 @@ class HomeMain extends Component {
                 <SlibebarMain/>
                 <section  className='box-slide '>
                
-                        {/* <h1 className='welcomeTitle'>MISSION AND EVANLISM</h1>
-                         <div className='boxCard boxCard-1'>
-                             <div className='mainCard'>
-                                <h1 className='boxCardH1'>Behold, I stand at the door, and knock:</h1>
-                                <h2 className='boxCardH2'>if any man hear my voice, and open the door</h2>
-                                <a href='/' className='btn btn-success'>WORHSIP WITH US</a>
-                             </div>
-                         </div> */}
                         
                 </section>
                 <section className='slibeMe'>
