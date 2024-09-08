@@ -17,6 +17,7 @@ mongoose.connect(process.env.MONGODB_URI,{ useNewUrlParser: true },()=>{
 const PORT = process.env.PORT || 8000
 
 const app = express()
+app.use(express.static(path.join(__dirname, "client")));
 
 app.use(cors())
 app.use(bodyParser.json())
@@ -25,8 +26,8 @@ app.use('/users',userRouter)
 
 // app.use(express.static(path.join(__dirname, 'client', 'build')));
 const publicVapidKey =
-  "BMESG41bsR0sb2wCGVefwrpozSBoT1TQWoq4iqOvuifmDvXJxWL4gBqgLzXyNHrfKB6Odv4NFZg381APFDV5VwY";
-const privateVapidKey = "b5krQRhwejbVCGIEYEG-3vNvj0bfTDhavanNpkwKJhs";
+  "BLIpbUPZ7WrXP3eLB08xewc7SZqgCnmw3f9e3TjrVZPepOLmyitZ7EM6MNJRswt4Lp9PxXqia8wOXRVzWuDXwbQ";
+const privateVapidKey = "OJhXM9BnJxu7RbafcGtF6_nQ48NdqeETNij-FzwTmVI";
  
 webpush.setVapidDetails(
   "mailto:test@test.com",
