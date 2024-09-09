@@ -49,9 +49,8 @@ class MainApp extends Component {
   subscribeUserToPush = async (registration) => {
     const subscription = await registration.pushManager.subscribe({
       userVisibleOnly: true,
-      applicationServerKey: this.urlBase64ToUint8Array('BMVoVa091u1HIO9tr5ksdHaJleTqt4lFjkg7N_emTP1IzAwt6-B9NmmelAQP4beoxSpshJ0Kage490LVd8d-VZU') // Replace with your public VAPID key
+      applicationServerKey: this.urlBase64ToUint8Array('BMVoVa091u1HIO9tr5ksdHaJleTqt4lFjkg7N_emTP1IzAwt6-B9NmmelAQP4beoxSpshJ0Kage490LVd8d-VZU')
     });
-    console.log('User is subscribed:', subscription);
     return subscription;
   };
 
@@ -61,13 +60,9 @@ class MainApp extends Component {
 
   urlBase64ToUint8Array = (base64String) => {
     const padding = '='.repeat((4 - (base64String.length % 4)) % 4);
-    const base64 = (base64String + padding)
-      .replace(/\-/g, '+')
-      .replace(/_/g, '/');
-
+    const base64 = (base64String + padding).replace(/-/g, '+').replace(/_/g, '/');
     const rawData = window.atob(base64);
     const outputArray = new Uint8Array(rawData.length);
-
     for (let i = 0; i < rawData.length; ++i) {
       outputArray[i] = rawData.charCodeAt(i);
     }
