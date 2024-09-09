@@ -22,12 +22,15 @@ app.use(express.static(path.join(__dirname, "client")));
 app.use(cors())
 app.use(bodyParser.json())
 app.use('/users',userRouter)
-
-
 // app.use(express.static(path.join(__dirname, 'client', 'build')));
+
+
+const Subscription = require('./UserModel/Subscription')
+
+
 const publicVapidKey =
-  "BLIpbUPZ7WrXP3eLB08xewc7SZqgCnmw3f9e3TjrVZPepOLmyitZ7EM6MNJRswt4Lp9PxXqia8wOXRVzWuDXwbQ";
-const privateVapidKey = "OJhXM9BnJxu7RbafcGtF6_nQ48NdqeETNij-FzwTmVI";
+  "BMVoVa091u1HIO9tr5ksdHaJleTqt4lFjkg7N_emTP1IzAwt6-B9NmmelAQP4beoxSpshJ0Kage490LVd8d-VZU";
+const privateVapidKey = "l8UN9HvyjNC6mHwsnpPxt-ACbPPF59p2vj7srEn4XTs";
  
 webpush.setVapidDetails(
   "mailto:test@test.com",
@@ -36,21 +39,61 @@ webpush.setVapidDetails(
 );
 
 
-app.post("/subscribe", (req, res) => {
-  // Get pushSubscription object
+
+app.post('/subscribe', async (req, res) => {
   const subscription = req.body;
 
-  // Send 201 - resource created
-  res.status(201).json({});
+  try {
+    // Save subscription to the database
+    await Subscription.create({
+      endpoint: subscription.endpoint,
+      keys: subscription.keys
+    });
 
-  // Create payload
-  const payload = JSON.stringify({ title: "Push Test" });
+    res.status(201).json({});
 
-  // Pass object into sendNotification
-  webpush
-    .sendNotification(subscription, payload)
-    .catch(err => console.error(err));
+    // Send a test notification (optional)
+    const payload = JSON.stringify({ title: 'The Christ Miracles Church Intl.' });
+    webpush.sendNotification(subscription, payload).catch(err => console.error(err));
+  } catch (error) {
+    res.status(500).json({ error: 'Failed to save subscription' });
+  }
 });
+
+
+app.post('/sendNotification', async (req, res) => {
+  const { title, message } = req.body;
+
+  try {
+    const subscriptions = await Subscription.find();
+
+    const payload = JSON.stringify({ title, message });
+
+    const notificationPromises = subscriptions.map(subscription =>
+      webpush.sendNotification(subscription, payload)
+    );
+
+    await Promise.all(notificationPromises);
+
+    res.status(200).json({ message: 'Notifications sent' });
+  } catch (error) {
+    res.status(500).json({ error: 'Failed to send notifications' });
+  }
+});
+
+
+// app.post('/subscribe', (req, res) => {
+//   const subscription = req.body;
+
+//   // Respond with 201 - resource created
+//   res.status(201).json({});
+
+//   // Create payload
+//   const payload = JSON.stringify({ title: 'Push Notification from Server' });
+
+//   // Pass object into sendNotification
+//   webpush.sendNotification(subscription, payload).catch(err => console.error(err));
+// });
 
 
 

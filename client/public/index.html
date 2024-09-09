@@ -10,29 +10,15 @@
     <meta property="og:description" content="$OG_DESCRIPTION" />
     <meta property="og:image" content="$OG_IMAGE" />
     <meta name="twitter:title" content="$OG_TITLE" />
-     <meta name="twitter:image" content="$OG_IMAGE" />
-     <meta name="twitter:card" content="summary" />
-     <meta name="twitter:description" content="$OG_DESCRIPTION" />
-    
-    
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
+    <meta name="twitter:image" content="$OG_IMAGE" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:description" content="$OG_DESCRIPTION" />
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" >
-        <!--Start of Tawk.to Script-->
-        <script src="https://kit.fontawesome.com/ebb389d6d4.js" crossorigin="anonymous"></script>
+
+    <!--Start of Tawk.to Script-->
+    <script src="https://kit.fontawesome.com/ebb389d6d4.js" crossorigin="anonymous"></script>
     <script type="text/javascript">
     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
     (function(){
@@ -46,9 +32,8 @@
     </script>
     <!--End of Tawk.to Script-->
 
-        <!-- google adsense -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3921034409248682"
-     crossorigin="anonymous"></script>
+    <!-- google adsense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3921034409248682" crossorigin="anonymous"></script>
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XNND5K3FWR"></script>
@@ -56,7 +41,6 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-XNND5K3FWR');
     </script>
 
@@ -68,85 +52,73 @@
         });
     </script>
 
-<script>
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/service-worker.js')
-      .then(function(registration) {
-        console.log('ServiceWorker registration successful:', registration);
-      })
-      .catch(function(error) {
-        console.log('ServiceWorker registration failed:', error);
-      });
-  }
-</script>
-
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/service-worker.js')
+          .then(function(registration) {
+            console.log('ServiceWorker registration successful:', registration);
+          })
+          .catch(function(error) {
+            console.log('ServiceWorker registration failed:', error);
+          });
+      }
+    </script>
     
     <style>
       body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial', sans-serif;
-    /* overflow: hidden;  */
-}
+        margin: 0;
+        padding: 0;
+        font-family: 'Arial', sans-serif;
+      }
 
-.preloader-wrapper {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 9999;
-}
+      .preloader-wrapper {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+      }
 
-.preloader {
-    border: 8px solid #f3f3f3;
-    border-top: 8px solid #3498db;
-    border-radius: 60%;
-    width: 80px;
-    height: 80px;
-    animation: spin 1s linear infinite;
-}
+      .preloader {
+        border: 8px solid #f3f3f3;
+        border-top: 8px solid #3498db;
+        border-radius: 60%;
+        width: 80px;
+        height: 80px;
+        animation: spin 1s linear infinite;
+      }
 
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
 
-.content {
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-}
+      .content {
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+      }
 
-/* Adjust the delay as needed */
-.content.loaded {
-    opacity: 1;
-    transition-delay: 5s; /* Should match the transition duration */
-}
-
+      .content.loaded {
+        opacity: 1;
+        transition-delay: 5s;
+      }
     </style>
   </head>
-  <body >
+  <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root">
       <div class="preloader-wrapper">
         <div class="preloader"></div>
-    </div>
-  
       </div>
     </div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <!-- Adding client.js script here -->
+    <!-- <script src="client.js"></script> -->
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
