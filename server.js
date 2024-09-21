@@ -17,12 +17,12 @@ mongoose.connect(process.env.MONGODB_URI,{ useNewUrlParser: true },()=>{
 const PORT = process.env.PORT || 8000
 
 const app = express()
-app.use(express.static(path.join(__dirname, "client")));
+// app.use(express.static(path.join(__dirname, "client")));
+app.use(express.static(path.join(__dirname, 'client', 'build')));
 
 app.use(cors())
 app.use(bodyParser.json())
 app.use('/users',userRouter)
-// app.use(express.static(path.join(__dirname, 'client', 'build')));
 
 
 const Subscription = require('./UserModel/Subscription')
