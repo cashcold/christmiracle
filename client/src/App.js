@@ -68,7 +68,8 @@ class MainApp extends Component {
     }
     return outputArray;
   };
-  render() {
+  render() 
+  {
     return (
       <Router>
         <div className='mainApp '>

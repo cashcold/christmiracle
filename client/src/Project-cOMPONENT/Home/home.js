@@ -30,7 +30,7 @@ class HomeMain extends Component {
 
         setTimeout(() => {
             this.setState({ showRequestPopup: true }, () => {
-                this.playSound();
+                // this.playSound();
             });
         }, 9000);
         
@@ -111,10 +111,10 @@ class HomeMain extends Component {
        Typing()
     }
 
-    playSound = () => {
-        const audio = new Audio('/tones/incoming_msg.mp3'); // Adjust the path to your sound file
-        audio.play();
-    };
+    // playSound = () => {
+    //     const audio = new Audio('/tones/incoming_msg.mp3'); // Adjust the path to your sound file
+    //     audio.play();
+    // };
 
    
     render() { 

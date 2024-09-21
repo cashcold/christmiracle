@@ -21,11 +21,7 @@ class RequestPopup extends Component {
 
         return (
             <div className="welcome-popup">
-                <img 
-                    className='advt_img' 
-                    src="https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/others_Main%2FchristImg.jpg?alt=media&token=17934020-593d-4122-84a7-841f282c3202" 
-                    alt="Spiritual Guidance"
-                />  
+               
                 <h2>Request Prayer & Counseling</h2>
                 <p>
                     Are you facing challenges or seeking clarity in your spiritual journey? Don't walk alone.
