@@ -20,8 +20,7 @@ const app = express()
 // app.use(express.static(path.join(__dirname, "client")));
 // app.use(express.static(path.join(__dirname, 'client', 'build')));
 
-//static files
-app.use(express.static(path.join(__dirname, "./client/build")));
+
 
 app.use(cors())
 app.use(bodyParser.json())
@@ -84,9 +83,9 @@ app.post('/sendNotification', async (req, res) => {
   }
 });
 
-app.get("*", function (req, res) {
-  res.sendFile(path.join(__dirname, "./client/build/index.html"));
-});
+// app.get("*", function (req, res) {
+//   res.sendFile(path.join(__dirname, "./client/build/index.html"));
+// });
 
 
 
@@ -205,6 +204,17 @@ app.get('/music_box/:id', function(request, response) {
   });
 
 });
+
+
+
+// Serve static files from the React app
+app.use(express.static(path.join(__dirname, 'client/build')));
+
+// Catch-all route for serving the React app
+app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+});
+
 
 
 
