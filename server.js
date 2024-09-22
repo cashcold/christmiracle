@@ -42,51 +42,13 @@ webpush.setVapidDetails(
 
 
 
-app.post('/subscribe', async (req, res) => {
-  const subscription = req.body;
 
-  try {
-    // Save subscription to the database
-    await Subscription.create({
-      endpoint: subscription.endpoint,
-      keys: subscription.keys
-    });
+//static files
+app.use(express.static(path.join(__dirname, "./client/build")));
 
-    res.status(201).json({});
-
-    // Send a test notification (optional)
-    const payload = JSON.stringify({ title: 'The Christ Miracles Church Intl.' });
-    webpush.sendNotification(subscription, payload).catch(err => console.error(err));
-  } catch (error) {
-    res.status(500).json({ error: 'Failed to save subscription' });
-  }
+app.get("*", function (req, res) {
+  res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });
-
-
-app.post('/sendNotification', async (req, res) => {
-  const { title, message } = req.body;
-
-  try {
-    const subscriptions = await Subscription.find();
-
-    const payload = JSON.stringify({ title, message });
-
-    const notificationPromises = subscriptions.map(subscription =>
-      webpush.sendNotification(subscription, payload)
-    );
-
-    await Promise.all(notificationPromises);
-
-    res.status(200).json({ message: 'Notifications sent' });
-  } catch (error) {
-    res.status(500).json({ error: 'Failed to send notifications' });
-  }
-});
-
-// app.get("*", function (req, res) {
-//   res.sendFile(path.join(__dirname, "./client/build/index.html"));
-// });
-
 
 
 
@@ -207,14 +169,48 @@ app.get('/music_box/:id', function(request, response) {
 
 
 
-// Serve static files from the React app
-app.use(express.static(path.join(__dirname, 'client/build')));
 
-// Catch-all route for serving the React app
-app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+
+app.post('/subscribe', async (req, res) => {
+  const subscription = req.body;
+
+  try {
+    // Save subscription to the database
+    await Subscription.create({
+      endpoint: subscription.endpoint,
+      keys: subscription.keys
+    });
+
+    res.status(201).json({});
+
+    // Send a test notification (optional)
+    const payload = JSON.stringify({ title: 'The Christ Miracles Church Intl.' });
+    webpush.sendNotification(subscription, payload).catch(err => console.error(err));
+  } catch (error) {
+    res.status(500).json({ error: 'Failed to save subscription' });
+  }
 });
 
+
+app.post('/sendNotification', async (req, res) => {
+  const { title, message } = req.body;
+
+  try {
+    const subscriptions = await Subscription.find();
+
+    const payload = JSON.stringify({ title, message });
+
+    const notificationPromises = subscriptions.map(subscription =>
+      webpush.sendNotification(subscription, payload)
+    );
+
+    await Promise.all(notificationPromises);
+
+    res.status(200).json({ message: 'Notifications sent' });
+  } catch (error) {
+    res.status(500).json({ error: 'Failed to send notifications' });
+  }
+});
 
 
 
