@@ -7,15 +7,16 @@
   },
   "description": "",
   "main": "index.js",
- "scripts": {
+  "scripts": {
   "start": "node server.js",
   "server": "nodemon server.js",
   "client": "npm start --prefix client",
   "dev": "concurrently \"npm run server\" \"npm run client\"",
-  "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
+  "heroku-postbuild": "cross-env NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
   "build": "npm install --prefix client && npm run build --prefix client",
-  "postinstall": "NPM_CONFIG_PRODUCTION=false npm install"
-},
+  "postinstall": "cross-env NPM_CONFIG_PRODUCTION=false npm install"
+}
+,
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -59,5 +60,8 @@
     "webpack-node-externals": "^3.0.0"
   },
   "proxy": "http://localhost:8000/",
-  "stack": "heroku-22"
+  "stack": "heroku-22",
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
 }
