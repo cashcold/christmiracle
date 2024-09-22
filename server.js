@@ -18,7 +18,10 @@ const PORT = process.env.PORT || 8000
 
 const app = express()
 // app.use(express.static(path.join(__dirname, "client")));
-app.use(express.static(path.join(__dirname, 'client', 'build')));
+// app.use(express.static(path.join(__dirname, 'client', 'build')));
+
+//static files
+app.use(express.static(path.join(__dirname, "./client/build")));
 
 app.use(cors())
 app.use(bodyParser.json())
@@ -81,19 +84,12 @@ app.post('/sendNotification', async (req, res) => {
   }
 });
 
+app.get("*", function (req, res) {
+  res.sendFile(path.join(__dirname, "./client/build/index.html"));
+});
 
-// app.post('/subscribe', (req, res) => {
-//   const subscription = req.body;
 
-//   // Respond with 201 - resource created
-//   res.status(201).json({});
 
-//   // Create payload
-//   const payload = JSON.stringify({ title: 'Push Notification from Server' });
-
-//   // Pass object into sendNotification
-//   webpush.sendNotification(subscription, payload).catch(err => console.error(err));
-// });
 
 
 
