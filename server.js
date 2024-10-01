@@ -60,6 +60,11 @@ app.get('/', function(request, response) {
       if (err) {
         return console.log(err);
       }
+
+        // Add headers to disable caching
+        response.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate');
+        response.setHeader('Pragma', 'no-cache');
+        response.setHeader('Expires', '0');
       
       // replace the special strings with server generated strings
       data = data.replace(/\$OG_TITLE/g, '🌟✝️🕊️ Embracing Grace: The Transformative Power of Walking with Jesus Christ');
@@ -78,6 +83,11 @@ app.get('/books', function(request, response) {
     if (err) {
       return console.log(err);
     }
+
+      // Add headers to disable caching
+      response.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate');
+      response.setHeader('Pragma', 'no-cache');
+      response.setHeader('Expires', '0');
     
     // replace the special strings with server generated strings
     data = data.replace(/\$OG_TITLE/g, "Discover a Treasure Trove of Free Christian Books!");
@@ -106,7 +116,12 @@ app.get('/christains_books/:id', function(request, response) {
     
     const {head_Text_url, Chapter_Info, social_on_image} = qdata
 
-    console.log(qdata)
+   
+
+      // Add headers to disable caching
+      response.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate');
+      response.setHeader('Pragma', 'no-cache');
+      response.setHeader('Expires', '0');
 
 
 // replace the special strings with server generated strings
@@ -126,6 +141,11 @@ app.get('/music', function(request, response) {
     if (err) {
       return console.log(err);
     }
+
+      // Add headers to disable caching
+      response.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate');
+      response.setHeader('Pragma', 'no-cache');
+      response.setHeader('Expires', '0');
     
     // replace the special strings with server generated strings
     data = data.replace(/\$OG_TITLE/g, "Promote Your Gospel Song for Free!, Are you a gospel singer hoping to make an impact with your music?");
@@ -154,6 +174,12 @@ app.get('/music_box/:id', function(request, response) {
     var qdata = q.query        
                    
     const {info, name, on_image} = qdata
+
+
+      // Add headers to disable caching
+      response.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate');
+      response.setHeader('Pragma', 'no-cache');
+      response.setHeader('Expires', '0');
 
 
 // replace the special strings with server generated strings
