@@ -17,6 +17,16 @@ mongoose.connect(process.env.MONGODB_URI,{ useNewUrlParser: true },()=>{
 const PORT = process.env.PORT || 8000
 
 const app = express()
+// app.use(express.static(path.join(__dirname, "./client/build")));
+
+//static files
+app.use(express.static(path.join(__dirname, "./client/build")));
+
+// app.get("*", function (req, res) {
+//   res.sendFile(path.join(__dirname, "./client/build/index.html"));
+// });
+
+
 
 
 
@@ -39,42 +49,56 @@ webpush.setVapidDetails(
 );
 
 
-if (process.env.NODE_ENV === 'production') {
-  app.use(express.static('client/build'));
-  app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
-  });
-}
 
 
 
 
 
 
-
-app.get('/', function(request, response) {
-    const filePath = path.resolve(__dirname, './client/build' ,'index.html');
+// app.get('/', function(request, response) {
+//     const filePath = path.resolve(__dirname, './client/build' ,'index.html');
   
-    // read in the index.html file
-    fs.readFile(filePath, 'utf8', function (err,data) {
-      if (err) {
-        return console.log(err);
-      }
+//     // read in the index.html file
+//     fs.readFile(filePath, 'utf8', function (err,data) {
+//       if (err) {
+//         return console.log(err);
+//       }
 
-        // Add headers to disable caching
-        response.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate');
-        response.setHeader('Pragma', 'no-cache');
-        response.setHeader('Expires', '0');
+//         // Add headers to disable caching
+//         response.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate');
+//         response.setHeader('Pragma', 'no-cache');
+//         response.setHeader('Expires', '0');
       
-      // replace the special strings with server generated strings
-      data = data.replace(/\$OG_TITLE/g, '🌟✝️🕊️ Embracing Grace: The Transformative Power of Walking with Jesus Christ');
-      data = data.replace(/\$OG_DESCRIPTION/g, "In the footsteps of our Savior, we discover the profound grace that transforms hearts and lives. Join us on this journey of faith, where every step is guided by love, forgiveness, and the eternal promise of redemption. Let the light of Jesus shine in your life. 💖✝️🌟 #InHisFootsteps #GraceUnleashed #JesusChrist #FaithJourney");
-      result = data.replace(/\$OG_IMAGE/g, 'https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/others_Main%2FchristImg.jpg?alt=media&token=17934020-593d-4122-84a7-841f282c3202');
-      response.send(result);
-    });
-  });
+//       // replace the special strings with server generated strings
+//       data = data.replace(/\$OG_TITLE/g, '🌟✝️🕊️ Embracing Grace: The Transformative Power of Walking with Jesus Christ');
+//       data = data.replace(/\$OG_DESCRIPTION/g, "In the footsteps of our Savior, we discover the profound grace that transforms hearts and lives. Join us on this journey of faith, where every step is guided by love, forgiveness, and the eternal promise of redemption. Let the light of Jesus shine in your life. 💖✝️🌟 #InHisFootsteps #GraceUnleashed #JesusChrist #FaithJourney");
+//       result = data.replace(/\$OG_IMAGE/g, 'https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/others_Main%2FchristImg.jpg?alt=media&token=17934020-593d-4122-84a7-841f282c3202');
+//       response.send(result);
+//     });
+//   });
 
   
+app.get('/', function(request, response) {
+  const filePath = path.resolve(__dirname, './client/build' ,'index.html');
+
+  // read in the index.html file
+  fs.readFile(filePath, 'utf8', function (err,data) {
+    if (err) {
+      return console.log(err);
+    }
+
+      // Add headers to disable caching
+      response.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate');
+      response.setHeader('Pragma', 'no-cache');
+      response.setHeader('Expires', '0');
+    
+    // replace the special strings with server generated strings
+    data = data.replace(/\$OG_TITLE/g, "🌟✝️🕊️ Embracing Grace: The Transformative Power of Walking with Jesus Christ");
+    data = data.replace(/\$OG_DESCRIPTION/g, "In the footsteps of our Savior, we discover the profound grace that transforms hearts and lives. Join us on this journey of faith, where every step is guided by love, forgiveness, and the eternal promise of redemption. Let the light of Jesus shine in your life. 💖✝️🌟 #InHisFootsteps #GraceUnleashed #JesusChrist #FaithJourney");
+    result = data.replace(/\$OG_IMAGE/g, "https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/others_Main%2FchristImg.jpg?alt=media&token=17934020-593d-4122-84a7-841f282c3202");
+    response.send(result);
+  });
+});
 app.get('/books', function(request, response) {
   const filePath = path.resolve(__dirname, './client/build' ,'index.html');
 
@@ -235,6 +259,15 @@ app.post('/sendNotification', async (req, res) => {
     res.status(500).json({ error: 'Failed to send notifications' });
   }
 });
+
+
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static('client/build'));
+  app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+  });
+}
+
 
 
 
