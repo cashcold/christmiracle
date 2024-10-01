@@ -17,8 +17,6 @@ mongoose.connect(process.env.MONGODB_URI,{ useNewUrlParser: true },()=>{
 const PORT = process.env.PORT || 8000
 
 const app = express()
-// app.use(express.static(path.join(__dirname, "client")));
-// app.use(express.static(path.join(__dirname, 'client', 'build')));
 
 
 
@@ -41,14 +39,14 @@ webpush.setVapidDetails(
 );
 
 
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static('client/build'));
+  app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+  });
+}
 
 
-//static files
-app.use(express.static(path.join(__dirname, "./client/build")));
-
-app.get("*", function (req, res) {
-  res.sendFile(path.join(__dirname, "./client/build/index.html"));
-});
 
 
 
@@ -214,15 +212,6 @@ app.post('/sendNotification', async (req, res) => {
 
 
 
-
-// app.use(express.static("client/build"))
-// if(process.env.NODE_ENV === 'production'){
-//   app.use(express.static("client/build"))
-//   app.get('*',(req,res)=>{
-//       res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'))
-//   })
-
-// }
 
 app.listen(PORT,()=>{
     console.log(`server is runing on local Port Number ${PORT}`)
