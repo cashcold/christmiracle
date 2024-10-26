@@ -19,7 +19,7 @@ class VideosMain extends Component {
                         <iframe width="1280" height="720" src="https://www.youtube.com/embed/VIRHemLVfZY" title="unlimited harvest" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                     <div className='video_page_1  iframe-container'>
-                        <h2>Who is God</h2>
+                        <h2>Who is God.</h2>
                         <iframe src="https://www.youtube.com/embed/eAvYmE2YYIU?vq=hd1080&autoplay=1&rel=0" width="560" height="315" frameborder="0"></iframe>
                     </div>
                     <div className='video_page_1  iframe-container'>
