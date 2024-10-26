@@ -70,7 +70,7 @@ class ResourcesMain extends Component {
                                             const queryParams = require('query-string');
                                             const passParams = queryParams.stringify(paramsUrl);
 
-                                            window.location = `/christains_resources/${data.id}?${passParams}`;
+                                            window.location = `/Resources-info/${data.id}?${passParams}`;
                                         }}
                                         className='btn btn-warning btn_readMore'>
                                         Read More &#8594;

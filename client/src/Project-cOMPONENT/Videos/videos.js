@@ -9,6 +9,15 @@ class VideosMain extends Component {
         return ( 
             <div className='mainVideos'>
                  <section className='video_Now'>  
+                 <div className='video_page_1  iframe-container'>
+                        <h2>Bear Fruit</h2>
+                        <iframe width="1280" height="720" src="https://www.youtube.com/embed/QaQa42Eh2eM" title="bear fruit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                   
+                    <div className='video_page_1  iframe-container'>
+                        <h2>Unlimited Harvest</h2>
+                        <iframe width="1280" height="720" src="https://www.youtube.com/embed/VIRHemLVfZY" title="unlimited harvest" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
                     <div className='video_page_1  iframe-container'>
                         <h2>Who is God</h2>
                         <iframe src="https://www.youtube.com/embed/eAvYmE2YYIU?vq=hd1080&autoplay=1&rel=0" width="560" height="315" frameborder="0"></iframe>

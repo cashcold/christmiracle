@@ -19,6 +19,7 @@ import MusicBox_1 from './Project-cOMPONENT/Music_Box/Box_Music_1/Music_box_1';
 import MusicLinkBox from './Project-cOMPONENT/Music_Box/MusicLinkBox/music_link_box';
 import ResourcesMain from './Project-cOMPONENT/Resources/Resources';
 import axios from 'axios';
+import ResourcesDisplay from './Project-cOMPONENT/Resources/ResourcesDisplay';
 
 class MainApp extends Component {
   constructor(props) {
@@ -88,6 +89,7 @@ class MainApp extends Component {
                 <Route path='/music' component={MusicBox_1} />
                 <Route path='/music_box/:id' component={MusicLinkBox} />
                 <Route path='/Resources' component={ResourcesMain} />
+                <Route path='/Resources-info' component={ResourcesDisplay} />
                 {/* <Route path='/audio' component={AudioMain} /> */}
                 <Route path='/videos' component={VideosMain} />
                 <Route path='/slibe' component={SlibebarMain} />
