@@ -9,7 +9,11 @@ class VideosMain extends Component {
         return ( 
             <div className='mainVideos'>
                  <section className='video_Now'>  
-                 <div className='video_page_1  iframe-container'>
+                    <div className='video_page_1  iframe-container'>
+                        <h2>Purging The Church</h2>
+                        <iframe width="1054" height="593" src="https://www.youtube.com/embed/VqRlsEj9i8Y" title="Purging The Church" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div className='video_page_1  iframe-container'>
                         <h2>Bear Fruit</h2>
                         <iframe width="1280" height="720" src="https://www.youtube.com/embed/QaQa42Eh2eM" title="bear fruit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
