@@ -23,6 +23,8 @@ class HomeMain extends Component {
          }
     }
     componentDidMount(){
+
+        toast.configure();
    
          setTimeout(() => {
             this.setState({ showWelcomePopup: true });
@@ -54,6 +56,19 @@ class HomeMain extends Component {
         setTimeout(()=>{
             toast.success('SUNDAY SERVICE: ACCRA Dodowa Branch , TIME 8:30 am TO 12:30 PM')
         },40000)
+        setTimeout(() => {
+            toast.success(
+                <img 
+                    src="https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/images%2FIMG-20241202-WA0000(1).jpg?alt=media&token=dc52a479-1589-46be-a48e-6927bedee4fe" 
+                    alt="Notification Image" 
+                    style={{ maxWidth: '100%', height: 'auto' }} 
+                />,
+                {
+                    autoClose: 60000, // Keeps the toast on screen for 1 minute
+                    closeOnClick: true, // Optionally allow closing by clicking
+                }
+            );
+        }, 7000);
        
 
         const NotSure = ()=>{

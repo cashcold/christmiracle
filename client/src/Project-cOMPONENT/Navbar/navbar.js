@@ -70,6 +70,7 @@ class NavbarMain extends Component {
                        <marquee className='marqueeText'>
                         <p>Peace be unto you all</p>
                            <p>AD 2024 Have Been Declare as Our Year Of  All Round Divine Blessings </p>
+                           <p>December is our month of Extraordinary wonders</p>
                            <p>The purpose of THE CHRIST MIRACLES CHURCH INT is to enrich and multiply life and hope through disciple-making in the name of Our Lord and Savior Jesus Christ.</p>
                            <p>Up Coming Next Mission  Evanglisim </p>
                            <p>Worhsip with us</p>
