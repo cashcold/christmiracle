@@ -59,7 +59,7 @@ class HomeMain extends Component {
         setTimeout(() => {
             toast.success(
                 <img 
-                    src="https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/images%2FIMG-20241202-WA0000(1).jpg?alt=media&token=dc52a479-1589-46be-a48e-6927bedee4fe" 
+                    src="https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/images%2FTHE%20CHRIST%20MIRACLES%20CHURCH%20INT%E2%80%99L.jpg?alt=media&token=8f18506a-e89a-441e-81f9-aa94fc0a8fab" 
                     alt="Notification Image" 
                     style={{ maxWidth: '100%', height: 'auto' }} 
                 />,
@@ -336,6 +336,11 @@ class HomeMain extends Component {
                     
                 </section>
                 <section className='lastBeat'>
+                     <div className='finalMsg'>
+                        <div className='lastMsg'>
+                            <img src='https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/images%2FTHE%20CHRIST%20MIRACLES%20CHURCH%20INT%E2%80%99L.jpg?alt=media&token=8f18506a-e89a-441e-81f9-aa94fc0a8fab'/>
+                        </div>
+                    </div>
                      <div className='finalMsg'>
                         <div className='lastMsg'>
                             <img src='https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/Others%2Fdbe34fb31a6e4877980683c1d18853ef.jpg?alt=media&token=06b3921d-5e19-4631-904c-352db4b5ece8'/>
