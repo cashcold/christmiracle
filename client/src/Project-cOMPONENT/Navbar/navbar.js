@@ -68,20 +68,36 @@ class NavbarMain extends Component {
                 </div> 
                 <div className='showText'>
                        <marquee className='marqueeText'>
-                        <p>Peace be unto you all</p>
-                           <p>AD 2025 Have Been Declare as Our Year Of  Resounding Victories </p>
+                        <p>Peace be unto you all 🕊️✨🌍</p>
+                            <p>AD 2025 Has Been Declared as Our Year of Resounding Victories 🎉🏆🔥</p>
+
                            {/* <p>December is our month of Extraordinary wonders</p> */}
-                           <p>The purpose of THE CHRIST MIRACLES CHURCH INT is to enrich and multiply life and hope through disciple-making in the name of Our Lord and Savior Jesus Christ.</p>
-                           <p>Up Coming Next Mission  Evanglisim </p>
-                           <p>Worhsip with us</p>
-                           <p>TUEDAY: BIBLE STUDY, TIME 5:30 PM TO 9:00 PM</p>
-                           <p>FRIDAY: MIRACLES REVIVALS PRAYERS , TIME 5:30 PM TO 9:00 PM </p>
-                           <p>SUNDAY SERVICE: TEMA Comm.9 Branch , TIME 7:30 am TO 12:00 PM</p>
-                           <p>SUNDAY SERVICE: ACCRA Dodowa Branch , TIME 8:30 am TO 12:30 PM</p>
-                           <p>Contact-us call</p>
-                           <p>Contact-us 0554928021</p>
-                           <p>Contact-us 0546398300</p>
-                           <p>Join Next Mission Outreach Evanglisim</p>
+                           <p>The purpose of THE CHRIST MIRACLES CHURCH INT is to enrich and multiply life and hope 🌱💫🙏 through disciple-making 🕊️📖 in the name of Our Lord and Savior Jesus Christ ✝️🙌💖.</p>
+
+                           <p>The 7 "I AM" Statements of Jesus (John's Gospel) ✝️🌿:
+                            🔹 Bread of Life 🍞💖
+                            🔹 Light of the World 🌞🔦✨
+                            🔹 The Door 🚪✨🔑
+                            🔹 Good Shepherd 🐑❤️🌾
+                            🔹 Resurrection and Life ⚡🌿🌟
+                            🔹 Way, Truth, Life ✝️📖🚶‍♂️
+                            🔹 True Vine 🍇🌱🍃
+
+                            #JesusIsLord #IAm #WayTruthLife #BreadOfLife 🌟🕊️🔥</p>
+                           <p>The Beatitudes (Matthew 5:3-12) 🕊️✨ declare, "Blessed are the poor in spirit, for theirs is the kingdom of heaven..." and continue with blessings for the merciful 💖🤲🕊️, the pure in heart 👀✨💫, the peacemakers 🕊️👑🌍, those who hunger and thirst for righteousness 🍞💦🙏, and those who are persecuted for righteousness' sake 🌍🔥⚔️, for theirs is the kingdom of heaven, guiding us to live a blessed, kingdom-focused life in Christ. #Blessed #KingdomLiving #Beatitudes #WalkWithChrist ✝️🌟👑</p>
+                           <p>🌿🍇 The Fruit of the Spirit 🍎✨ The Fruit of the Spirit—❤️ Love, 😊 Joy, 🕊 Peace, ⏳ Patience, 🤝 Kindness, 🌟 Goodness, 🙏 Faithfulness, 🤲 Gentleness, and ⚖ Self-Control (Galatians 5:22-23)—is the evidence of a life transformed by Christ. As we walk in the Spirit, we reflect His character, bearing these fruits daily 🌍✨. Stay connected to Jesus, the True Vine 🍇, and let His light shine through you! 🌞🌿#FruitOfTheSpirit 🍎 #HolySpirit 🕊 #ChristianLife ✝️ #FaithInAction 🙌 #TCMCI ⛪ #JesusIsLord</p>
+                          <p>The foundation of our faith is rooted in God's eternal truth: The Internal Godhead—Father 👑, Son ✝️, and Holy Spirit 🕊️; The Fall of Man 🍎🚫 and The Plan of Redemption 💖🩸; Salvation Through Grace 🙌✨, Repentance & Acceptance 🔄💡, and The New Birth 🌱💦; living a Daily Christian Life 🚶‍♂️📖, partaking in Baptism of Water & The Lord's Supper 🌊🍷🍞, and receiving The Baptism of the Holy Spirit 🔥🕊️; embracing The Spirit-Filled Life 🌬️💡, The Gifts & Fruit of the Spirit 🍇🎁, and a life of Moderation ⚖️🕊️; believing in Divine Healing ❤️‍🩹🙏, The Second Coming of Christ 🌎⏳👑, Church Relationship 🤝⛪, and Church Government 👏📜; preparing for The Final Judgment ⚖️🔥 and the promise of Heaven 🏡✨👼; fulfilling the mission of Evangelism 🌍📢 and honoring God through Tithes & Offerings 💰🙏—all leading us to stand firm in faith and walk in the light of Christ every day! ✝️💡🔥#FaithFoundation 🙏 #GodsTruth 📖 #HolySpirit 🕊️ #JesusSaves ✝️ #ChristianLife 🌱 #TCMCI ⛪ #JesusIsLord 👑 #KingdomLife 🌍🔥</p>
+                          <p>📢✨ <strong>Up Coming Next Mission:</strong> Evangelism 🌍🔥✝️</p>
+                           <p>The Armor of God (Ephesians 6:10-18) reminds us to stand firm against the enemy by putting on the Belt of Truth 🏹📜💫, the Breastplate of Righteousness ❤️‍🔥🛡️💎, the Shoes of the Gospel of Peace 👣🕊️💖, the Shield of Faith 🛡️🔥⚡, the Helmet of Salvation ⛑️✝️🛡️, and the Sword of the Spirit ⚔️📖🔪, while always praying in the Spirit 🙏🔥💭💪, for in Christ, we have victory over every battle! #FaithOverFear #ArmorOfGod #SpiritualBattle #VictoryInChrist ✝️🛡️🔥</p>
+                          <p>🙏🎶 <strong>Worship with Us:</strong> Experience God's Presence ⛪✨</p>
+                            <p>📖⏳ <strong>TUESDAY:</strong> BIBLE STUDY 🕊️ | TIME: 5:30 PM - 9:00 PM</p>
+                            <p>🔥🙌 <strong>FRIDAY:</strong> MIRACLES, REVIVALS & PRAYERS ✝️ | TIME: 5:30 PM - 9:00 PM</p>
+                            <p>⛪🎤 <strong>SUNDAY SERVICE:</strong> TEMA Comm.9 Branch 📍 | TIME: 7:30 AM - 12:00 PM</p>
+                            <p>⛪🎤 <strong>SUNDAY SERVICE:</strong> ACCRA Dodowa Branch 📍 | TIME: 8:30 AM - 12:30 PM</p>
+                            <p>📞🤝 <strong>Contact Us:</strong> We're here for you! ☎️</p>
+                            <p>📱📲 <strong>Call Us:</strong> 055-492-8021 📞</p>
+                            <p>📱📲 <strong>Call Us:</strong> 054-639-8300 📞</p>
+                            <p>🌍📢 <strong>Join Our Next Mission Outreach:</strong> Evangelism ✝️🔥</p>
                            <p></p>
                            
                        </marquee>
