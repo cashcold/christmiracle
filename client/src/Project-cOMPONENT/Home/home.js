@@ -59,11 +59,11 @@ class HomeMain extends Component {
         setTimeout(() => {
             toast.success(
                 <img 
-                    src="https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/images%2FTHE%20CHRIST%20MIRACLES%20CHURCH%20INT%E2%80%99L.jpg?alt=media&token=8f18506a-e89a-441e-81f9-aa94fc0a8fab" 
+                    src="https://firebasestorage.googleapis.com/v0/b/the-christ-d3d67.appspot.com/o/images%2Fwww.tcmci.org%20(1).jpg?alt=media&token=1ace4f88-b2ed-446c-84c9-0948eaa00c1d" 
                     alt="Notification Image" 
                     style={{ maxWidth: '100%', height: 'auto' }} 
                 />,
-                {
+                { 
                     autoClose: 60000, // Keeps the toast on screen for 1 minute
                     closeOnClick: true, // Optionally allow closing by clicking
                 }
