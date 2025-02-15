@@ -18,6 +18,7 @@ import MessageDisplayMain from './Project-cOMPONENT/Message/messageDisplay';
 import MusicBox_1 from './Project-cOMPONENT/Music_Box/Box_Music_1/Music_box_1';
 import MusicLinkBox from './Project-cOMPONENT/Music_Box/MusicLinkBox/music_link_box';
 import ResourcesMain from './Project-cOMPONENT/Resources/Resources';
+import StreamPage from './Project-cOMPONENT/StreamPage/StreamPage';
 import axios from 'axios';
 import ResourcesDisplay from './Project-cOMPONENT/Resources/ResourcesDisplay';
 
@@ -93,6 +94,7 @@ class MainApp extends Component {
                 {/* <Route path='/audio' component={AudioMain} /> */}
                 <Route path='/videos' component={VideosMain} />
                 <Route path='/slibe' component={SlibebarMain} />
+                <Route path="/stream/:streamTitle" component={StreamPage} />
               </Switch>
             </div>
             <FooterMain />

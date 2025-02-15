@@ -22,6 +22,12 @@ class HomeMain extends Component {
             checkup: '',
          }
     }
+
+    navigateToStream = (eventTitle, eventTime, messageTitle) => {
+        this.props.history.push(
+            `/stream/${eventTitle.replace(/ /g, '-')}/?time=${encodeURIComponent(eventTime)}&message=${encodeURIComponent(messageTitle)}`
+        );
+    };
     componentDidMount(){
 
         toast.configure();
@@ -134,6 +140,12 @@ class HomeMain extends Component {
    
     render() { 
         const { showWelcomePopup, showRequestPopup } = this.state;
+
+        const events = [
+            { title: "Tuesday: Bible Study", time: "5:30 PM to 9:00 PM" , messageTitle: "Free from power of sin" },
+            { title: "Friday: Miracles Revival Prayers", time: "5:30 PM to 9:00 PM" , messageTitle: "pray as a child of God"  },
+            { title: "Sunday Service", time: "7:30 AM to 12:00 PM" , messageTitle: "The word of God is power and activite"  }
+        ];
 
         return ( 
             <div className='mainHome'>
@@ -270,23 +282,21 @@ class HomeMain extends Component {
                 We look forward to seeing you online! 🌐</p>
                 </section> 
                 <section className='streamingLinks'>
-                <div class="schedule">
-                    <div class="event">
-                        <div class="event-title">Tuesday: Bible Study</div>
-                        <div class="event-time">Time: 5:30 PM to 9:00 PM</div>
-                        <button class="stream-button">Stream Now</button>
+                    <div className="schedule">
+                        {events.map((event, index) => (
+                            <div key={index} className="event">
+                                <div className="event-title">{event.title}</div>
+                                <div className="event-time">{event.time}</div>
+                                {/* <div className="event-message">📖 {event.messageTitle}</div> */}
+                                <button 
+                                    className="stream-button" 
+                                    onClick={() => this.navigateToStream(event.title, event.time, event.messageTitle)}
+                                >
+                                    Stream Now
+                                </button>
+                            </div>
+                        ))}
                     </div>
-                    <div class="event">
-                        <div class="event-title">Friday: Miracles Revival Prayers</div>
-                        <div class="event-time">Time: 5:30 PM to 9:00 PM</div>
-                        <button class="stream-button">Stream Now</button>
-                    </div>
-                    <div class="event">
-                        <div class="event-title">Sunday Service</div>
-                        <div class="event-time">Time: 7:30 AM to 12:00 PM</div>
-                        <button class="stream-button">Stream Now</button>
-                    </div>
-                </div>
                 </section>
                 <section className='connectJesus'>
                 <section className='billboard'>
