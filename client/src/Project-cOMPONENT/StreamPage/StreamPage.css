@@ -1,0 +1,30 @@
+.stream-page {
+    text-align: center;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.stream-title {
+    font-size: 24px;
+    transition: color 0.3s ease-in-out;
+}
+
+.stream-title:hover {
+    color: #ffdd57;
+}
+
+.stream-time, .stream-message {
+    font-size: 18px;
+}
+
+iframe {
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+iframe:hover {
+    transform: scale(1.05);
+}

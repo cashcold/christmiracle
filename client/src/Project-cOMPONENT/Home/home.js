@@ -144,7 +144,8 @@ class HomeMain extends Component {
         const events = [
             { title: "Tuesday: Bible Study", time: "5:30 PM to 9:00 PM" , messageTitle: "Free from power of sin" },
             { title: "Friday: Miracles Revival Prayers", time: "5:30 PM to 9:00 PM" , messageTitle: "pray as a child of God"  },
-            { title: "Sunday Service", time: "7:30 AM to 12:00 PM" , messageTitle: "The word of God is power and activite"  }
+            { title: "Sunday Service", time: "7:30 AM to 12:00 PM" , messageTitle: "The word of God is power and activite"  },
+            { title: "Church Program", time: "On The Month Of March" , messageTitle: "Church Anniversary"  }
         ];
 
         return ( 

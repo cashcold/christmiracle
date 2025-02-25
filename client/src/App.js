@@ -95,6 +95,7 @@ class MainApp extends Component {
                 <Route path='/videos' component={VideosMain} />
                 <Route path='/slibe' component={SlibebarMain} />
                 <Route path="/stream/:streamTitle" component={StreamPage} />
+
               </Switch>
             </div>
             <FooterMain />
