@@ -5,5 +5,9 @@
         "titleBar.activeForeground": "#FFFFFF",
         "titleBar.inactiveBackground": "#49c",
         "titleBar.inactiveForeground": "#FFFFFF"
-    }
+    },
+    "json.schemas": [
+        
+
+    ]
 }

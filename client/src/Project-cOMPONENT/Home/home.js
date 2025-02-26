@@ -10,6 +10,7 @@ import Carousel from 'react-bootstrap-carousel'
 import './style.css'
 import SlibebarMain from '../Slibebar/slibebar';
 import Dressing from '../Slibebar/dressing';
+import BibleVerse from '../BibleVerse/BibleVerse';
 import WelcomePopup from './WelcomePopup';
 import RequestPopup from './RequestPopup';
 class HomeMain extends Component {
@@ -159,6 +160,11 @@ class HomeMain extends Component {
                 <section className='slibeMe'>
                    
                 </section>
+                {/* BibleVerse */}
+                <div>
+                    <BibleVerse />
+                    </div>
+                
                 <section className='bible_widget_main_1'>
                     <h1>Enjoy Free Bible <span>Reading Scriptures</span></h1>
                     <div data-gb-widget="search" />
