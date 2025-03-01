@@ -70,7 +70,7 @@ class NavbarMain extends Component {
                        <marquee className='marqueeText'>
                         <p>Peace be unto you all 🕊️✨🌍</p>
                             <p>AD 2025 Has Been Declared as Our Year of Resounding Victories 🎉🏆🔥</p>
-                            <p>🚀✨ February: Our Month of **Go Forward with His Presence** ✝️🔥🕊️</p>
+                            <p>🚀✨ March: Our Month of **His Presence** ✝️🔥🕊️</p>
 
 
                            {/* <p>December is our month of Extraordinary wonders</p> */}
