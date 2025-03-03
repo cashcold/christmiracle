@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
+import moment from 'moment';
 import './App.css';
-// import './client';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import NavbarMain from './Project-cOMPONENT/Navbar/navbar';
 import HomeMain from './Project-cOMPONENT/Home/home';
@@ -70,12 +70,13 @@ class MainApp extends Component {
     }
     return outputArray;
   };
-  render() 
-  {
+
+  render() {
     return (
       <Router>
         <div className='mainApp '>
           <div className='container'>
+            <DateTimeDisplay />
             <NavbarMain />
             <div className='router'>
               <Switch>
@@ -95,13 +96,41 @@ class MainApp extends Component {
                 <Route path='/videos' component={VideosMain} />
                 <Route path='/slibe' component={SlibebarMain} />
                 <Route path="/stream/:streamTitle" component={StreamPage} />
-
               </Switch>
             </div>
             <FooterMain />
           </div>
         </div>
       </Router>
+    );
+  }
+}
+
+class DateTimeDisplay extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      now: moment().format('MMMM Do YYYY, h:mm:ss a')
+    };
+  }
+
+  componentDidMount() {
+    this.interval = setInterval(() => {
+      this.setState({
+        now: moment().format('MMMM Do YYYY, h:mm:ss a')
+      });
+    }, 1000);
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.interval);
+  }
+
+  render() {
+    return (
+      <div className="dateTimeDisplay">
+        {this.state.now}
+      </div>
     );
   }
 }
