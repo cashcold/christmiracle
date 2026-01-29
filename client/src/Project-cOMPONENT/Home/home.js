@@ -66,7 +66,7 @@ class HomeMain extends Component {
         setTimeout(() => {
             toast.success(
                 <img 
-                    src="https://firebasestorage.googleapis.com/v0/b/the-christ-d3d67.appspot.com/o/images%2Ftcmci_easter%20blessed.jpg?alt=media&token=f2762b5a-a1ec-44af-ae3a-20f42e563de8" 
+                    src="https://firebasestorage.googleapis.com/v0/b/the-christ-d3d67.appspot.com/o/capgainco%2FTcmci_org.png?alt=media&token=b48c807e-47ff-48b0-a51e-f0b2f434d0de" 
                     alt="Notification Image" 
                     style={{ maxWidth: '100%', height: 'auto' }} 
                 />,

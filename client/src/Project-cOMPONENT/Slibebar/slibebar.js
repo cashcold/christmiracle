@@ -20,10 +20,13 @@ class SlibebarMain extends Component {
                     </Carousel.Item>
                   
                     <Carousel.Item>
-                        <img className="d-block w-100" src="https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/images%2FTHE%20CHRIST%20MIRACLES%20CHURCH%20INT%E2%80%99L.jpg?alt=media&token=8f18506a-e89a-441e-81f9-aa94fc0a8fab" />
+                        <img className="d-block w-100" src="https://firebasestorage.googleapis.com/v0/b/the-christ-d3d67.appspot.com/o/capgainco%2FTcmci_org.png?alt=media&token=b48c807e-47ff-48b0-a51e-f0b2f434d0de" />
                     </Carousel.Item>
                     
                   
+                    <Carousel.Item>
+                        <img className="d-block w-100" src="https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/images%2Fpromote_song_www.tcmci.org.jpg?alt=media&token=1830c185-d173-4e59-aaa8-7620af44b4a5" />
+                    </Carousel.Item>
                     <Carousel.Item>
                         <img className="d-block w-100" src="https://firebasestorage.googleapis.com/v0/b/thechristmiracles.appspot.com/o/images%2Fpromote_song_www.tcmci.org.jpg?alt=media&token=1830c185-d173-4e59-aaa8-7620af44b4a5" />
                     </Carousel.Item>

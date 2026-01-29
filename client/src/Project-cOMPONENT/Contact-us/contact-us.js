@@ -23,6 +23,7 @@ class ContactMain extends Component {
                                     <img src={require('../../pic/telephone.png')}  className='blink_me'/>
                                     <h4 className='blink_me'>PHONE NUMBERS </h4>
                                     <p>+233554928021</p>
+                                    <p>+233595641503</p>
                                     <p>+233546398300</p>
                                 </div>
                             </div>

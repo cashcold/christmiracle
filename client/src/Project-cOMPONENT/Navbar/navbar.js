@@ -69,8 +69,8 @@ class NavbarMain extends Component {
                 <div className='showText'>
                        <marquee className='marqueeText'>
                         <p>Peace be unto you all 🕊️✨🌍</p>
-                            <p>AD 2025 Has Been Declared as Our Year of Resounding Victories 🎉🏆🔥</p>
-                            <p>🚀✨ March: Our Month of **WITH THE CROSS** ✝️🔥🕊️</p>
+                            <p>AD 2026 Has Been Declared as Our Year of Divine Honour and Dignity 🎉🏆🔥</p>
+                            <p>🚀✨ January: Our Month of **Alters renewal** ✝️🔥🕊️</p>
 
 
                            {/* <p>December is our month of Extraordinary wonders</p> */}
@@ -98,6 +98,7 @@ class NavbarMain extends Component {
                             <p>⛪🎤 <strong>SUNDAY SERVICE:</strong> ACCRA Dodowa Branch 📍 | TIME: 8:30 AM - 12:30 PM</p>
                             <p>📞🤝 <strong>Contact Us:</strong> We're here for you! ☎️</p>
                             <p>📱📲 <strong>Call Us:</strong> 055-492-8021 📞</p>
+                            <p>📱📲 <strong>Call Us:</strong> 059-564-1503 📞</p>
                             <p>📱📲 <strong>Call Us:</strong> 054-639-8300 📞</p>
                             <p>🌍📢 <strong>Join Our Next Mission Outreach:</strong> Evangelism ✝️🔥</p>
                            <p></p>
